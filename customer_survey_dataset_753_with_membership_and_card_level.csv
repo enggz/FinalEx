@@ -1,0 +1,754 @@
+Customer_Name,Age,Monthly_Income,Monthly_Purchases,Satisfaction_Score,Gender,Region,Education_Level,Card_Level
+Sarah Hernandez,56,7098442.15,6,3.19,Male,East,Bachelor,Classic Card
+Jennifer Smith,46,6485770.58,1,2.82,Male,East,Bachelor,Platinum Card
+Linda Martin,32,7274521.47,5,4.38,Male,West,Bachelor,Classic Card
+Joseph Gonzalez,60,7670440.55,6,1.39,Male,Central,High School,Classic Card
+Sarah Garcia,25,6522870.03,13,2.95,Female,West,High School,Silver Card
+Susan Williams,38,17929751.35,17,1.6,Male,Central,Bachelor,Classic Card
+Michael Gonzalez,56,15868985.25,14,2.3,Male,East,Diploma,Silver Card
+Charles Lopez,36,3797239.95,1,3.95,Male,Central,Diploma,Platinum Card
+James Jones,40,7567432.19,9,2.9,Female,West,Master,Gold Card
+James Davis,28,3377140.61,22,2.5,Female,West,Master,Classic Card
+Linda Brown,28,11468808.17,11,2.58,Female,East,Bachelor,Classic Card
+Sarah Hernandez,41,11095581.85,16,2.84,Female,West,Master,Gold Card
+James Miller,53,17133315.33,7,4.14,Male,East,Bachelor,Platinum Card
+Patricia Davis,57,8232213.08,10,4.57,Female,West,Diploma,Silver Card
+Daniel Taylor,41,16878557.5,2,4.82,Male,West,High School,Silver Card
+Mary Davis,20,19455554.01,5,4.15,Male,East,Bachelor,Classic Card
+Nancy Garcia,39,4502939.8,8,2.26,Female,Central,Bachelor,Gold Card
+Linda Wilson,19,16460903.27,5,3.75,Female,West,Diploma,Silver Card
+John Brown,41,13029250.25,8,2.75,Female,Central,Bachelor,Classic Card
+Susan Smith,61,11160781.44,6,2.02,Female,West,High School,Classic Card
+Jessica Gonzalez,47,10149108.24,8,4.36,Female,West,Bachelor,Gold Card
+James Johnson,55,16339360.49,17,1.15,Male,West,Master,Classic Card
+Jennifer Davis,19,13869143.07,11,4.61,Female,West,Bachelor,Classic Card
+Linda Davis,38,16685759.35,7,2.85,Female,Central,Doctorate,Silver Card
+Robert Jackson,50,18353568.0,7,3.55,Female,Central,Master,Classic Card
+Jennifer Miller,29,13493483.11,17,3.64,Male,West,Master,Classic Card
+Susan Brown,39,19667866.33,19,4.58,Female,West,Master,Gold Card
+Sarah Williams,61,13337493.44,14,3.55,Male,Central,Master,Gold Card
+Thomas Hernandez,42,13822953.47,6,3.46,Female,East,Bachelor,Gold Card
+Robert Jackson,44,12431865.35,10,1.27,Female,East,High School,Gold Card
+Mary Wilson,59,4547035.55,19,3.07,Male,Central,Bachelor,Silver Card
+Karen Gonzalez,45,15348749.56,15,1.6,Female,West,Bachelor,Gold Card
+Mary Martinez,33,12306587.22,3,3.95,Male,West,Diploma,Classic Card
+Daniel Lopez,32,10665477.61,5,3.05,Male,East,Diploma,Silver Card
+Mary Wilson,64,18478011.73,21,3.72,Male,East,Doctorate,Platinum Card
+Joseph Anderson,61,8065310.68,2,1.17,Female,Central,Master,Classic Card
+Jessica Miller,20,11901238.69,8,1.34,Female,East,Master,Classic Card
+Karen Williams,54,14859911.82,9,3.87,Female,Central,Diploma,Silver Card
+Michael Jones,24,16540020.19,13,1.29,Male,East,High School,Classic Card
+Elizabeth Moore,38,10808895.74,10,1.29,Female,East,High School,Classic Card
+Daniel Anderson,26,17315554.06,17,1.05,Male,East,Diploma,Gold Card
+Robert Martin,56,16071601.6,21,4.83,Female,West,High School,Platinum Card
+Elizabeth Taylor,35,4126011.62,11,3.95,Male,West,High School,Silver Card
+Patricia Garcia,21,3779641.53,22,2.41,Male,West,Master,Classic Card
+John Moore,42,13553696.64,11,2.19,Male,East,Bachelor,Classic Card
+Jennifer Williams,31,8906027.94,12,2.4,Female,Central,Diploma,Gold Card
+William Jackson,26,6555223.45,24,4.1,Male,Central,High School,Silver Card
+Jennifer Miller,43,12854048.89,12,3.65,Male,Central,Bachelor,Classic Card
+Joseph Martin,19,8806574.58,18,1.74,Male,Central,High School,Silver Card
+Elizabeth Williams,37,12133478.08,18,1.7,Male,West,Master,Classic Card
+Michael Martinez,45,10822025.7,22,1.39,Male,West,Diploma,Silver Card
+Jennifer Miller,64,12941023.8,13,3.64,Male,East,Diploma,Gold Card
+Karen Taylor,24,9805108.31,3,4.06,Female,East,Diploma,Silver Card
+Mary Smith,61,14860348.75,12,2.06,Female,Central,High School,Silver Card
+Robert Williams,25,6061143.63,7,1.08,Male,West,Bachelor,Classic Card
+William Jones,64,14840524.93,22,1.33,Female,Central,Bachelor,Gold Card
+Karen Wilson,52,9998240.64,20,4.87,Female,East,Bachelor,Silver Card
+Patricia Smith,31,17863399.28,22,2.18,Male,East,High School,Classic Card
+James Hernandez,34,11759012.93,18,4.08,Male,Central,Bachelor,Silver Card
+Thomas Brown,53,19542875.94,11,3.5,Male,East,Bachelor,Classic Card
+Jennifer Garcia,57,13232901.72,17,2.53,Female,Central,Master,Gold Card
+Linda Thomas,21,6805434.12,5,1.82,Male,West,Diploma,Silver Card
+Jessica Lopez,19,16970440.83,17,1.49,Female,Central,Diploma,Platinum Card
+Charles Rodriguez,23,8866404.67,18,3.46,Male,West,Bachelor,Classic Card
+William Lopez,59,8909526.65,21,4.1,Female,West,Bachelor,Gold Card
+Jennifer Davis,21,3540679.59,4,3.58,Male,East,Bachelor,Silver Card
+Michael Hernandez,46,12328160.26,23,3.12,Male,East,Diploma,Gold Card
+William Davis,35,12085199.56,8,1.17,Female,East,Bachelor,Classic Card
+Michael Jackson,43,9051855.23,2,4.87,Female,Central,Master,Silver Card
+Linda Thomas,61,18201693.47,9,4.19,Female,Central,Bachelor,Gold Card
+Nancy Davis,51,5188722.77,18,2.17,Female,East,Master,Classic Card
+John Brown,27,8611691.73,2,4.92,Female,Central,Bachelor,Classic Card
+Michael Martinez,53,8466907.0,21,3.41,Female,East,Master,Silver Card
+Jessica Hernandez,31,4568939.97,14,3.33,Male,Central,Master,Silver Card
+Jennifer Anderson,48,11179471.7,0,3.99,Female,West,Diploma,Classic Card
+Mary Martin,32,14692340.19,6,4.25,Male,West,Master,Classic Card
+Susan Thomas,25,11698169.23,11,3.63,Male,East,High School,Classic Card
+David Jones,31,5668620.61,16,1.51,Female,Central,Master,Gold Card
+William Anderson,40,9413861.41,20,2.35,Male,Central,Bachelor,Silver Card
+Michael Anderson,57,3044115.41,23,4.71,Female,West,High School,Gold Card
+Robert Miller,38,17761118.82,19,1.9,Female,West,Bachelor,Platinum Card
+John Gonzalez,33,4436789.13,4,2.49,Male,East,Doctorate,Silver Card
+John Taylor,62,13153727.4,3,2.73,Male,West,High School,Classic Card
+David Miller,35,19766368.93,11,2.76,Female,East,Bachelor,Classic Card
+Karen Lopez,64,12122040.98,19,3.45,Female,West,Bachelor,Classic Card
+Susan Rodriguez,41,18708709.9,23,4.77,Male,West,Master,Platinum Card
+Michael Moore,43,7013981.06,17,1.96,Male,Central,Diploma,Silver Card
+Joseph Lopez,42,15919241.95,16,1.49,Male,West,High School,Classic Card
+Linda Smith,62,12031517.82,18,1.79,Male,West,High School,Classic Card
+Karen Lopez,58,15248773.04,8,4.55,Female,East,Bachelor,Silver Card
+John Wilson,46,4059803.16,3,3.58,Female,West,Bachelor,Silver Card
+Mary Thomas,32,5511564.56,20,2.14,Female,East,Master,Classic Card
+Daniel Moore,62,5262987.79,1,4.26,Female,West,High School,Platinum Card
+Joseph Davis,18,14681813.59,3,4.45,Male,West,Bachelor,Silver Card
+Robert Lopez,42,17355491.43,1,4.39,Male,East,High School,Classic Card
+Thomas Brown,24,15743475.94,14,4.68,Female,Central,High School,Gold Card
+Karen Davis,26,3518026.6,1,2.01,Female,East,Bachelor,Classic Card
+Nancy Anderson,41,17742654.68,3,4.02,Female,East,Bachelor,Platinum Card
+Joseph Taylor,18,9020493.4,5,2.84,Female,East,Bachelor,Platinum Card
+Charles Martin,61,9751785.15,6,4.37,Female,Central,Master,Gold Card
+Nancy Smith,25,4782775.83,9,3.91,Female,West,Bachelor,Gold Card
+Joseph Gonzalez,41,15535888.5,18,4.11,Female,East,Doctorate,Classic Card
+John Martin,28,6098825.93,18,3.62,Female,East,Master,Platinum Card
+Thomas Anderson,34,12587406.56,21,1.71,Female,Central,Bachelor,Silver Card
+Jessica Smith,25,17292069.76,11,3.18,Male,East,Master,Gold Card
+Jessica Martinez,52,4516473.59,2,4.94,Female,West,Bachelor,Platinum Card
+Robert Taylor,52,12100704.59,12,4.75,Male,Central,High School,Platinum Card
+Elizabeth Hernandez,50,6964679.0,17,1.17,Male,West,Bachelor,Gold Card
+Patricia Jones,22,8829756.69,7,1.66,Female,West,High School,Classic Card
+John Lopez,59,11057489.0,20,1.53,Female,Central,Bachelor,Platinum Card
+Linda Martin,56,9036773.16,14,3.9,Male,East,Bachelor,Silver Card
+Susan Rodriguez,58,14029988.28,0,4.27,Male,West,High School,Platinum Card
+Susan Williams,45,11152895.73,2,1.85,Female,West,High School,Silver Card
+Susan Brown,24,12931391.24,7,3.02,Male,West,Master,Classic Card
+Karen Rodriguez,26,15525982.08,3,4.36,Female,West,Bachelor,Classic Card
+Charles Martin,25,12481618.52,15,3.93,Female,Central,High School,Silver Card
+James Taylor,29,12971102.39,22,3.17,Female,Central,Bachelor,Gold Card
+Joseph Jones,51,12595795.22,9,3.36,Male,West,Bachelor,Classic Card
+William Wilson,50,9439134.64,11,3.03,Male,East,Bachelor,Silver Card
+David Lopez,40,8736596.18,13,2.19,Female,West,Doctorate,Classic Card
+David Gonzalez,41,18294005.75,13,3.26,Male,East,Bachelor,Gold Card
+Michael Moore,54,13328438.78,1,3.76,Male,West,Diploma,Silver Card
+James Williams,52,7154003.64,22,4.49,Male,East,Master,Classic Card
+Mary Gonzalez,61,11470210.86,4,3.55,Male,West,Master,Classic Card
+Daniel Hernandez,57,8615924.18,4,4.04,Male,East,High School,Classic Card
+Elizabeth Jones,39,18872761.0,5,1.64,Male,West,High School,Silver Card
+Linda Lopez,44,3128084.17,12,2.85,Male,West,High School,Classic Card
+Jessica Hernandez,52,6830657.56,8,1.04,Female,East,Bachelor,Classic Card
+Charles Brown,18,9211065.93,21,1.99,Male,Central,Bachelor,Platinum Card
+Nancy Williams,52,11292766.61,14,3.91,Male,East,Bachelor,Gold Card
+Karen Gonzalez,54,17463897.8,13,4.97,Male,Central,Master,Silver Card
+Robert Taylor,64,4494089.62,23,1.4,Male,West,Bachelor,Platinum Card
+Patricia Hernandez,31,16699703.07,6,2.61,Male,East,High School,Classic Card
+Susan Taylor,20,3946109.32,24,4.2,Male,East,Diploma,Silver Card
+William Martinez,18,17319338.6,19,1.82,Male,East,Diploma,Silver Card
+David Gonzalez,22,3877803.12,1,3.22,Male,Central,Diploma,Silver Card
+Susan Taylor,43,3310122.18,6,3.93,Female,Central,Bachelor,Classic Card
+Patricia Brown,31,14848344.86,5,3.46,Male,West,Master,Silver Card
+Robert Hernandez,56,19953344.09,16,1.75,Male,Central,Diploma,Silver Card
+Daniel Moore,44,18242374.47,24,2.42,Male,Central,Bachelor,Gold Card
+James Garcia,26,12791973.1,24,4.14,Male,West,Bachelor,Classic Card
+Jessica Johnson,32,18595725.42,1,3.22,Female,East,Diploma,Classic Card
+James Davis,32,3090100.11,2,1.02,Female,East,High School,Classic Card
+William Johnson,43,19576141.77,4,4.04,Female,West,Bachelor,Classic Card
+William Taylor,59,11342729.25,4,1.14,Female,East,High School,Silver Card
+Patricia Anderson,30,15289233.64,0,3.98,Female,Central,Master,Classic Card
+Joseph Brown,49,16954645.04,7,1.81,Female,West,High School,Gold Card
+Susan Taylor,56,15213773.6,11,4.83,Female,West,Diploma,Classic Card
+Linda Davis,49,12095624.44,23,2.47,Female,West,Bachelor,Classic Card
+Charles Williams,21,11102531.23,3,2.31,Female,East,Doctorate,Silver Card
+John Miller,47,17255903.5,12,1.6,Female,West,High School,Classic Card
+David Taylor,54,6486318.52,22,2.22,Female,West,High School,Silver Card
+Mary Johnson,40,19455899.13,14,4.51,Female,West,High School,Silver Card
+Thomas Anderson,56,15086192.14,10,4.99,Female,East,High School,Classic Card
+Linda Jones,62,6391617.76,9,2.47,Female,Central,High School,Classic Card
+John Thomas,32,15516202.12,2,2.79,Female,West,Bachelor,Classic Card
+Nancy Jackson,60,12007280.39,21,3.89,Female,Central,High School,Classic Card
+Patricia Miller,46,15022911.63,13,4.54,Male,East,High School,Classic Card
+Joseph Lopez,53,16052251.52,15,3.37,Female,East,Master,Classic Card
+Robert Miller,30,4483933.05,9,2.57,Male,East,Diploma,Classic Card
+William Martin,49,11603767.26,9,2.65,Female,East,Diploma,Silver Card
+Jennifer Jones,24,18844243.82,11,3.78,Female,Central,Diploma,Silver Card
+Charles Hernandez,39,8450917.27,8,1.01,Male,West,Doctorate,Silver Card
+Jennifer Anderson,45,13096012.66,0,3.48,Female,East,High School,Classic Card
+Linda Taylor,19,9276918.19,4,2.42,Male,East,Master,Classic Card
+Daniel Jackson,59,10722555.53,19,4.18,Male,Central,Bachelor,Gold Card
+Joseph Brown,62,12326253.0,7,1.37,Male,Central,High School,Silver Card
+Susan Johnson,23,12331673.66,10,3.35,Female,East,Doctorate,Gold Card
+William Martin,45,6429417.86,11,2.92,Female,West,Diploma,Classic Card
+Joseph Martin,45,14637716.31,0,3.57,Female,West,High School,Silver Card
+Thomas Johnson,61,4493757.89,24,1.26,Male,East,Master,Silver Card
+Daniel Hernandez,61,5360021.15,21,3.32,Male,Central,Bachelor,Classic Card
+Susan Smith,37,3046085.29,19,3.25,Female,East,Bachelor,Silver Card
+Linda Martin,47,4983833.09,24,3.24,Female,East,High School,Silver Card
+Nancy Martinez,28,11043825.42,10,3.41,Female,Central,Bachelor,Classic Card
+Patricia Jackson,45,13303731.98,4,3.71,Female,East,Bachelor,Classic Card
+Robert Miller,42,16502920.65,14,4.22,Female,East,Diploma,Gold Card
+James Miller,56,4813887.25,4,2.08,Male,East,Diploma,Platinum Card
+Robert Williams,50,17462366.82,11,4.3,Male,Central,High School,Classic Card
+Elizabeth Lopez,18,15681566.93,4,2.99,Male,West,High School,Classic Card
+Karen Anderson,44,9944810.98,16,1.31,Female,West,Master,Classic Card
+Mary Hernandez,30,18859947.14,16,1.23,Male,Central,Diploma,Silver Card
+Thomas Davis,58,19845801.1,23,2.34,Male,West,Doctorate,Classic Card
+Daniel Brown,20,6485030.77,11,4.14,Male,East,Diploma,Platinum Card
+Karen Johnson,56,9446885.94,23,3.83,Male,West,Bachelor,Classic Card
+Susan Garcia,23,18749640.2,14,4.15,Male,East,Diploma,Classic Card
+Nancy Gonzalez,25,15267141.36,14,3.07,Female,West,Diploma,Silver Card
+Jennifer Martin,44,3817608.95,5,2.76,Male,Central,High School,Gold Card
+Sarah Smith,26,16285746.19,11,1.59,Female,West,Diploma,Silver Card
+John Rodriguez,54,17074995.08,19,2.31,Female,West,Bachelor,Silver Card
+John Williams,50,15758532.72,17,2.74,Female,West,Doctorate,Platinum Card
+Nancy Brown,59,16592131.23,13,1.35,Female,Central,Bachelor,Classic Card
+James Hernandez,61,17027255.5,1,1.88,Female,West,High School,Gold Card
+Jennifer Taylor,41,6168884.78,8,3.39,Male,Central,High School,Classic Card
+James Smith,32,7006759.68,4,3.94,Male,East,High School,Gold Card
+John Lopez,49,13773895.58,19,4.99,Female,West,Bachelor,Silver Card
+Karen Smith,49,18433724.22,0,4.73,Female,Central,Bachelor,Classic Card
+David Rodriguez,41,8375341.9,22,3.57,Female,Central,Master,Gold Card
+Robert Rodriguez,58,13001213.49,2,2.68,Male,West,High School,Classic Card
+Charles Lopez,29,14610695.08,5,3.54,Female,East,Bachelor,Classic Card
+Elizabeth Taylor,56,10683126.22,4,4.14,Male,Central,Bachelor,Silver Card
+Sarah Martin,19,15134301.73,20,1.47,Female,West,Bachelor,Classic Card
+Mary Garcia,20,18294346.57,4,2.64,Male,East,Bachelor,Silver Card
+Thomas Brown,54,13609726.25,0,4.36,Female,Central,Bachelor,Classic Card
+Daniel Thomas,34,12176278.05,16,2.54,Male,Central,Bachelor,Classic Card
+Nancy Rodriguez,19,10458659.48,18,3.29,Female,East,High School,Classic Card
+David Martin,19,12817266.61,13,3.35,Male,East,Bachelor,Classic Card
+Charles Johnson,45,9041161.68,11,1.74,Male,West,High School,Silver Card
+Patricia Smith,40,9655195.87,9,2.45,Male,West,Bachelor,Gold Card
+Linda Wilson,54,12041577.15,19,2.34,Male,Central,Diploma,Platinum Card
+John Martin,49,4132524.91,20,1.1,Male,East,Bachelor,Gold Card
+James Martin,50,6893431.65,17,1.1,Male,East,Master,Classic Card
+John Garcia,18,12228438.28,23,4.33,Male,East,Master,Silver Card
+John Martinez,36,10335978.43,10,2.09,Female,Central,Master,Classic Card
+John Gonzalez,19,8657868.36,1,3.07,Female,East,Bachelor,Classic Card
+Joseph Garcia,61,15419335.33,24,2.19,Female,East,Bachelor,Silver Card
+James Taylor,43,14793199.33,17,4.76,Female,Central,Bachelor,Classic Card
+Mary Hernandez,49,5834422.92,24,2.04,Female,West,Master,Classic Card
+Susan Johnson,23,17936694.96,6,2.72,Male,West,Diploma,Platinum Card
+Jessica Hernandez,49,11422201.65,23,4.49,Male,Central,Doctorate,Silver Card
+Nancy Moore,21,15604835.49,14,4.37,Male,East,Master,Silver Card
+Sarah Johnson,28,12743564.44,10,1.74,Male,Central,Bachelor,Classic Card
+Thomas Hernandez,34,19960774.47,17,4.21,Male,West,Diploma,Classic Card
+Thomas Davis,55,15790853.04,22,2.83,Female,West,High School,Gold Card
+Karen Davis,41,15018667.84,11,2.93,Female,Central,Master,Classic Card
+Michael Moore,22,16235722.96,5,1.53,Female,Central,High School,Silver Card
+David Hernandez,51,5433175.75,19,1.32,Female,West,Master,Classic Card
+Joseph Johnson,23,6477258.08,22,3.91,Male,Central,Bachelor,Silver Card
+Elizabeth Miller,39,15139089.4,12,2.99,Male,West,Diploma,Classic Card
+William Jones,28,11397685.28,19,2.75,Male,Central,Master,Gold Card
+Michael Taylor,33,15828799.96,15,3.92,Female,Central,Bachelor,Gold Card
+Elizabeth Martin,50,4749572.52,17,4.06,Male,Central,Bachelor,Gold Card
+William Wilson,26,12120182.98,9,1.64,Female,West,Bachelor,Classic Card
+Thomas Martin,23,9439966.61,22,3.44,Male,Central,Diploma,Gold Card
+Linda Moore,33,10769003.73,7,1.54,Male,West,Bachelor,Silver Card
+Thomas Martinez,46,13267283.83,17,4.01,Female,West,Diploma,Classic Card
+David Moore,20,11538901.91,20,3.63,Male,Central,Master,Silver Card
+Karen Taylor,37,12177630.83,0,4.83,Male,Central,Master,Classic Card
+Sarah Miller,53,11268077.19,22,1.28,Female,West,Diploma,Classic Card
+Elizabeth Davis,36,9952238.01,7,1.23,Male,West,Bachelor,Gold Card
+Joseph Anderson,43,16121993.67,5,2.13,Female,East,Bachelor,Classic Card
+Nancy Gonzalez,20,3207452.23,4,2.05,Male,West,Diploma,Silver Card
+Patricia Johnson,36,13173525.92,14,1.99,Male,East,Doctorate,Classic Card
+Daniel Jones,37,12613641.9,21,4.63,Male,East,High School,Gold Card
+Charles Moore,49,15175044.27,14,2.0,Male,East,Diploma,Platinum Card
+Joseph Davis,24,13183499.2,1,2.09,Male,Central,Bachelor,Gold Card
+James Lopez,58,17055580.07,0,4.04,Male,Central,Bachelor,Classic Card
+Mary Davis,50,19304271.51,22,2.8,Male,West,Bachelor,Classic Card
+Elizabeth Martinez,57,8822912.37,22,4.11,Male,East,Bachelor,Silver Card
+Nancy Martinez,56,6864966.71,10,1.26,Female,Central,Bachelor,Classic Card
+Nancy Miller,35,10201146.66,9,2.95,Female,Central,Bachelor,Classic Card
+Jennifer Taylor,57,7894803.48,17,1.13,Male,Central,High School,Silver Card
+Susan Smith,18,13454154.47,17,1.25,Male,Central,Diploma,Silver Card
+Sarah Martinez,28,18501490.95,16,4.63,Female,Central,High School,Platinum Card
+John Taylor,45,5364975.3,7,1.56,Male,East,Diploma,Classic Card
+Charles Taylor,42,4713508.25,14,3.13,Male,East,Bachelor,Classic Card
+James Davis,40,7352264.04,7,2.64,Female,East,High School,Classic Card
+John Wilson,48,15343624.96,16,2.39,Male,East,Diploma,Platinum Card
+Patricia Moore,47,13080369.39,11,4.6,Male,West,High School,Gold Card
+Karen Gonzalez,59,4737615.29,7,1.09,Female,East,Master,Gold Card
+Linda Lopez,52,18618758.88,24,3.66,Male,Central,Master,Platinum Card
+Joseph Taylor,24,16431438.83,13,4.85,Male,East,Bachelor,Silver Card
+Robert Miller,33,3391384.28,3,3.24,Female,West,Master,Silver Card
+Elizabeth Gonzalez,43,14073242.59,0,4.75,Male,Central,Bachelor,Classic Card
+David Wilson,19,16111193.36,0,1.21,Female,East,Bachelor,Silver Card
+William Brown,18,9365401.29,18,2.68,Male,East,High School,Silver Card
+Robert Lopez,29,4171666.17,15,2.04,Male,East,Bachelor,Silver Card
+William Brown,22,4314458.11,13,3.92,Female,Central,Bachelor,Platinum Card
+Patricia Thomas,54,4772198.42,20,4.93,Female,Central,Bachelor,Platinum Card
+John Lopez,49,17287473.74,15,2.03,Male,West,Bachelor,Gold Card
+Joseph Garcia,26,18481665.37,4,3.62,Female,Central,Bachelor,Gold Card
+Jessica Brown,58,5087783.29,8,1.79,Female,Central,Bachelor,Silver Card
+James Miller,52,7010402.59,1,3.26,Male,East,Master,Classic Card
+Sarah Thomas,36,5813848.68,17,2.86,Male,Central,Diploma,Classic Card
+Susan Martin,33,6167454.95,5,4.89,Male,East,Bachelor,Silver Card
+Michael Jackson,20,17237343.41,8,3.43,Female,East,Bachelor,Gold Card
+William Martinez,37,8646489.02,0,2.4,Female,Central,Bachelor,Classic Card
+Thomas Brown,41,8294552.49,8,1.46,Female,West,Bachelor,Platinum Card
+Sarah Johnson,50,6865725.55,24,1.6,Female,West,High School,Classic Card
+Jessica Hernandez,41,13334204.69,15,1.9,Male,Central,Bachelor,Classic Card
+Michael Jackson,28,9448196.87,12,2.0,Female,West,High School,Silver Card
+Jessica Hernandez,25,15652244.08,8,4.4,Male,East,Bachelor,Classic Card
+Mary Thomas,53,6494856.74,20,3.24,Female,East,Bachelor,Classic Card
+Linda Rodriguez,55,16392428.11,12,3.09,Male,Central,Bachelor,Classic Card
+Nancy Jackson,57,13263266.04,8,1.46,Male,West,High School,Gold Card
+Sarah Davis,37,4942544.1,10,4.44,Male,West,Bachelor,Silver Card
+Mary Miller,52,10046577.93,3,3.89,Female,East,Diploma,Silver Card
+Michael Lopez,42,17679808.39,1,1.27,Male,Central,Master,Silver Card
+Daniel Taylor,52,18690323.94,5,3.83,Male,West,Master,Classic Card
+Daniel Williams,42,10916902.08,13,3.17,Female,Central,Doctorate,Platinum Card
+Linda Hernandez,46,11174228.63,3,1.33,Male,West,Bachelor,Classic Card
+John Miller,35,18613730.32,5,2.83,Female,East,Bachelor,Platinum Card
+Michael Martinez,63,12980159.81,18,2.94,Female,East,High School,Silver Card
+Charles Martin,35,3558393.39,5,1.66,Male,Central,Diploma,Platinum Card
+Mary Johnson,19,18516740.87,1,4.78,Male,East,Bachelor,Classic Card
+Mary Rodriguez,52,7219849.53,17,4.4,Female,West,Bachelor,Silver Card
+Linda Rodriguez,33,12819743.22,12,3.68,Male,East,Master,Classic Card
+Charles Garcia,58,5813726.4,8,2.85,Female,Central,High School,Classic Card
+Karen Miller,53,3575945.72,22,2.65,Female,Central,Master,Silver Card
+John Garcia,50,8295043.91,18,3.6,Female,Central,Bachelor,Classic Card
+Mary Jones,21,16268427.03,12,3.18,Male,West,Bachelor,Silver Card
+Daniel Smith,50,7718981.93,10,1.25,Female,West,High School,Classic Card
+John Martin,31,6741652.64,0,3.05,Male,West,High School,Classic Card
+Karen Williams,38,6615573.33,23,4.23,Male,West,Bachelor,Gold Card
+John Brown,37,11757952.6,21,2.84,Male,West,Bachelor,Silver Card
+Patricia Williams,25,19584202.37,6,1.21,Male,East,High School,Silver Card
+Sarah Thomas,24,10802812.8,24,4.15,Female,West,Bachelor,Silver Card
+John Jones,20,12474191.27,20,1.81,Male,West,Master,Gold Card
+Susan Miller,34,17630744.3,14,2.03,Female,East,Master,Classic Card
+James Martin,50,12096185.22,0,1.66,Female,West,Master,Silver Card
+Linda Martin,29,6135868.81,11,2.32,Male,Central,Diploma,Platinum Card
+Robert Smith,39,8093130.5,6,4.03,Female,West,Diploma,Gold Card
+Jennifer Williams,39,8268927.75,14,3.08,Female,West,Bachelor,Silver Card
+Thomas Martinez,63,9754407.96,20,1.82,Male,Central,Diploma,Silver Card
+Sarah Thomas,47,10255411.39,18,4.51,Female,Central,High School,Gold Card
+Mary Gonzalez,55,16596294.38,24,4.52,Female,Central,Diploma,Silver Card
+Linda Williams,55,8939578.98,0,4.48,Female,Central,Diploma,Classic Card
+Patricia Davis,62,10959941.08,16,1.96,Female,West,Diploma,Classic Card
+Mary Martinez,25,13624591.78,16,2.8,Male,Central,Diploma,Gold Card
+Karen Garcia,44,9421341.11,2,4.94,Female,Central,Diploma,Classic Card
+Jennifer Thomas,44,17221601.83,11,4.09,Female,East,High School,Gold Card
+Thomas Thomas,51,12986711.27,5,1.11,Female,Central,Bachelor,Classic Card
+Elizabeth Martinez,38,7998759.55,10,1.26,Female,Central,Bachelor,Silver Card
+James Moore,47,15139006.4,2,2.86,Male,East,Bachelor,Classic Card
+Jennifer Garcia,50,11970011.41,7,4.64,Female,East,High School,Classic Card
+Nancy Rodriguez,45,12085750.15,13,3.15,Male,West,Diploma,Platinum Card
+Patricia Moore,64,11178495.12,13,2.99,Female,East,Bachelor,Gold Card
+Mary Miller,50,11449203.13,9,1.42,Male,West,Bachelor,Silver Card
+John Davis,22,16011056.78,1,3.63,Male,East,Bachelor,Silver Card
+Charles Smith,36,4750685.15,13,4.29,Male,East,Diploma,Silver Card
+Thomas Lopez,21,8684167.79,8,2.52,Male,West,Master,Silver Card
+John Moore,52,4283557.18,2,4.1,Male,East,Diploma,Silver Card
+Daniel Martin,34,15805185.75,20,4.86,Female,West,Bachelor,Classic Card
+Charles Gonzalez,61,7629131.53,7,1.82,Female,East,Bachelor,Silver Card
+Sarah Anderson,45,18256316.97,15,3.09,Female,Central,Bachelor,Gold Card
+Daniel Taylor,47,11951833.93,1,2.15,Male,East,Diploma,Platinum Card
+James Rodriguez,46,16612746.12,5,4.17,Female,West,Diploma,Classic Card
+Charles Thomas,63,19641834.41,20,3.31,Male,East,Bachelor,Gold Card
+Michael Lopez,23,17276410.61,24,3.54,Male,West,Diploma,Silver Card
+Patricia Taylor,52,17738893.92,11,4.19,Female,West,High School,Silver Card
+Patricia Garcia,58,9935736.42,4,2.58,Female,Central,Diploma,Classic Card
+Daniel Garcia,54,12379284.12,1,4.66,Male,Central,Master,Silver Card
+Charles Gonzalez,41,7316105.59,15,3.13,Male,West,High School,Classic Card
+Joseph Rodriguez,46,6333922.69,4,1.63,Female,East,Doctorate,Classic Card
+James Johnson,63,11593633.94,14,3.78,Female,West,Bachelor,Gold Card
+Charles Jones,48,13115832.65,11,4.17,Female,West,Doctorate,Gold Card
+John Martinez,52,8767611.18,3,2.27,Female,East,Master,Silver Card
+John Garcia,50,12680539.8,14,4.43,Male,East,Bachelor,Platinum Card
+Susan Thomas,38,18086828.2,10,4.62,Female,East,High School,Classic Card
+John Lopez,49,12464266.94,15,2.11,Female,East,High School,Classic Card
+David Wilson,40,15253822.64,22,4.93,Female,West,High School,Silver Card
+Susan Miller,50,16690354.45,5,1.56,Male,West,Bachelor,Classic Card
+Joseph Lopez,20,19808389.29,13,1.81,Male,Central,Diploma,Classic Card
+Elizabeth Davis,35,13254355.84,17,1.74,Male,West,Diploma,Classic Card
+Patricia Wilson,42,16716452.53,11,4.58,Male,East,Diploma,Classic Card
+Sarah Gonzalez,59,19365038.42,10,3.62,Female,Central,Master,Gold Card
+Mary Anderson,48,19054965.33,12,1.61,Male,East,High School,Classic Card
+Linda Anderson,20,5398391.43,20,2.76,Female,West,High School,Silver Card
+Robert Davis,57,9908669.24,22,3.46,Female,Central,High School,Classic Card
+Jennifer Brown,63,8507831.04,10,1.33,Female,East,Master,Silver Card
+William Miller,41,4477725.25,22,4.53,Female,Central,Bachelor,Classic Card
+Daniel Davis,49,13765093.17,15,4.21,Male,Central,Diploma,Gold Card
+David Jackson,64,15510378.42,14,3.02,Male,West,High School,Silver Card
+Elizabeth Johnson,39,17418177.62,20,4.87,Male,East,Diploma,Classic Card
+Nancy Johnson,40,5087207.12,14,2.67,Female,Central,High School,Silver Card
+Susan Smith,19,17899549.29,24,4.94,Female,Central,Master,Classic Card
+Joseph Davis,44,13929734.58,3,3.67,Female,East,Bachelor,Silver Card
+Jessica Williams,59,14967084.3,10,3.54,Female,Central,Bachelor,Classic Card
+Elizabeth Miller,19,18480608.06,18,1.66,Female,Central,Master,Platinum Card
+David Martin,43,13620941.61,14,4.53,Male,Central,High School,Classic Card
+James Jones,34,8709719.57,3,2.71,Female,East,Bachelor,Silver Card
+Mary Jackson,57,17026824.63,20,1.65,Male,East,Master,Classic Card
+Joseph Hernandez,50,9172006.61,12,1.05,Female,East,Diploma,Classic Card
+David Moore,26,3581877.88,21,3.24,Female,East,Bachelor,Silver Card
+Michael Williams,60,17121126.61,18,3.11,Male,West,Diploma,Platinum Card
+Mary Brown,56,8868266.46,1,3.88,Male,Central,Diploma,Classic Card
+Susan Lopez,46,16155186.89,13,4.56,Female,East,High School,Classic Card
+James Jackson,59,9166884.21,3,1.32,Female,Central,Diploma,Classic Card
+Thomas Martinez,43,17638156.34,15,3.93,Female,Central,Bachelor,Classic Card
+James Moore,52,6731678.93,20,1.75,Female,West,Master,Classic Card
+Susan Anderson,42,19567303.51,19,4.43,Male,East,Bachelor,Silver Card
+William Williams,41,16255899.17,13,4.28,Female,East,Master,Classic Card
+Patricia Miller,30,4942044.74,14,3.16,Male,Central,Master,Classic Card
+Susan Martinez,24,12618202.54,2,3.84,Female,East,High School,Gold Card
+John Anderson,53,19751244.31,7,2.26,Male,Central,Bachelor,Classic Card
+David Garcia,62,11008112.7,15,2.88,Male,Central,High School,Classic Card
+Jessica Jones,37,6095821.36,9,4.29,Female,West,Bachelor,Classic Card
+James Smith,18,11241232.24,3,2.84,Male,West,Master,Silver Card
+Thomas Thomas,25,11711780.15,17,2.43,Female,West,High School,Classic Card
+Daniel Jackson,63,15608678.05,1,2.98,Male,Central,Bachelor,Silver Card
+Elizabeth Garcia,33,14880379.5,16,4.31,Female,East,Bachelor,Classic Card
+Joseph Davis,31,9843350.74,12,2.34,Male,West,Bachelor,Silver Card
+John Wilson,29,6706392.83,3,1.7,Female,East,Diploma,Classic Card
+David Davis,40,13965920.85,24,3.85,Female,West,Diploma,Silver Card
+Jessica Taylor,32,10168966.89,10,4.3,Male,West,High School,Gold Card
+John Martinez,45,5248695.59,6,1.4,Male,Central,High School,Silver Card
+Sarah Wilson,51,18309729.12,11,1.96,Male,West,High School,Classic Card
+Jessica Garcia,19,14750771.58,9,1.57,Male,West,Bachelor,Classic Card
+Susan Thomas,49,14614125.56,6,2.39,Female,Central,High School,Classic Card
+Patricia Smith,40,16983925.89,12,2.8,Male,East,Master,Classic Card
+John Garcia,39,12004248.54,6,4.0,Female,West,Bachelor,Classic Card
+Daniel Jackson,42,16855925.28,23,3.6,Male,Central,Bachelor,Gold Card
+Nancy Wilson,39,11467542.81,16,3.48,Female,West,Diploma,Classic Card
+Joseph Jackson,39,4141981.8,9,2.41,Female,Central,Bachelor,Silver Card
+Susan Jones,59,9889217.5,9,4.37,Female,East,Master,Silver Card
+Thomas Anderson,23,11456903.2,23,2.89,Female,East,High School,Silver Card
+David Martin,32,15243443.89,3,4.92,Male,Central,Diploma,Classic Card
+Karen Miller,60,4811838.41,19,3.54,Male,Central,Bachelor,Gold Card
+Sarah Lopez,54,5380315.16,3,1.51,Female,Central,High School,Classic Card
+John Martin,50,7482624.64,21,3.7,Male,East,High School,Gold Card
+Jessica Anderson,25,7530472.69,6,2.3,Male,West,Diploma,Gold Card
+Elizabeth Thomas,61,15447137.83,21,3.75,Female,East,High School,Gold Card
+Susan Hernandez,61,7262421.23,0,1.28,Male,Central,Bachelor,Silver Card
+Patricia Thomas,22,13762667.08,11,1.7,Male,Central,High School,Classic Card
+Thomas Davis,56,11402655.45,23,4.42,Male,East,Master,Classic Card
+John Miller,21,12746004.43,12,1.91,Female,Central,Bachelor,Silver Card
+Linda Smith,23,17247818.37,9,4.35,Male,East,Bachelor,Classic Card
+Jennifer Brown,62,9874485.53,14,2.12,Female,Central,Bachelor,Gold Card
+Susan Martin,49,16105493.41,12,3.57,Male,West,Master,Classic Card
+David Garcia,47,10174613.01,22,3.78,Male,West,High School,Classic Card
+John Williams,64,9015813.4,21,3.05,Male,Central,Master,Classic Card
+William Johnson,52,19296662.01,21,2.22,Female,East,Bachelor,Classic Card
+John Lopez,57,6134305.65,20,1.85,Female,West,Bachelor,Silver Card
+Daniel Anderson,33,4535728.33,21,1.13,Male,East,Bachelor,Gold Card
+Charles Martin,30,16106760.73,8,2.22,Female,Central,High School,Silver Card
+Linda Rodriguez,59,4160244.99,8,3.61,Male,East,Diploma,Gold Card
+William Jackson,47,17230342.84,14,4.75,Female,West,Bachelor,Gold Card
+Mary Davis,36,10432287.74,9,4.48,Female,East,High School,Gold Card
+Daniel Johnson,34,18563732.51,23,4.06,Male,East,Bachelor,Classic Card
+Joseph Miller,36,15266058.64,24,4.15,Male,Central,High School,Gold Card
+Susan Moore,45,13376879.34,9,3.66,Male,Central,High School,Classic Card
+Susan Johnson,43,19138215.55,7,2.04,Male,Central,High School,Classic Card
+Jennifer Jones,54,9743039.34,23,4.63,Female,West,High School,Silver Card
+Linda Miller,43,19219477.92,15,3.68,Female,West,Bachelor,Classic Card
+Sarah Lopez,40,5295021.72,16,3.24,Female,Central,High School,Classic Card
+Sarah Gonzalez,26,11223834.01,4,1.44,Male,Central,Doctorate,Classic Card
+Jessica Martinez,29,7588490.78,3,2.79,Male,West,Bachelor,Classic Card
+Karen Rodriguez,18,12177327.24,17,2.84,Female,West,High School,Platinum Card
+Karen Hernandez,18,5754235.92,23,4.46,Male,West,Bachelor,Classic Card
+David Johnson,64,17306004.23,18,3.19,Female,West,Master,Classic Card
+Elizabeth Jones,51,17388933.44,3,2.52,Female,Central,Bachelor,Silver Card
+Sarah Smith,49,19239017.32,6,4.91,Female,West,High School,Classic Card
+Patricia Rodriguez,42,5629426.4,9,1.44,Female,Central,Master,Platinum Card
+Thomas Gonzalez,57,13596653.37,24,2.69,Female,East,Bachelor,Classic Card
+Robert Johnson,62,11062034.25,17,1.17,Male,East,High School,Silver Card
+John Johnson,18,8854523.44,18,3.96,Male,West,High School,Silver Card
+Susan Miller,33,8976182.74,3,4.67,Male,East,Bachelor,Platinum Card
+Jennifer Martinez,56,10017490.36,9,2.12,Female,East,High School,Silver Card
+Mary Miller,22,14983734.34,0,4.43,Female,East,Master,Gold Card
+Michael Gonzalez,39,13170862.99,22,2.17,Female,West,Diploma,Classic Card
+Sarah Jones,46,10814585.72,17,4.64,Female,West,Master,Classic Card
+Daniel Johnson,20,4290867.98,4,4.02,Male,East,Bachelor,Classic Card
+John Moore,29,4322010.85,14,4.22,Male,Central,High School,Gold Card
+Michael Miller,43,3039769.64,16,1.07,Female,East,High School,Classic Card
+James Lopez,33,19450889.6,2,4.85,Female,West,Bachelor,Classic Card
+John Johnson,54,3089314.92,11,3.91,Female,West,Bachelor,Classic Card
+David Smith,39,4752593.68,1,2.22,Male,West,Bachelor,Classic Card
+Sarah Wilson,46,8348141.47,0,4.32,Male,East,Diploma,Classic Card
+Sarah Moore,31,16726314.28,22,2.13,Male,Central,High School,Platinum Card
+John Brown,45,19355679.36,20,4.49,Female,West,High School,Silver Card
+Charles Thomas,22,16430230.5,16,1.45,Female,West,Bachelor,Silver Card
+Sarah Johnson,64,14739523.95,21,3.81,Male,East,High School,Gold Card
+David Hernandez,47,11862111.35,15,3.16,Female,Central,Diploma,Classic Card
+Jessica Jones,63,4473988.6,4,1.39,Male,East,Bachelor,Classic Card
+Joseph Miller,22,19288903.48,14,1.97,Female,West,Master,Classic Card
+Michael Lopez,29,15892671.04,2,1.05,Male,Central,Diploma,Classic Card
+Nancy Garcia,33,13862139.55,6,2.88,Female,Central,High School,Silver Card
+John Johnson,43,15903609.37,10,2.21,Male,West,Bachelor,Classic Card
+Jessica Johnson,43,15309756.6,9,3.39,Male,Central,Bachelor,Classic Card
+John Hernandez,38,13832936.86,8,2.19,Male,Central,Diploma,Silver Card
+William Lopez,56,19669805.6,13,2.2,Male,East,Master,Platinum Card
+Elizabeth Wilson,53,18357184.81,12,3.97,Male,West,Master,Gold Card
+John Brown,50,13993303.62,24,1.19,Male,West,High School,Gold Card
+Daniel Jackson,47,14783978.59,24,4.61,Female,West,High School,Gold Card
+Thomas Martinez,54,3877128.71,1,4.41,Female,West,Bachelor,Classic Card
+Daniel Martin,40,14388596.9,2,3.67,Female,West,Bachelor,Gold Card
+Charles Rodriguez,27,3750812.44,6,3.37,Male,Central,High School,Classic Card
+John Moore,22,13000483.87,20,4.57,Male,East,Bachelor,Silver Card
+Karen Wilson,53,19989009.49,17,1.74,Female,West,Bachelor,Silver Card
+Karen Jackson,51,12448711.88,2,1.32,Male,East,High School,Classic Card
+Karen Williams,48,11044572.01,9,1.96,Male,East,Bachelor,Gold Card
+Michael Taylor,27,8318532.56,21,4.18,Male,Central,Master,Platinum Card
+John Jackson,36,5048883.84,6,1.14,Male,West,High School,Classic Card
+Robert Martinez,49,15427402.41,8,3.33,Male,Central,Diploma,Gold Card
+Elizabeth Garcia,18,6274183.47,16,4.98,Female,West,Diploma,Classic Card
+Jennifer Johnson,22,4959794.36,10,4.42,Female,Central,Master,Silver Card
+Robert Rodriguez,62,10169965.22,6,3.09,Female,East,Doctorate,Silver Card
+Thomas Martinez,21,16520811.25,23,1.25,Female,West,Diploma,Silver Card
+Mary Williams,33,15666097.32,13,4.33,Female,East,Bachelor,Platinum Card
+Michael Davis,41,3933004.45,18,3.4,Male,East,Bachelor,Gold Card
+Jennifer Brown,33,10737442.65,3,1.46,Male,Central,Bachelor,Gold Card
+William Davis,19,11881387.79,5,1.38,Male,West,Diploma,Classic Card
+Daniel Smith,45,13957293.06,9,4.64,Male,East,High School,Platinum Card
+David Martinez,49,14052844.96,6,3.68,Female,Central,Diploma,Classic Card
+Sarah Jackson,44,9199853.24,12,4.32,Female,West,Bachelor,Gold Card
+John Williams,37,12531512.3,13,4.52,Female,West,High School,Classic Card
+William Thomas,41,11178052.03,3,3.29,Male,East,Master,Classic Card
+Elizabeth Wilson,29,18044972.06,7,3.07,Female,West,High School,Silver Card
+Michael Garcia,52,12014507.25,4,2.72,Male,East,High School,Classic Card
+Thomas Rodriguez,50,10497546.75,0,2.27,Female,West,Bachelor,Classic Card
+Elizabeth Garcia,50,9876252.64,3,2.74,Female,Central,Bachelor,Classic Card
+Robert Thomas,60,12731271.91,2,4.1,Male,East,High School,Classic Card
+Joseph Davis,54,16667608.65,8,3.41,Male,East,Diploma,Classic Card
+Linda Rodriguez,29,12152825.34,7,4.57,Female,West,Doctorate,Classic Card
+Patricia Miller,20,14248137.98,0,2.77,Female,West,Diploma,Silver Card
+Linda Miller,18,15543548.04,5,3.43,Male,East,Diploma,Classic Card
+Robert Davis,50,11842857.87,8,3.53,Female,West,Master,Silver Card
+Thomas Smith,57,10255889.96,6,3.37,Female,Central,High School,Classic Card
+William Miller,27,17903311.42,3,3.81,Male,West,Bachelor,Platinum Card
+Michael Smith,60,10097603.43,12,1.95,Female,Central,Diploma,Gold Card
+Charles Williams,61,10853028.46,16,3.05,Male,Central,Diploma,Classic Card
+Thomas Lopez,46,19835802.33,1,1.42,Female,Central,Diploma,Gold Card
+Nancy Rodriguez,30,3004037.9,4,2.54,Male,Central,High School,Gold Card
+Patricia Jackson,29,6153039.46,11,2.95,Female,Central,Diploma,Platinum Card
+Jennifer Jones,48,9527386.13,20,3.61,Male,West,High School,Silver Card
+Mary Martinez,63,18854028.46,7,4.8,Female,Central,Bachelor,Classic Card
+Sarah Davis,19,4190505.0,5,3.4,Male,West,Diploma,Silver Card
+Elizabeth Martin,52,3161252.37,7,3.97,Female,Central,Diploma,Silver Card
+Patricia Gonzalez,40,3895625.21,17,3.03,Female,East,Master,Silver Card
+Joseph Johnson,34,4505237.98,2,3.54,Female,Central,Bachelor,Classic Card
+Jennifer Smith,43,3639145.14,21,1.28,Female,East,High School,Gold Card
+Nancy Brown,25,11156282.56,11,2.02,Female,Central,Master,Platinum Card
+Elizabeth Wilson,46,12872872.52,2,2.45,Female,Central,High School,Classic Card
+John Moore,43,7618678.51,21,2.89,Female,Central,High School,Classic Card
+Robert Brown,27,9770885.53,5,1.18,Female,East,Bachelor,Classic Card
+John Gonzalez,43,4558888.7,1,1.56,Female,East,Bachelor,Gold Card
+Jennifer Lopez,51,8718297.89,22,2.11,Male,Central,Diploma,Silver Card
+Jessica Garcia,58,11882826.26,11,4.89,Male,West,High School,Silver Card
+David Jones,24,15448620.72,1,2.33,Female,Central,Bachelor,Silver Card
+Patricia Jones,21,3056888.15,5,2.93,Male,East,Diploma,Silver Card
+David Lopez,62,10944283.03,16,1.78,Female,Central,Master,Classic Card
+Michael Anderson,28,8049048.9,2,3.44,Female,East,High School,Silver Card
+Sarah Martinez,46,17497970.97,1,2.12,Male,East,Master,Gold Card
+Jessica Hernandez,53,15164406.36,22,1.83,Female,East,Bachelor,Platinum Card
+William Martin,42,13014845.09,19,3.07,Female,Central,Master,Platinum Card
+Susan Taylor,38,7713515.98,7,1.02,Male,East,Bachelor,Platinum Card
+Patricia Davis,53,18475764.73,21,1.03,Male,East,Bachelor,Silver Card
+Mary Davis,27,3766711.51,11,1.88,Female,Central,Diploma,Silver Card
+Jessica Jones,54,4860949.18,3,1.15,Male,East,High School,Gold Card
+Elizabeth Jones,26,9657712.39,4,1.43,Male,Central,High School,Platinum Card
+Robert Garcia,41,5115438.47,12,2.36,Female,East,Master,Classic Card
+James Davis,52,19259066.86,14,4.21,Male,West,Master,Classic Card
+Karen Hernandez,52,16565818.48,24,3.29,Male,West,Diploma,Classic Card
+Jessica Moore,53,7402705.08,22,3.05,Female,East,High School,Silver Card
+John Gonzalez,35,13005421.89,15,2.17,Male,West,Diploma,Classic Card
+Susan Martin,56,19699618.76,9,4.73,Male,Central,Bachelor,Classic Card
+Jennifer Johnson,49,18031382.63,24,2.59,Female,West,Bachelor,Classic Card
+Susan Jones,41,13213573.59,22,1.35,Female,East,Bachelor,Classic Card
+Thomas Miller,40,18363307.44,15,3.47,Female,East,Doctorate,Gold Card
+Mary Anderson,49,19816143.47,11,1.46,Male,Central,High School,Classic Card
+Susan Gonzalez,54,15636997.99,16,2.38,Female,East,Bachelor,Silver Card
+James Miller,29,4104768.96,15,3.03,Female,Central,Diploma,Silver Card
+James Johnson,30,9826864.02,11,4.5,Male,West,Diploma,Gold Card
+Michael Martinez,40,17243037.5,7,2.97,Female,West,High School,Classic Card
+Sarah Gonzalez,42,6919676.33,19,3.81,Female,Central,High School,Platinum Card
+Daniel Moore,52,17120922.8,2,4.97,Female,Central,Master,Silver Card
+Mary Thomas,58,5045758.95,15,1.53,Female,East,Diploma,Platinum Card
+James Johnson,47,3798071.07,12,2.1,Male,West,Bachelor,Platinum Card
+Jessica Jones,34,9529540.4,22,2.58,Female,Central,Master,Classic Card
+David Miller,37,3624442.94,18,2.69,Female,West,Bachelor,Classic Card
+William Jones,42,19273594.47,7,2.64,Male,Central,High School,Classic Card
+Nancy Thomas,39,17045496.83,21,4.63,Female,West,Bachelor,Silver Card
+Joseph Davis,30,16613084.68,4,3.86,Male,East,Diploma,Classic Card
+Daniel Jackson,36,13706224.69,19,3.43,Male,West,Bachelor,Classic Card
+Linda Gonzalez,53,6677508.39,7,2.24,Male,West,Bachelor,Silver Card
+Nancy Taylor,29,11810426.23,23,4.3,Female,West,Bachelor,Classic Card
+David Thomas,58,13153659.23,11,4.82,Male,West,Diploma,Classic Card
+Mary Moore,36,11925535.51,0,4.28,Male,West,Master,Silver Card
+Mary Johnson,29,7423967.26,24,1.01,Male,East,High School,Classic Card
+Linda Jackson,26,11759214.71,20,3.55,Female,Central,High School,Classic Card
+Mary Rodriguez,24,11350167.79,19,1.2,Female,West,Diploma,Silver Card
+Mary Thomas,45,19937708.19,5,2.03,Female,East,High School,Silver Card
+Robert Smith,31,18256414.52,21,1.24,Female,West,High School,Gold Card
+Robert Hernandez,48,10877472.72,17,3.42,Female,West,Master,Silver Card
+William Garcia,36,13589935.51,7,3.75,Female,Central,Master,Silver Card
+Nancy Johnson,64,15713817.27,6,1.46,Female,West,Diploma,Silver Card
+Elizabeth Taylor,33,3592707.72,0,2.54,Male,East,Diploma,Gold Card
+Susan Jones,22,18213664.5,20,2.82,Male,East,Diploma,Gold Card
+James Wilson,52,17622155.88,15,2.48,Male,Central,Diploma,Gold Card
+Susan Lopez,29,10776345.66,11,1.48,Male,West,High School,Silver Card
+Sarah Gonzalez,42,9649886.02,5,2.68,Female,East,Master,Classic Card
+Karen Davis,38,7640309.37,19,4.0,Male,West,High School,Classic Card
+James Jackson,53,11103506.08,1,1.28,Male,West,Diploma,Classic Card
+Daniel Smith,40,3754403.28,13,1.32,Male,West,High School,Platinum Card
+Susan Williams,33,17487290.07,3,2.42,Male,Central,Master,Silver Card
+Charles Thomas,56,3602180.26,0,4.77,Female,West,Bachelor,Gold Card
+Jessica Martin,62,8593873.21,22,3.67,Female,East,Master,Classic Card
+Joseph Martin,59,18837021.3,17,3.71,Female,West,Bachelor,Gold Card
+David Jones,56,15498615.13,12,2.45,Male,East,Diploma,Classic Card
+Elizabeth Wilson,31,7783646.33,1,3.37,Female,West,High School,Classic Card
+Patricia Jackson,48,7295034.6,8,1.04,Male,East,Bachelor,Classic Card
+John Wilson,22,3086396.38,20,3.54,Female,East,Diploma,Silver Card
+Sarah Brown,52,14827142.98,1,4.65,Female,West,Bachelor,Silver Card
+Patricia Lopez,40,3829320.89,24,3.45,Female,West,High School,Gold Card
+James Taylor,46,12054242.83,8,4.49,Female,East,High School,Classic Card
+William Davis,60,19356073.53,0,3.9,Female,Central,Bachelor,Silver Card
+Michael Hernandez,28,4860970.62,10,1.48,Male,West,Bachelor,Silver Card
+James Martin,35,18206158.83,2,4.61,Female,Central,Bachelor,Classic Card
+William Garcia,64,19855080.7,19,1.27,Male,West,High School,Gold Card
+William Wilson,29,4045789.45,22,3.14,Male,West,Bachelor,Gold Card
+David Jones,26,18009406.58,3,1.57,Male,West,High School,Gold Card
+John Moore,27,11773343.35,17,1.05,Male,West,High School,Gold Card
+Karen Moore,61,18410733.23,22,2.69,Male,Central,Diploma,Gold Card
+Jessica Williams,34,12712422.01,5,2.18,Female,West,High School,Classic Card
+William Davis,55,14255904.17,2,2.94,Female,East,High School,Gold Card
+Robert Williams,24,12244241.44,21,3.31,Female,East,Diploma,Classic Card
+Joseph Moore,63,17696378.97,10,1.17,Female,Central,Diploma,Classic Card
+Charles Moore,30,15476468.62,14,1.49,Male,West,High School,Classic Card
+James Martinez,57,11861425.31,21,3.23,Female,East,High School,Gold Card
+John Thomas,59,17758733.67,4,2.37,Female,Central,High School,Gold Card
+Robert Hernandez,26,7169854.05,19,3.92,Male,West,High School,Classic Card
+Mary Smith,44,5674791.21,9,3.61,Male,East,Bachelor,Gold Card
+Joseph Hernandez,19,5726801.79,11,4.38,Female,East,Diploma,Platinum Card
+Mary Brown,22,8678150.94,14,3.77,Female,Central,Diploma,Classic Card
+Susan Garcia,46,7057730.53,16,2.72,Male,West,Diploma,Classic Card
+John Williams,54,18811535.96,9,3.69,Female,West,Bachelor,Gold Card
+Karen Taylor,55,4799179.6,5,2.1,Female,East,Master,Classic Card
+Linda Jackson,36,14882842.55,17,2.23,Female,East,Bachelor,Silver Card
+Susan Miller,25,6216766.18,12,4.16,Female,East,Bachelor,Classic Card
+Patricia Taylor,62,17987831.26,2,2.79,Male,West,Bachelor,Silver Card
+Charles Smith,18,19342359.9,23,4.19,Male,Central,Bachelor,Gold Card
+Michael Taylor,39,10912990.15,9,4.29,Male,Central,Bachelor,Silver Card
+Mary Brown,34,17944215.16,13,4.43,Female,West,High School,Gold Card
+Mary Johnson,24,3087467.9,5,4.67,Female,Central,High School,Gold Card
+Joseph Martinez,42,16939097.6,2,2.72,Female,East,Diploma,Gold Card
+William Wilson,62,6886627.75,15,2.28,Female,Central,Master,Silver Card
+Charles Jackson,21,18447922.26,6,3.33,Female,Central,Bachelor,Classic Card
+Linda Miller,53,3019041.9,19,2.48,Male,Central,Bachelor,Silver Card
+Thomas Lopez,23,12455089.5,13,3.4,Female,East,Diploma,Classic Card
+Michael Smith,48,15862808.66,8,3.82,Female,West,Diploma,Gold Card
+Robert Davis,36,7397701.62,14,3.75,Male,East,High School,Classic Card
+Charles Martinez,61,6283258.7,20,2.5,Female,West,High School,Silver Card
+John Smith,56,4429669.82,2,1.67,Male,West,Master,Classic Card
+Thomas Brown,44,8549370.8,1,2.72,Male,West,Bachelor,Gold Card
+David Smith,27,12517353.31,1,1.57,Male,Central,Diploma,Gold Card
+William Johnson,43,4969345.57,2,4.56,Male,Central,Master,Classic Card
+John Miller,36,9403821.15,17,2.38,Male,West,High School,Gold Card
+Thomas Hernandez,56,3154230.88,13,1.62,Female,West,Doctorate,Classic Card
+Karen Thomas,20,16917550.15,19,1.1,Male,Central,Diploma,Silver Card
+Robert Martin,62,5183628.21,17,3.58,Male,East,Diploma,Gold Card
+Thomas Jackson,30,7816830.12,9,3.55,Female,West,Diploma,Classic Card
+Linda Gonzalez,45,3313271.22,24,2.36,Female,East,High School,Platinum Card
+Elizabeth Hernandez,37,10348093.33,1,1.29,Male,Central,High School,Classic Card
+Karen Gonzalez,45,17282065.55,24,2.64,Female,West,Bachelor,Classic Card
+William Rodriguez,25,9666570.59,21,2.24,Female,East,Master,Platinum Card
+Robert Rodriguez,58,6051454.5,0,3.71,Male,East,Bachelor,Classic Card
+Daniel Smith,56,15812880.18,3,3.42,Male,East,High School,Platinum Card
+David Moore,18,16409718.69,13,2.46,Female,Central,Bachelor,Platinum Card
+Linda Davis,20,5953809.08,0,1.87,Male,Central,High School,Classic Card
+Patricia Moore,30,16104519.85,13,4.95,Male,East,High School,Silver Card
+Daniel Rodriguez,45,19104064.1,15,2.82,Female,East,Bachelor,Classic Card
+Jessica Williams,42,5828418.98,21,3.75,Male,Central,Bachelor,Silver Card
+Nancy Jackson,50,16106732.97,13,1.56,Male,East,High School,Classic Card
+Linda Taylor,55,15045724.08,19,2.94,Male,East,High School,Classic Card
+Patricia Rodriguez,23,11050756.1,2,1.11,Male,Central,Doctorate,Classic Card
+Charles Garcia,61,3984647.83,2,3.02,Male,East,High School,Silver Card
+Michael Martin,62,4269805.1,8,4.86,Female,East,Diploma,Platinum Card
+Michael Martin,49,17491049.21,5,2.54,Female,East,Bachelor,Gold Card
+Sarah Lopez,62,19832522.34,24,1.16,Male,Central,High School,Gold Card
+Susan Jones,64,14492888.37,12,1.12,Female,East,High School,Silver Card
+James Davis,38,10581291.22,20,2.55,Male,Central,Diploma,Gold Card
+Robert Thomas,33,14008751.94,1,1.64,Male,Central,Bachelor,Classic Card
+Linda Gonzalez,38,13104729.61,7,1.09,Male,West,Bachelor,Gold Card
+Patricia Jackson,28,9521408.43,20,4.02,Male,West,Bachelor,Platinum Card
+Susan Taylor,54,4115644.46,1,2.83,Male,East,Doctorate,Classic Card
+Linda Moore,53,16965720.11,3,2.16,Female,Central,Bachelor,Silver Card
+Karen Miller,52,9321170.0,24,4.6,Female,West,Diploma,Gold Card
+Joseph Garcia,36,16919355.94,14,1.46,Male,East,Diploma,Platinum Card
+Nancy Williams,37,7292648.74,3,4.82,Female,West,Bachelor,Gold Card
+Mary Martin,35,3017501.16,12,2.26,Male,West,Bachelor,Classic Card
+Nancy Rodriguez,64,5701950.82,11,4.55,Female,Central,Bachelor,Classic Card
+Daniel Martin,58,10965170.09,12,3.41,Male,Central,Bachelor,Classic Card
+Karen Rodriguez,31,19053161.79,13,4.31,Female,West,High School,Gold Card
+Mary Wilson,32,4737291.53,19,4.94,Male,West,Diploma,Classic Card
+Sarah Martin,48,17521566.17,17,2.15,Male,Central,Diploma,Gold Card
+Linda Anderson,18,11959409.64,5,4.84,Female,East,High School,Classic Card
+Joseph Hernandez,20,17040653.02,10,2.56,Female,Central,High School,Classic Card
+Susan Wilson,33,8072365.33,1,2.54,Male,West,Bachelor,Silver Card
+Patricia Smith,40,17279101.8,22,2.36,Female,East,Bachelor,Gold Card
+Mary Brown,28,16137987.26,18,3.17,Male,West,Diploma,Classic Card
+James Wilson,29,6910912.61,18,1.62,Female,East,Bachelor,Silver Card
+Jennifer Jackson,27,5232697.15,4,3.21,Female,West,Bachelor,Silver Card
+Michael Martinez,49,17756923.48,18,3.17,Male,East,High School,Classic Card
+Daniel Hernandez,33,19375023.11,1,4.05,Female,East,Bachelor,Classic Card
+Linda Lopez,25,3532139.33,9,4.33,Female,West,Bachelor,Gold Card
+Linda Johnson,55,15431591.14,24,2.76,Male,East,Bachelor,Silver Card
+Charles Smith,29,18461916.69,1,2.21,Female,Central,Bachelor,Classic Card
+Sarah Jackson,41,17575121.57,10,2.04,Male,West,Bachelor,Gold Card
+Joseph Wilson,45,19396848.03,17,1.78,Male,Central,High School,Platinum Card
+Mary Jones,25,15921599.33,23,1.23,Male,West,Diploma,Silver Card
+Jennifer Jones,45,10519078.96,14,2.37,Male,East,High School,Silver Card
+John Moore,53,8303183.84,8,2.08,Male,East,Doctorate,Gold Card
+William Rodriguez,43,8452626.59,22,4.87,Female,East,High School,Platinum Card
+Patricia Anderson,25,15315185.43,18,3.23,Male,West,High School,Gold Card
+Jessica Brown,45,15679229.2,8,2.39,Male,Central,Master,Silver Card
+David Davis,45,6406105.44,2,3.32,Female,Central,Master,Silver Card
+Charles Martin,54,17758087.83,20,1.56,Female,West,Bachelor,Gold Card
+Nancy Lopez,58,15153708.68,8,2.78,Female,West,High School,Classic Card
+Linda Jones,53,12566754.87,13,3.5,Male,Central,High School,Silver Card
+Nancy Davis,44,11016051.82,18,2.96,Male,Central,Diploma,Gold Card
+Mary Brown,34,12234957.7,6,2.61,Male,Central,High School,Silver Card
+James Williams,26,5707177.55,15,4.98,Female,Central,High School,Silver Card
+Nancy Anderson,50,6462921.24,15,4.52,Male,West,Bachelor,Silver Card
+Joseph Johnson,37,4549796.34,0,3.49,Female,West,Master,Classic Card
+Thomas Thomas,30,5612186.65,3,3.28,Male,East,Diploma,Silver Card
+William Miller,45,10712791.79,3,3.48,Female,Central,Bachelor,Gold Card
+Susan Garcia,46,12016024.69,6,1.81,Male,East,Bachelor,Classic Card
+Jessica Miller,30,3303652.17,7,2.58,Male,West,Diploma,Classic Card
+Charles Hernandez,63,16545563.07,16,1.16,Male,West,Bachelor,Platinum Card
+Charles Smith,52,8000855.55,4,2.9,Female,East,High School,Classic Card
+Joseph Williams,23,18501212.59,6,3.17,Female,Central,High School,Classic Card
+Elizabeth Gonzalez,35,19447691.48,19,1.91,Male,Central,Bachelor,Platinum Card
+John Anderson,22,6152800.87,19,4.86,Male,Central,High School,Gold Card
+Jennifer Jones,64,10855653.94,3,4.64,Male,Central,Doctorate,Silver Card
+Michael Martin,42,3020941.2,5,3.89,Female,East,High School,Gold Card
+John Jones,19,13171563.51,6,3.13,Male,East,Bachelor,Classic Card
+James Hernandez,27,13324209.62,17,4.48,Male,West,Diploma,Gold Card
+Mary Jackson,47,7208179.25,4,1.52,Male,Central,High School,Silver Card
+Sarah Hernandez,62,12493015.43,19,4.16,Male,Central,High School,Gold Card
+Michael Miller,22,6834182.42,2,1.5,Female,Central,Bachelor,Silver Card
+Susan Brown,50,5734032.97,6,4.18,Female,East,Master,Silver Card
+Michael Jackson,18,14075830.94,21,2.1,Male,Central,Master,Silver Card
+Susan Anderson,35,8540732.89,13,4.51,Male,East,Bachelor,Silver Card
+John Wilson,49,13034486.96,6,4.78,Female,Central,Bachelor,Gold Card
+Joseph Johnson,64,10365194.73,4,1.6,Female,Central,Bachelor,Silver Card
+Patricia Anderson,28,19733973.93,21,2.85,Male,West,Bachelor,Silver Card
+Linda Davis,38,5542870.93,4,4.92,Female,Central,Bachelor,Silver Card
+Karen Thomas,43,10898176.14,22,2.93,Female,Central,Bachelor,Silver Card
+John Davis,42,14567762.65,1,4.45,Male,West,Master,Gold Card
+Linda Taylor,39,9724266.43,20,3.35,Female,East,Diploma,Gold Card
+Linda Jones,44,19569897.48,21,2.5,Female,East,Master,Silver Card
+Thomas Martinez,30,15272089.67,5,2.14,Male,Central,Bachelor,Platinum Card
+Thomas Thomas,50,14168725.58,14,1.81,Male,East,High School,Gold Card
+Thomas Wilson,51,15870007.55,20,4.05,Female,Central,High School,Silver Card
+Jennifer Thomas,58,19195026.85,9,2.55,Male,West,Diploma,Silver Card
+William Thomas,52,18432917.1,22,3.05,Female,West,Bachelor,Platinum Card
+Sarah Garcia,18,15312850.24,23,2.97,Male,Central,Master,Silver Card
+Linda Lopez,38,15735747.86,6,3.31,Female,West,High School,Gold Card
+John Johnson,23,5480675.26,4,4.46,Male,West,Master,Silver Card
+Karen Garcia,45,4747470.88,0,4.92,Female,Central,Master,Silver Card
+Robert Thomas,34,12705376.53,12,2.63,Female,Central,High School,Classic Card
+Jessica Gonzalez,22,3312249.83,20,4.31,Female,West,Master,Silver Card
+Nancy Taylor,48,11200058.49,17,4.06,Male,East,Doctorate,Platinum Card
+Karen Martin,22,6575942.86,12,3.29,Male,East,Bachelor,Silver Card
+Nancy Miller,55,8882281.65,20,4.82,Female,Central,Bachelor,Silver Card
+Joseph Davis,20,16188680.51,20,1.8,Female,Central,Doctorate,Platinum Card
+Michael Martinez,40,19001037.57,17,1.44,Male,East,Bachelor,Silver Card
+James Taylor,54,4231076.63,4,4.42,Male,West,Diploma,Silver Card
+Jennifer Rodriguez,54,12082117.5,12,2.76,Male,East,Master,Gold Card
+Thomas Lopez,27,18003069.26,3,4.39,Male,East,Bachelor,Gold Card
+Patricia Thomas,27,4402645.09,16,4.57,Male,East,Bachelor,Classic Card
+John Thomas,36,17016738.8,2,1.25,Male,East,Diploma,Silver Card
+Nancy Taylor,34,9082622.97,16,4.53,Female,Central,Bachelor,Silver Card
