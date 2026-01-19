@@ -1,0 +1,1754 @@
+Name,Age,Monthly_Income,Monthly_Purchases,Satisfaction_Score,Gender,Region,Education_Level,Card_Level,Job,Joining_Date
+Sarah Hernandez,56,7098442.15,6,4.782569145359074,Male,East,Bachelor,Classic Card,Entrepreneur,2022-10-11
+Jennifer Smith,46,6485770.58,1,2.82,Male,East,Bachelor,Platinum Card,Freelancer,2019-03-23
+Linda Martin,32,7274521.47,5,4.526680444938636,Male,West,Bachelor,Classic Card,Government Employee,2021-03-03
+Joseph Gonzalez,60,7670440.55,6,4.730809251419468,Male,Central,High School,Classic Card,Freelancer,2015-07-12
+Sarah Garcia,25,6522870.03,13,2.95,Female,West,High School,Silver Card,Freelancer,2019-12-02
+Susan Williams,38,17929751.35,17,1.6,Male,Central,Bachelor,Classic Card,Private Employee,2019-05-06
+Michael Gonzalez,56,15868985.25,14,4.566378367736033,Male,East,Diploma,Silver Card,Government Employee,2016-01-22
+Charles Lopez,36,3797239.95,1,4.988507504775299,Male,Central,Diploma,Platinum Card,Government Employee,2019-10-15
+James Jones,40,7567432.19,9,2.9,Female,West,Master,Gold Card,Government Employee,2017-06-05
+James Davis,28,3377140.61,22,2.5,Female,West,Master,Classic Card,Freelancer,2024-05-27
+Linda Brown,28,11468808.17,11,2.58,Female,East,Bachelor,Classic Card,Entrepreneur,2018-04-28
+Sarah Hernandez,41,11095581.85,16,2.84,Female,West,Master,Gold Card,Government Employee,2020-01-02
+James Miller,53,17133315.33,7,4.14,Male,East,Bachelor,Platinum Card,Other,2019-06-08
+Patricia Davis,57,8232213.08,10,4.57,Female,West,Diploma,Silver Card,Freelancer,2019-12-29
+Daniel Taylor,41,16878557.5,2,4.504163271625076,Male,West,High School,Silver Card,Private Employee,2019-02-25
+Mary Davis,20,19455554.01,5,4.979359271085024,Male,East,Bachelor,Classic Card,Entrepreneur,2017-10-05
+Nancy Garcia,39,4502939.8,8,4.58005069383069,Female,Central,Bachelor,Gold Card,Other,2023-06-24
+Linda Wilson,19,16460903.27,5,3.75,Female,West,Diploma,Silver Card,Other,2023-03-21
+John Brown,41,13029250.25,8,2.75,Female,Central,Bachelor,Classic Card,Private Employee,2023-03-22
+Susan Smith,61,11160781.44,6,2.02,Female,West,High School,Classic Card,Entrepreneur,2019-01-17
+Jessica Gonzalez,47,10149108.24,8,4.36,Female,West,Bachelor,Gold Card,Freelancer,2023-09-01
+James Johnson,55,16339360.49,17,1.15,Male,West,Master,Classic Card,Student,2018-12-29
+Jennifer Davis,19,13869143.07,11,4.676051111946455,Female,West,Bachelor,Classic Card,Entrepreneur,2016-07-05
+Linda Davis,38,16685759.35,7,4.872516493556827,Female,Central,Doctorate,Silver Card,Private Employee,2018-04-25
+Robert Jackson,50,18353568.0,7,3.55,Female,Central,Master,Classic Card,Other,2020-05-29
+Jennifer Miller,29,13493483.11,17,3.64,Male,West,Master,Classic Card,Freelancer,2015-11-10
+Susan Brown,39,19667866.33,19,4.983579733652782,Female,West,Master,Gold Card,Entrepreneur,2020-03-15
+Sarah Williams,61,13337493.44,14,3.55,Male,Central,Master,Gold Card,Student,2024-05-20
+Thomas Hernandez,42,13822953.47,6,3.46,Female,East,Bachelor,Gold Card,Student,2015-12-02
+Robert Jackson,44,12431865.35,10,1.27,Female,East,High School,Gold Card,Government Employee,2022-03-03
+Mary Wilson,59,4547035.55,19,3.07,Male,Central,Bachelor,Silver Card,Government Employee,2024-04-11
+Karen Gonzalez,45,15348749.56,15,1.6,Female,West,Bachelor,Gold Card,Private Employee,2023-08-24
+Mary Martinez,33,12306587.22,3,3.95,Male,West,Diploma,Classic Card,Entrepreneur,2018-05-01
+Daniel Lopez,32,10665477.61,5,4.568228352298495,Male,East,Diploma,Silver Card,Entrepreneur,2019-10-19
+Mary Wilson,64,18478011.73,21,3.72,Male,East,Doctorate,Platinum Card,Other,2019-01-25
+Joseph Anderson,61,8065310.68,2,4.890817160595178,Female,Central,Master,Classic Card,Other,2018-04-17
+Jessica Miller,20,11901238.69,8,4.596367518327129,Female,East,Master,Classic Card,Other,2016-09-11
+Karen Williams,54,14859911.82,9,4.663751789392391,Female,Central,Diploma,Silver Card,Government Employee,2022-06-08
+Michael Jones,24,16540020.19,13,4.617877402564451,Male,East,High School,Classic Card,Entrepreneur,2021-11-30
+Elizabeth Moore,38,10808895.74,10,4.958801207668935,Female,East,High School,Classic Card,Entrepreneur,2024-08-22
+Daniel Anderson,26,17315554.06,17,1.05,Male,East,Diploma,Gold Card,Student,2023-04-22
+Robert Martin,56,16071601.6,21,4.9090411620284335,Female,West,High School,Platinum Card,Government Employee,2023-09-22
+Elizabeth Taylor,35,4126011.62,11,4.972591133348366,Male,West,High School,Silver Card,Freelancer,2019-10-02
+Patricia Garcia,21,3779641.53,22,2.41,Male,West,Master,Classic Card,Government Employee,2015-09-04
+John Moore,42,13553696.64,11,4.7121739622860055,Male,East,Bachelor,Classic Card,Freelancer,2018-03-08
+Jennifer Williams,31,8906027.94,12,2.4,Female,Central,Diploma,Gold Card,Student,2021-08-22
+William Jackson,26,6555223.45,24,4.731060123888715,Male,Central,High School,Silver Card,Private Employee,2021-10-21
+Jennifer Miller,43,12854048.89,12,4.884361122644709,Male,Central,Bachelor,Classic Card,Entrepreneur,2015-07-04
+Joseph Martin,19,8806574.58,18,4.635411678768345,Male,Central,High School,Silver Card,Student,2024-09-30
+Elizabeth Williams,37,12133478.08,18,4.632898786041317,Male,West,Master,Classic Card,Entrepreneur,2024-05-20
+Michael Martinez,45,10822025.7,22,1.39,Male,West,Diploma,Silver Card,Other,2015-03-28
+Jennifer Miller,64,12941023.8,13,3.64,Male,East,Diploma,Gold Card,Private Employee,2015-10-21
+Karen Taylor,24,9805108.31,3,4.806659158330114,Female,East,Diploma,Silver Card,Private Employee,2015-10-23
+Mary Smith,61,14860348.75,12,4.791717302136837,Female,Central,High School,Silver Card,Student,2022-07-25
+Robert Williams,25,6061143.63,7,1.08,Male,West,Bachelor,Classic Card,Private Employee,2018-01-04
+William Jones,64,14840524.93,22,4.917933274251917,Female,Central,Bachelor,Gold Card,Freelancer,2018-05-16
+Karen Wilson,52,9998240.64,20,4.587677048289873,Female,East,Bachelor,Silver Card,Private Employee,2015-12-11
+Patricia Smith,31,17863399.28,22,4.7306937017412185,Male,East,High School,Classic Card,Entrepreneur,2020-08-18
+James Hernandez,34,11759012.93,18,4.606790972448446,Male,Central,Bachelor,Silver Card,Entrepreneur,2016-08-10
+Thomas Brown,53,19542875.94,11,4.996278898249948,Male,East,Bachelor,Classic Card,Entrepreneur,2018-12-25
+Jennifer Garcia,57,13232901.72,17,2.53,Female,Central,Master,Gold Card,Entrepreneur,2019-05-22
+Linda Thomas,21,6805434.12,5,4.801336259018044,Male,West,Diploma,Silver Card,Freelancer,2016-12-03
+Jessica Lopez,19,16970440.83,17,1.49,Female,Central,Diploma,Platinum Card,Government Employee,2015-09-28
+Charles Rodriguez,23,8866404.67,18,3.46,Male,West,Bachelor,Classic Card,Other,2019-01-22
+William Lopez,59,8909526.65,21,4.1,Female,West,Bachelor,Gold Card,Student,2022-01-08
+Jennifer Davis,21,3540679.59,4,3.58,Male,East,Bachelor,Silver Card,Entrepreneur,2020-05-04
+Michael Hernandez,46,12328160.26,23,3.12,Male,East,Diploma,Gold Card,Private Employee,2020-09-17
+William Davis,35,12085199.56,8,4.729780241436979,Female,East,Bachelor,Classic Card,Entrepreneur,2015-02-27
+Michael Jackson,43,9051855.23,2,4.87,Female,Central,Master,Silver Card,Private Employee,2024-11-04
+Linda Thomas,61,18201693.47,9,4.19,Female,Central,Bachelor,Gold Card,Other,2015-12-14
+Nancy Davis,51,5188722.77,18,2.17,Female,East,Master,Classic Card,Other,2016-12-05
+John Brown,27,8611691.73,2,4.899431236741554,Female,Central,Bachelor,Classic Card,Other,2019-03-08
+Michael Martinez,53,8466907.0,21,4.785904245344073,Female,East,Master,Silver Card,Private Employee,2017-11-12
+Jessica Hernandez,31,4568939.97,14,3.33,Male,Central,Master,Silver Card,Entrepreneur,2019-11-11
+Jennifer Anderson,48,11179471.7,0,3.99,Female,West,Diploma,Classic Card,Other,2015-05-30
+Mary Martin,32,14692340.19,6,4.25,Male,West,Master,Classic Card,Freelancer,2021-01-31
+Susan Thomas,25,11698169.23,11,4.942791964346683,Male,East,High School,Classic Card,Private Employee,2021-10-30
+David Jones,31,5668620.61,16,1.51,Female,Central,Master,Gold Card,Private Employee,2021-12-02
+William Anderson,40,9413861.41,20,4.904726125513816,Male,Central,Bachelor,Silver Card,Entrepreneur,2024-01-19
+Michael Anderson,57,3044115.41,23,4.71,Female,West,High School,Gold Card,Private Employee,2017-04-19
+Robert Miller,38,17761118.82,19,1.9,Female,West,Bachelor,Platinum Card,Private Employee,2016-07-09
+John Gonzalez,33,4436789.13,4,4.782234009173571,Male,East,Doctorate,Silver Card,Other,2015-08-13
+John Taylor,62,13153727.4,3,2.73,Male,West,High School,Classic Card,Entrepreneur,2021-01-09
+David Miller,35,19766368.93,11,2.76,Female,East,Bachelor,Classic Card,Other,2023-07-09
+Karen Lopez,64,12122040.98,19,3.45,Female,West,Bachelor,Classic Card,Other,2017-10-01
+Susan Rodriguez,41,18708709.9,23,4.897121133542347,Male,West,Master,Platinum Card,Entrepreneur,2021-06-06
+Michael Moore,43,7013981.06,17,4.697891220364451,Male,Central,Diploma,Silver Card,Student,2017-09-25
+Joseph Lopez,42,15919241.95,16,4.880920507123531,Male,West,High School,Classic Card,Other,2017-11-04
+Linda Smith,62,12031517.82,18,4.746110863283537,Male,West,High School,Classic Card,Freelancer,2018-03-26
+Karen Lopez,58,15248773.04,8,4.55,Female,East,Bachelor,Silver Card,Freelancer,2016-04-03
+John Wilson,46,4059803.16,3,4.538358324099892,Female,West,Bachelor,Silver Card,Private Employee,2018-05-09
+Mary Thomas,32,5511564.56,20,4.672400487581571,Female,East,Master,Classic Card,Freelancer,2024-09-30
+Daniel Moore,62,5262987.79,1,4.26,Female,West,High School,Platinum Card,Private Employee,2016-08-18
+Joseph Davis,18,14681813.59,3,4.633777545027506,Male,West,Bachelor,Silver Card,Student,2018-11-26
+Robert Lopez,42,17355491.43,1,4.519560161257178,Male,East,High School,Classic Card,Entrepreneur,2022-07-18
+Thomas Brown,24,15743475.94,14,4.68,Female,Central,High School,Gold Card,Entrepreneur,2019-01-09
+Karen Davis,26,3518026.6,1,2.01,Female,East,Bachelor,Classic Card,Entrepreneur,2018-07-02
+Nancy Anderson,41,17742654.68,3,4.02,Female,East,Bachelor,Platinum Card,Freelancer,2015-01-20
+Joseph Taylor,18,9020493.4,5,4.636611930268652,Female,East,Bachelor,Platinum Card,Student,2020-04-26
+Charles Martin,61,9751785.15,6,4.37,Female,Central,Master,Gold Card,Freelancer,2015-07-01
+Nancy Smith,25,4782775.83,9,3.91,Female,West,Bachelor,Gold Card,Freelancer,2016-04-14
+Joseph Gonzalez,41,15535888.5,18,4.61372318019241,Female,East,Doctorate,Classic Card,Student,2019-04-05
+John Martin,28,6098825.93,18,4.721388745411867,Female,East,Master,Platinum Card,Student,2020-09-04
+Thomas Anderson,34,12587406.56,21,4.515865281494458,Female,Central,Bachelor,Silver Card,Student,2024-02-19
+Jessica Smith,25,17292069.76,11,4.556907015030969,Male,East,Master,Gold Card,Student,2019-04-29
+Jessica Martinez,52,4516473.59,2,4.718590384581508,Female,West,Bachelor,Platinum Card,Entrepreneur,2016-09-25
+Robert Taylor,52,12100704.59,12,4.75,Male,Central,High School,Platinum Card,Government Employee,2022-08-24
+Elizabeth Hernandez,50,6964679.0,17,1.17,Male,West,Bachelor,Gold Card,Government Employee,2024-03-07
+Patricia Jones,22,8829756.69,7,1.66,Female,West,High School,Classic Card,Student,2018-12-12
+John Lopez,59,11057489.0,20,1.53,Female,Central,Bachelor,Platinum Card,Government Employee,2019-11-11
+Linda Martin,56,9036773.16,14,3.9,Male,East,Bachelor,Silver Card,Government Employee,2019-11-12
+Susan Rodriguez,58,14029988.28,0,4.27,Male,West,High School,Platinum Card,Student,2023-10-08
+Susan Williams,45,11152895.73,2,1.85,Female,West,High School,Silver Card,Government Employee,2024-11-17
+Susan Brown,24,12931391.24,7,3.02,Male,West,Master,Classic Card,Freelancer,2019-02-08
+Karen Rodriguez,26,15525982.08,3,4.36,Female,West,Bachelor,Classic Card,Private Employee,2024-07-12
+Charles Martin,25,12481618.52,15,4.538642443647901,Female,Central,High School,Silver Card,Private Employee,2021-02-05
+James Taylor,29,12971102.39,22,4.832623216081455,Female,Central,Bachelor,Gold Card,Student,2023-06-14
+Joseph Jones,51,12595795.22,9,3.36,Male,West,Bachelor,Classic Card,Entrepreneur,2024-09-15
+William Wilson,50,9439134.64,11,3.03,Male,East,Bachelor,Silver Card,Student,2022-01-04
+David Lopez,40,8736596.18,13,4.608382422467394,Female,West,Doctorate,Classic Card,Entrepreneur,2023-12-30
+David Gonzalez,41,18294005.75,13,4.77922362970598,Male,East,Bachelor,Gold Card,Private Employee,2017-02-27
+Michael Moore,54,13328438.78,1,4.639867659603318,Male,West,Diploma,Silver Card,Student,2022-01-18
+James Williams,52,7154003.64,22,4.983825062618896,Male,East,Master,Classic Card,Other,2020-12-02
+Mary Gonzalez,61,11470210.86,4,3.55,Male,West,Master,Classic Card,Freelancer,2020-07-06
+Daniel Hernandez,57,8615924.18,4,4.04,Male,East,High School,Classic Card,Government Employee,2016-09-15
+Elizabeth Jones,39,18872761.0,5,4.580598293582493,Male,West,High School,Silver Card,Entrepreneur,2017-08-08
+Linda Lopez,44,3128084.17,12,2.85,Male,West,High School,Classic Card,Other,2024-02-11
+Jessica Hernandez,52,6830657.56,8,4.515227368616205,Female,East,Bachelor,Classic Card,Government Employee,2024-06-03
+Charles Brown,18,9211065.93,21,1.99,Male,Central,Bachelor,Platinum Card,Government Employee,2015-04-29
+Nancy Williams,52,11292766.61,14,4.609498118606521,Male,East,Bachelor,Gold Card,Student,2023-04-29
+Karen Gonzalez,54,17463897.8,13,4.617145121310899,Male,Central,Master,Silver Card,Government Employee,2018-03-29
+Robert Taylor,64,4494089.62,23,4.74187412017197,Male,West,Bachelor,Platinum Card,Freelancer,2020-11-08
+Patricia Hernandez,31,16699703.07,6,2.61,Male,East,High School,Classic Card,Other,2017-12-17
+Susan Taylor,20,3946109.32,24,4.2,Male,East,Diploma,Silver Card,Government Employee,2020-07-03
+William Martinez,18,17319338.6,19,1.82,Male,East,Diploma,Silver Card,Student,2023-03-25
+David Gonzalez,22,3877803.12,1,4.840793478977618,Male,Central,Diploma,Silver Card,Freelancer,2016-07-18
+Susan Taylor,43,3310122.18,6,3.93,Female,Central,Bachelor,Classic Card,Private Employee,2015-10-26
+Patricia Brown,31,14848344.86,5,3.46,Male,West,Master,Silver Card,Other,2017-11-19
+Robert Hernandez,56,19953344.09,16,1.75,Male,Central,Diploma,Silver Card,Government Employee,2024-08-01
+Daniel Moore,44,18242374.47,24,4.538636232825211,Male,Central,Bachelor,Gold Card,Student,2020-06-15
+James Garcia,26,12791973.1,24,4.998218742466465,Male,West,Bachelor,Classic Card,Private Employee,2015-01-09
+Jessica Johnson,32,18595725.42,1,4.977114481509741,Female,East,Diploma,Classic Card,Private Employee,2015-06-02
+James Davis,32,3090100.11,2,1.02,Female,East,High School,Classic Card,Entrepreneur,2018-01-07
+William Johnson,43,19576141.77,4,4.04,Female,West,Bachelor,Classic Card,Freelancer,2015-04-26
+William Taylor,59,11342729.25,4,1.14,Female,East,High School,Silver Card,Government Employee,2023-12-16
+Patricia Anderson,30,15289233.64,0,4.801958590607327,Female,Central,Master,Classic Card,Student,2015-08-21
+Joseph Brown,49,16954645.04,7,4.581474012794864,Female,West,High School,Gold Card,Entrepreneur,2018-07-29
+Susan Taylor,56,15213773.6,11,4.718909128467282,Female,West,Diploma,Classic Card,Freelancer,2023-04-27
+Linda Davis,49,12095624.44,23,2.47,Female,West,Bachelor,Classic Card,Entrepreneur,2023-12-02
+Charles Williams,21,11102531.23,3,4.702289375755523,Female,East,Doctorate,Silver Card,Other,2020-09-22
+John Miller,47,17255903.5,12,4.598111443610283,Female,West,High School,Classic Card,Freelancer,2022-12-22
+David Taylor,54,6486318.52,22,2.22,Female,West,High School,Silver Card,Freelancer,2021-02-25
+Mary Johnson,40,19455899.13,14,4.871940469551707,Female,West,High School,Silver Card,Government Employee,2016-11-06
+Thomas Anderson,56,15086192.14,10,4.99,Female,East,High School,Classic Card,Freelancer,2018-12-25
+Linda Jones,62,6391617.76,9,2.47,Female,Central,High School,Classic Card,Entrepreneur,2019-08-25
+John Thomas,32,15516202.12,2,2.79,Female,West,Bachelor,Classic Card,Freelancer,2016-05-24
+Nancy Jackson,60,12007280.39,21,4.627198495487425,Female,Central,High School,Classic Card,Government Employee,2015-06-06
+Patricia Miller,46,15022911.63,13,4.54,Male,East,High School,Classic Card,Government Employee,2015-11-29
+Joseph Lopez,53,16052251.52,15,3.37,Female,East,Master,Classic Card,Other,2021-10-02
+Robert Miller,30,4483933.05,9,2.57,Male,East,Diploma,Classic Card,Entrepreneur,2016-06-16
+William Martin,49,11603767.26,9,2.65,Female,East,Diploma,Silver Card,Private Employee,2022-07-08
+Jennifer Jones,24,18844243.82,11,3.78,Female,Central,Diploma,Silver Card,Private Employee,2023-03-31
+Charles Hernandez,39,8450917.27,8,4.921395311517305,Male,West,Doctorate,Silver Card,Freelancer,2021-12-16
+Jennifer Anderson,45,13096012.66,0,3.48,Female,East,High School,Classic Card,Other,2021-06-23
+Linda Taylor,19,9276918.19,4,2.42,Male,East,Master,Classic Card,Student,2023-02-11
+Daniel Jackson,59,10722555.53,19,4.906016737016143,Male,Central,Bachelor,Gold Card,Freelancer,2020-06-24
+Joseph Brown,62,12326253.0,7,1.37,Male,Central,High School,Silver Card,Other,2020-10-26
+Susan Johnson,23,12331673.66,10,3.35,Female,East,Doctorate,Gold Card,Entrepreneur,2023-08-06
+William Martin,45,6429417.86,11,2.92,Female,West,Diploma,Classic Card,Entrepreneur,2018-11-23
+Joseph Martin,45,14637716.31,0,4.512235582156446,Female,West,High School,Silver Card,Entrepreneur,2015-05-27
+Thomas Johnson,61,4493757.89,24,1.26,Male,East,Master,Silver Card,Entrepreneur,2023-10-31
+Daniel Hernandez,61,5360021.15,21,3.32,Male,Central,Bachelor,Classic Card,Entrepreneur,2015-04-26
+Susan Smith,37,3046085.29,19,4.92959231695894,Female,East,Bachelor,Silver Card,Other,2018-12-18
+Linda Martin,47,4983833.09,24,3.24,Female,East,High School,Silver Card,Other,2020-08-17
+Nancy Martinez,28,11043825.42,10,3.41,Female,Central,Bachelor,Classic Card,Government Employee,2017-03-29
+Patricia Jackson,45,13303731.98,4,3.71,Female,East,Bachelor,Classic Card,Private Employee,2021-01-01
+Robert Miller,42,16502920.65,14,4.636725608728588,Female,East,Diploma,Gold Card,Entrepreneur,2020-01-23
+James Miller,56,4813887.25,4,2.08,Male,East,Diploma,Platinum Card,Student,2016-03-27
+Robert Williams,50,17462366.82,11,4.888540680233668,Male,Central,High School,Classic Card,Other,2018-03-06
+Elizabeth Lopez,18,15681566.93,4,2.99,Male,West,High School,Classic Card,Student,2019-11-08
+Karen Anderson,44,9944810.98,16,4.91772130288849,Female,West,Master,Classic Card,Student,2019-03-22
+Mary Hernandez,30,18859947.14,16,4.929608595305441,Male,Central,Diploma,Silver Card,Student,2018-08-30
+Thomas Davis,58,19845801.1,23,2.34,Male,West,Doctorate,Classic Card,Government Employee,2017-01-28
+Daniel Brown,20,6485030.77,11,4.14,Male,East,Diploma,Platinum Card,Other,2023-01-07
+Karen Johnson,56,9446885.94,23,4.673457638459649,Male,West,Bachelor,Classic Card,Student,2022-12-27
+Susan Garcia,23,18749640.2,14,4.15,Male,East,Diploma,Classic Card,Entrepreneur,2019-07-18
+Nancy Gonzalez,25,15267141.36,14,4.7577252284037925,Female,West,Diploma,Silver Card,Freelancer,2020-08-27
+Jennifer Martin,44,3817608.95,5,2.76,Male,Central,High School,Gold Card,Student,2020-08-01
+Sarah Smith,26,16285746.19,11,4.54065012573206,Female,West,Diploma,Silver Card,Government Employee,2023-06-06
+John Rodriguez,54,17074995.08,19,4.634149867381413,Female,West,Bachelor,Silver Card,Other,2023-11-12
+John Williams,50,15758532.72,17,2.74,Female,West,Doctorate,Platinum Card,Government Employee,2016-09-22
+Nancy Brown,59,16592131.23,13,4.944802928276895,Female,Central,Bachelor,Classic Card,Student,2020-03-14
+James Hernandez,61,17027255.5,1,4.611236441578769,Female,West,High School,Gold Card,Other,2024-03-21
+Jennifer Taylor,41,6168884.78,8,4.8940871589238215,Male,Central,High School,Classic Card,Freelancer,2016-01-17
+James Smith,32,7006759.68,4,3.94,Male,East,High School,Gold Card,Student,2024-03-11
+John Lopez,49,13773895.58,19,4.575286483156381,Female,West,Bachelor,Silver Card,Government Employee,2015-11-20
+Karen Smith,49,18433724.22,0,4.73,Female,Central,Bachelor,Classic Card,Private Employee,2022-09-14
+David Rodriguez,41,8375341.9,22,3.57,Female,Central,Master,Gold Card,Entrepreneur,2022-04-28
+Robert Rodriguez,58,13001213.49,2,2.68,Male,West,High School,Classic Card,Government Employee,2024-03-16
+Charles Lopez,29,14610695.08,5,3.54,Female,East,Bachelor,Classic Card,Other,2015-12-08
+Elizabeth Taylor,56,10683126.22,4,4.704588687742911,Male,Central,Bachelor,Silver Card,Student,2015-10-03
+Sarah Martin,19,15134301.73,20,1.47,Female,West,Bachelor,Classic Card,Entrepreneur,2020-05-11
+Mary Garcia,20,18294346.57,4,4.659509279814813,Male,East,Bachelor,Silver Card,Student,2016-03-05
+Thomas Brown,54,13609726.25,0,4.36,Female,Central,Bachelor,Classic Card,Other,2019-10-26
+Daniel Thomas,34,12176278.05,16,2.54,Male,Central,Bachelor,Classic Card,Student,2018-08-05
+Nancy Rodriguez,19,10458659.48,18,3.29,Female,East,High School,Classic Card,Private Employee,2023-01-04
+David Martin,19,12817266.61,13,4.551941881483967,Male,East,Bachelor,Classic Card,Entrepreneur,2021-03-08
+Charles Johnson,45,9041161.68,11,1.74,Male,West,High School,Silver Card,Entrepreneur,2024-10-08
+Patricia Smith,40,9655195.87,9,2.45,Male,West,Bachelor,Gold Card,Other,2024-08-04
+Linda Wilson,54,12041577.15,19,2.34,Male,Central,Diploma,Platinum Card,Private Employee,2017-10-05
+John Martin,49,4132524.91,20,4.588720445405994,Male,East,Bachelor,Gold Card,Government Employee,2015-09-25
+James Martin,50,6893431.65,17,1.1,Male,East,Master,Classic Card,Student,2015-09-29
+John Garcia,18,12228438.28,23,4.33,Male,East,Master,Silver Card,Freelancer,2021-01-10
+John Martinez,36,10335978.43,10,4.96300853583772,Female,Central,Master,Classic Card,Student,2017-09-19
+John Gonzalez,19,8657868.36,1,4.73044331968083,Female,East,Bachelor,Classic Card,Student,2019-06-01
+Joseph Garcia,61,15419335.33,24,2.19,Female,East,Bachelor,Silver Card,Government Employee,2024-02-17
+James Taylor,43,14793199.33,17,4.947053479006812,Female,Central,Bachelor,Classic Card,Student,2020-10-14
+Mary Hernandez,49,5834422.92,24,4.593016516452715,Female,West,Master,Classic Card,Private Employee,2019-06-20
+Susan Johnson,23,17936694.96,6,2.72,Male,West,Diploma,Platinum Card,Private Employee,2015-10-18
+Jessica Hernandez,49,11422201.65,23,4.49,Male,Central,Doctorate,Silver Card,Entrepreneur,2023-08-18
+Nancy Moore,21,15604835.49,14,4.37,Male,East,Master,Silver Card,Other,2021-01-05
+Sarah Johnson,28,12743564.44,10,1.74,Male,Central,Bachelor,Classic Card,Freelancer,2022-10-10
+Thomas Hernandez,34,19960774.47,17,4.938671465826907,Male,West,Diploma,Classic Card,Student,2017-06-16
+Thomas Davis,55,15790853.04,22,2.83,Female,West,High School,Gold Card,Student,2024-01-22
+Karen Davis,41,15018667.84,11,4.663305138657045,Female,Central,Master,Classic Card,Government Employee,2016-04-13
+Michael Moore,22,16235722.96,5,1.53,Female,Central,High School,Silver Card,Other,2020-04-09
+David Hernandez,51,5433175.75,19,1.32,Female,West,Master,Classic Card,Private Employee,2016-04-16
+Joseph Johnson,23,6477258.08,22,4.952787023960672,Male,Central,Bachelor,Silver Card,Freelancer,2021-08-31
+Elizabeth Miller,39,15139089.4,12,4.7936027918861885,Male,West,Diploma,Classic Card,Entrepreneur,2016-11-11
+William Jones,28,11397685.28,19,4.603817125811528,Male,Central,Master,Gold Card,Private Employee,2022-01-20
+Michael Taylor,33,15828799.96,15,4.813604886238636,Female,Central,Bachelor,Gold Card,Other,2015-07-11
+Elizabeth Martin,50,4749572.52,17,4.06,Male,Central,Bachelor,Gold Card,Entrepreneur,2017-03-08
+William Wilson,26,12120182.98,9,1.64,Female,West,Bachelor,Classic Card,Government Employee,2020-02-22
+Thomas Martin,23,9439966.61,22,4.674957540908655,Male,Central,Diploma,Gold Card,Government Employee,2020-03-28
+Linda Moore,33,10769003.73,7,4.7918967736017,Male,West,Bachelor,Silver Card,Student,2024-03-13
+Thomas Martinez,46,13267283.83,17,4.01,Female,West,Diploma,Classic Card,Other,2016-10-23
+David Moore,20,11538901.91,20,3.63,Male,Central,Master,Silver Card,Freelancer,2020-04-14
+Karen Taylor,37,12177630.83,0,4.83,Male,Central,Master,Classic Card,Entrepreneur,2017-05-21
+Sarah Miller,53,11268077.19,22,4.519455472277021,Female,West,Diploma,Classic Card,Private Employee,2018-04-26
+Elizabeth Davis,36,9952238.01,7,1.23,Male,West,Bachelor,Gold Card,Other,2021-12-29
+Joseph Anderson,43,16121993.67,5,2.13,Female,East,Bachelor,Classic Card,Other,2021-10-26
+Nancy Gonzalez,20,3207452.23,4,2.05,Male,West,Diploma,Silver Card,Government Employee,2024-06-27
+Patricia Johnson,36,13173525.92,14,4.508920830151497,Male,East,Doctorate,Classic Card,Student,2019-06-14
+Daniel Jones,37,12613641.9,21,4.684946011157809,Male,East,High School,Gold Card,Student,2020-12-13
+Charles Moore,49,15175044.27,14,4.596149895620303,Male,East,Diploma,Platinum Card,Entrepreneur,2021-09-19
+Joseph Davis,24,13183499.2,1,2.09,Male,Central,Bachelor,Gold Card,Government Employee,2015-07-18
+James Lopez,58,17055580.07,0,4.578705247624249,Male,Central,Bachelor,Classic Card,Other,2019-02-11
+Mary Davis,50,19304271.51,22,2.8,Male,West,Bachelor,Classic Card,Freelancer,2024-10-09
+Elizabeth Martinez,57,8822912.37,22,4.11,Male,East,Bachelor,Silver Card,Government Employee,2018-06-14
+Nancy Martinez,56,6864966.71,10,1.26,Female,Central,Bachelor,Classic Card,Entrepreneur,2024-06-05
+Nancy Miller,35,10201146.66,9,4.504842180931632,Female,Central,Bachelor,Classic Card,Entrepreneur,2023-12-09
+Jennifer Taylor,57,7894803.48,17,4.567206352218366,Male,Central,High School,Silver Card,Government Employee,2019-12-23
+Susan Smith,18,13454154.47,17,4.502565941299267,Male,Central,Diploma,Silver Card,Entrepreneur,2018-11-30
+Sarah Martinez,28,18501490.95,16,4.63,Female,Central,High School,Platinum Card,Government Employee,2023-07-05
+John Taylor,45,5364975.3,7,1.56,Male,East,Diploma,Classic Card,Private Employee,2017-11-07
+Charles Taylor,42,4713508.25,14,3.13,Male,East,Bachelor,Classic Card,Government Employee,2022-05-19
+James Davis,40,7352264.04,7,2.64,Female,East,High School,Classic Card,Government Employee,2024-08-08
+John Wilson,48,15343624.96,16,4.685230921147586,Male,East,Diploma,Platinum Card,Entrepreneur,2021-08-15
+Patricia Moore,47,13080369.39,11,4.6,Male,West,High School,Gold Card,Entrepreneur,2015-01-16
+Karen Gonzalez,59,4737615.29,7,1.09,Female,East,Master,Gold Card,Student,2018-02-25
+Linda Lopez,52,18618758.88,24,4.83191914258996,Male,Central,Master,Platinum Card,Student,2023-08-28
+Joseph Taylor,24,16431438.83,13,4.7034008491787445,Male,East,Bachelor,Silver Card,Private Employee,2018-06-09
+Robert Miller,33,3391384.28,3,3.24,Female,West,Master,Silver Card,Student,2018-07-19
+Elizabeth Gonzalez,43,14073242.59,0,4.75,Male,Central,Bachelor,Classic Card,Government Employee,2015-02-09
+David Wilson,19,16111193.36,0,4.5009095802716255,Female,East,Bachelor,Silver Card,Entrepreneur,2015-02-07
+William Brown,18,9365401.29,18,2.68,Male,East,High School,Silver Card,Student,2020-12-15
+Robert Lopez,29,4171666.17,15,2.04,Male,East,Bachelor,Silver Card,Student,2020-09-11
+William Brown,22,4314458.11,13,4.812724501993819,Female,Central,Bachelor,Platinum Card,Private Employee,2017-05-08
+Patricia Thomas,54,4772198.42,20,4.93,Female,Central,Bachelor,Platinum Card,Other,2020-08-04
+John Lopez,49,17287473.74,15,4.662608316185974,Male,West,Bachelor,Gold Card,Private Employee,2016-12-22
+Joseph Garcia,26,18481665.37,4,3.62,Female,Central,Bachelor,Gold Card,Government Employee,2017-07-17
+Jessica Brown,58,5087783.29,8,1.79,Female,Central,Bachelor,Silver Card,Entrepreneur,2018-03-10
+James Miller,52,7010402.59,1,4.625886806711205,Male,East,Master,Classic Card,Private Employee,2018-06-23
+Sarah Thomas,36,5813848.68,17,4.757231404186807,Male,Central,Diploma,Classic Card,Student,2018-03-16
+Susan Martin,33,6167454.95,5,4.89,Male,East,Bachelor,Silver Card,Entrepreneur,2016-11-29
+Michael Jackson,20,17237343.41,8,4.912576581766843,Female,East,Bachelor,Gold Card,Entrepreneur,2019-02-21
+William Martinez,37,8646489.02,0,4.6941970579983465,Female,Central,Bachelor,Classic Card,Student,2021-06-06
+Thomas Brown,41,8294552.49,8,1.46,Female,West,Bachelor,Platinum Card,Private Employee,2023-10-16
+Sarah Johnson,50,6865725.55,24,4.7866736007602775,Female,West,High School,Classic Card,Student,2024-01-09
+Jessica Hernandez,41,13334204.69,15,4.951387201566333,Male,Central,Bachelor,Classic Card,Other,2016-11-06
+Michael Jackson,28,9448196.87,12,4.644661171473698,Female,West,High School,Silver Card,Entrepreneur,2019-07-20
+Jessica Hernandez,25,15652244.08,8,4.4,Male,East,Bachelor,Classic Card,Freelancer,2018-02-01
+Mary Thomas,53,6494856.74,20,4.867132662370113,Female,East,Bachelor,Classic Card,Freelancer,2018-07-03
+Linda Rodriguez,55,16392428.11,12,3.09,Male,Central,Bachelor,Classic Card,Government Employee,2015-02-05
+Nancy Jackson,57,13263266.04,8,4.979286972616524,Male,West,High School,Gold Card,Student,2017-08-05
+Sarah Davis,37,4942544.1,10,4.44,Male,West,Bachelor,Silver Card,Student,2018-11-14
+Mary Miller,52,10046577.93,3,4.551104704116633,Female,East,Diploma,Silver Card,Government Employee,2015-05-03
+Michael Lopez,42,17679808.39,1,1.27,Male,Central,Master,Silver Card,Government Employee,2015-11-30
+Daniel Taylor,52,18690323.94,5,4.782927293110545,Male,West,Master,Classic Card,Government Employee,2023-09-15
+Daniel Williams,42,10916902.08,13,4.932459418508324,Female,Central,Doctorate,Platinum Card,Entrepreneur,2019-04-27
+Linda Hernandez,46,11174228.63,3,1.33,Male,West,Bachelor,Classic Card,Other,2020-02-12
+John Miller,35,18613730.32,5,2.83,Female,East,Bachelor,Platinum Card,Student,2015-09-04
+Michael Martinez,63,12980159.81,18,4.556449059254671,Female,East,High School,Silver Card,Entrepreneur,2024-05-08
+Charles Martin,35,3558393.39,5,4.606787291358383,Male,Central,Diploma,Platinum Card,Government Employee,2020-11-03
+Mary Johnson,19,18516740.87,1,4.762189769540592,Male,East,Bachelor,Classic Card,Student,2024-02-07
+Mary Rodriguez,52,7219849.53,17,4.824318918409802,Female,West,Bachelor,Silver Card,Entrepreneur,2024-02-24
+Linda Rodriguez,33,12819743.22,12,3.68,Male,East,Master,Classic Card,Other,2023-06-05
+Charles Garcia,58,5813726.4,8,4.58690551885028,Female,Central,High School,Classic Card,Entrepreneur,2024-02-24
+Karen Miller,53,3575945.72,22,2.65,Female,Central,Master,Silver Card,Other,2016-04-30
+John Garcia,50,8295043.91,18,3.6,Female,Central,Bachelor,Classic Card,Government Employee,2015-10-21
+Mary Jones,21,16268427.03,12,3.18,Male,West,Bachelor,Silver Card,Other,2015-09-21
+Daniel Smith,50,7718981.93,10,4.616211462456792,Female,West,High School,Classic Card,Student,2017-04-15
+John Martin,31,6741652.64,0,4.571098857815194,Male,West,High School,Classic Card,Government Employee,2019-03-10
+Karen Williams,38,6615573.33,23,4.23,Male,West,Bachelor,Gold Card,Student,2024-07-11
+John Brown,37,11757952.6,21,2.84,Male,West,Bachelor,Silver Card,Freelancer,2023-01-12
+Patricia Williams,25,19584202.37,6,1.21,Male,East,High School,Silver Card,Private Employee,2020-07-19
+Sarah Thomas,24,10802812.8,24,4.15,Female,West,Bachelor,Silver Card,Other,2015-10-11
+John Jones,20,12474191.27,20,1.81,Male,West,Master,Gold Card,Private Employee,2015-10-07
+Susan Miller,34,17630744.3,14,4.504293723449279,Female,East,Master,Classic Card,Private Employee,2015-07-23
+James Martin,50,12096185.22,0,4.700467486320737,Female,West,Master,Silver Card,Other,2021-07-06
+Linda Martin,29,6135868.81,11,2.32,Male,Central,Diploma,Platinum Card,Government Employee,2020-02-01
+Robert Smith,39,8093130.5,6,4.783777016818045,Female,West,Diploma,Gold Card,Freelancer,2022-02-05
+Jennifer Williams,39,8268927.75,14,4.988516653539731,Female,West,Bachelor,Silver Card,Student,2018-12-27
+Thomas Martinez,63,9754407.96,20,1.82,Male,Central,Diploma,Silver Card,Entrepreneur,2020-06-05
+Sarah Thomas,47,10255411.39,18,4.51,Female,Central,High School,Gold Card,Student,2016-12-13
+Mary Gonzalez,55,16596294.38,24,4.52,Female,Central,Diploma,Silver Card,Entrepreneur,2024-07-12
+Linda Williams,55,8939578.98,0,4.48,Female,Central,Diploma,Classic Card,Student,2019-09-05
+Patricia Davis,62,10959941.08,16,1.96,Female,West,Diploma,Classic Card,Other,2021-06-21
+Mary Martinez,25,13624591.78,16,2.8,Male,Central,Diploma,Gold Card,Freelancer,2023-04-26
+Karen Garcia,44,9421341.11,2,4.605766638909768,Female,Central,Diploma,Classic Card,Entrepreneur,2017-04-19
+Jennifer Thomas,44,17221601.83,11,4.09,Female,East,High School,Gold Card,Government Employee,2019-12-29
+Thomas Thomas,51,12986711.27,5,1.11,Female,Central,Bachelor,Classic Card,Student,2024-03-30
+Elizabeth Martinez,38,7998759.55,10,1.26,Female,Central,Bachelor,Silver Card,Student,2016-12-24
+James Moore,47,15139006.4,2,4.532712459347096,Male,East,Bachelor,Classic Card,Entrepreneur,2018-02-04
+Jennifer Garcia,50,11970011.41,7,4.805639572874667,Female,East,High School,Classic Card,Government Employee,2016-08-05
+Nancy Rodriguez,45,12085750.15,13,3.15,Male,West,Diploma,Platinum Card,Government Employee,2016-05-26
+Patricia Moore,64,11178495.12,13,2.99,Female,East,Bachelor,Gold Card,Other,2022-01-26
+Mary Miller,50,11449203.13,9,4.992630669364957,Male,West,Bachelor,Silver Card,Other,2019-01-17
+John Davis,22,16011056.78,1,3.63,Male,East,Bachelor,Silver Card,Other,2019-08-25
+Charles Smith,36,4750685.15,13,4.29,Male,East,Diploma,Silver Card,Other,2024-03-23
+Thomas Lopez,21,8684167.79,8,4.613340822065442,Male,West,Master,Silver Card,Other,2016-03-15
+John Moore,52,4283557.18,2,4.1,Male,East,Diploma,Silver Card,Other,2021-11-07
+Daniel Martin,34,15805185.75,20,4.732226074265524,Female,West,Bachelor,Classic Card,Freelancer,2023-02-07
+Charles Gonzalez,61,7629131.53,7,4.867974601791277,Female,East,Bachelor,Silver Card,Government Employee,2019-08-09
+Sarah Anderson,45,18256316.97,15,3.09,Female,Central,Bachelor,Gold Card,Other,2024-06-02
+Daniel Taylor,47,11951833.93,1,2.15,Male,East,Diploma,Platinum Card,Government Employee,2021-09-24
+James Rodriguez,46,16612746.12,5,4.17,Female,West,Diploma,Classic Card,Government Employee,2015-05-29
+Charles Thomas,63,19641834.41,20,3.31,Male,East,Bachelor,Gold Card,Private Employee,2023-10-24
+Michael Lopez,23,17276410.61,24,4.893585834073892,Male,West,Diploma,Silver Card,Freelancer,2015-07-14
+Patricia Taylor,52,17738893.92,11,4.585108084366291,Female,West,High School,Silver Card,Other,2022-03-04
+Patricia Garcia,58,9935736.42,4,2.58,Female,Central,Diploma,Classic Card,Student,2018-12-18
+Daniel Garcia,54,12379284.12,1,4.66,Male,Central,Master,Silver Card,Entrepreneur,2018-10-20
+Charles Gonzalez,41,7316105.59,15,3.13,Male,West,High School,Classic Card,Student,2019-06-30
+Joseph Rodriguez,46,6333922.69,4,1.63,Female,East,Doctorate,Classic Card,Freelancer,2019-11-05
+James Johnson,63,11593633.94,14,3.78,Female,West,Bachelor,Gold Card,Entrepreneur,2021-10-15
+Charles Jones,48,13115832.65,11,4.17,Female,West,Doctorate,Gold Card,Freelancer,2017-01-08
+John Martinez,52,8767611.18,3,2.27,Female,East,Master,Silver Card,Government Employee,2021-04-27
+John Garcia,50,12680539.8,14,4.43,Male,East,Bachelor,Platinum Card,Entrepreneur,2018-03-20
+Susan Thomas,38,18086828.2,10,4.62,Female,East,High School,Classic Card,Government Employee,2016-12-23
+John Lopez,49,12464266.94,15,2.11,Female,East,High School,Classic Card,Student,2016-12-17
+David Wilson,40,15253822.64,22,4.519312200822878,Female,West,High School,Silver Card,Student,2015-07-31
+Susan Miller,50,16690354.45,5,4.597334579422612,Male,West,Bachelor,Classic Card,Entrepreneur,2017-06-05
+Joseph Lopez,20,19808389.29,13,1.81,Male,Central,Diploma,Classic Card,Entrepreneur,2018-06-28
+Elizabeth Davis,35,13254355.84,17,1.74,Male,West,Diploma,Classic Card,Other,2022-12-28
+Patricia Wilson,42,16716452.53,11,4.58,Male,East,Diploma,Classic Card,Freelancer,2018-02-04
+Sarah Gonzalez,59,19365038.42,10,4.8520680952330455,Female,Central,Master,Gold Card,Other,2024-06-28
+Mary Anderson,48,19054965.33,12,1.61,Male,East,High School,Classic Card,Freelancer,2016-03-07
+Linda Anderson,20,5398391.43,20,4.851838075704659,Female,West,High School,Silver Card,Other,2015-06-09
+Robert Davis,57,9908669.24,22,4.608966643306128,Female,Central,High School,Classic Card,Government Employee,2023-02-11
+Jennifer Brown,63,8507831.04,10,4.53662649451692,Female,East,Master,Silver Card,Entrepreneur,2017-08-25
+William Miller,41,4477725.25,22,4.848318494169859,Female,Central,Bachelor,Classic Card,Student,2019-08-24
+Daniel Davis,49,13765093.17,15,4.21,Male,Central,Diploma,Gold Card,Freelancer,2020-09-15
+David Jackson,64,15510378.42,14,3.02,Male,West,High School,Silver Card,Freelancer,2018-07-27
+Elizabeth Johnson,39,17418177.62,20,4.87,Male,East,Diploma,Classic Card,Student,2022-08-21
+Nancy Johnson,40,5087207.12,14,2.67,Female,Central,High School,Silver Card,Other,2021-07-04
+Susan Smith,19,17899549.29,24,4.641938732498046,Female,Central,Master,Classic Card,Freelancer,2022-08-06
+Joseph Davis,44,13929734.58,3,3.67,Female,East,Bachelor,Silver Card,Government Employee,2022-06-12
+Jessica Williams,59,14967084.3,10,4.858512031523083,Female,Central,Bachelor,Classic Card,Entrepreneur,2024-02-12
+Elizabeth Miller,19,18480608.06,18,4.751540246972056,Female,Central,Master,Platinum Card,Student,2016-08-08
+David Martin,43,13620941.61,14,4.571145528080677,Male,Central,High School,Classic Card,Entrepreneur,2021-06-15
+James Jones,34,8709719.57,3,2.71,Female,East,Bachelor,Silver Card,Freelancer,2015-12-10
+Mary Jackson,57,17026824.63,20,1.65,Male,East,Master,Classic Card,Freelancer,2021-08-02
+Joseph Hernandez,50,9172006.61,12,1.05,Female,East,Diploma,Classic Card,Student,2018-08-26
+David Moore,26,3581877.88,21,3.24,Female,East,Bachelor,Silver Card,Government Employee,2023-01-19
+Michael Williams,60,17121126.61,18,3.11,Male,West,Diploma,Platinum Card,Private Employee,2019-06-08
+Mary Brown,56,8868266.46,1,3.88,Male,Central,Diploma,Classic Card,Student,2015-08-13
+Susan Lopez,46,16155186.89,13,4.56,Female,East,High School,Classic Card,Private Employee,2021-01-24
+James Jackson,59,9166884.21,3,4.810114589870335,Female,Central,Diploma,Classic Card,Other,2018-01-20
+Thomas Martinez,43,17638156.34,15,4.623574541020278,Female,Central,Bachelor,Classic Card,Private Employee,2015-06-29
+James Moore,52,6731678.93,20,4.5669579331024615,Female,West,Master,Classic Card,Government Employee,2015-06-03
+Susan Anderson,42,19567303.51,19,4.43,Male,East,Bachelor,Silver Card,Other,2015-08-19
+William Williams,41,16255899.17,13,4.914044496680646,Female,East,Master,Classic Card,Private Employee,2020-01-30
+Patricia Miller,30,4942044.74,14,3.16,Male,Central,Master,Classic Card,Other,2023-02-25
+Susan Martinez,24,12618202.54,2,4.778200892070866,Female,East,High School,Gold Card,Private Employee,2020-07-08
+John Anderson,53,19751244.31,7,4.612857702978596,Male,Central,Bachelor,Classic Card,Government Employee,2016-03-21
+David Garcia,62,11008112.7,15,4.839333945010803,Male,Central,High School,Classic Card,Private Employee,2017-08-07
+Jessica Jones,37,6095821.36,9,4.90400474652546,Female,West,Bachelor,Classic Card,Private Employee,2016-09-24
+James Smith,18,11241232.24,3,2.84,Male,West,Master,Silver Card,Private Employee,2016-08-16
+Thomas Thomas,25,11711780.15,17,2.43,Female,West,High School,Classic Card,Student,2015-06-27
+Daniel Jackson,63,15608678.05,1,4.668811029052202,Male,Central,Bachelor,Silver Card,Student,2016-11-01
+Elizabeth Garcia,33,14880379.5,16,4.31,Female,East,Bachelor,Classic Card,Student,2016-01-31
+Joseph Davis,31,9843350.74,12,4.682911722074268,Male,West,Bachelor,Silver Card,Government Employee,2015-05-14
+John Wilson,29,6706392.83,3,4.953410641726736,Female,East,Diploma,Classic Card,Other,2016-09-15
+David Davis,40,13965920.85,24,3.85,Female,West,Diploma,Silver Card,Freelancer,2017-10-11
+Jessica Taylor,32,10168966.89,10,4.76548381815588,Male,West,High School,Gold Card,Private Employee,2023-07-13
+John Martinez,45,5248695.59,6,1.4,Male,Central,High School,Silver Card,Private Employee,2021-07-01
+Sarah Wilson,51,18309729.12,11,4.563108540313858,Male,West,High School,Classic Card,Government Employee,2017-07-21
+Jessica Garcia,19,14750771.58,9,1.57,Male,West,Bachelor,Classic Card,Private Employee,2016-11-08
+Susan Thomas,49,14614125.56,6,2.39,Female,Central,High School,Classic Card,Student,2023-01-05
+Patricia Smith,40,16983925.89,12,2.8,Male,East,Master,Classic Card,Freelancer,2023-10-23
+John Garcia,39,12004248.54,6,4.0,Female,West,Bachelor,Classic Card,Entrepreneur,2015-04-27
+Daniel Jackson,42,16855925.28,23,3.6,Male,Central,Bachelor,Gold Card,Private Employee,2019-01-27
+Nancy Wilson,39,11467542.81,16,4.604122533869134,Female,West,Diploma,Classic Card,Student,2024-03-22
+Joseph Jackson,39,4141981.8,9,2.41,Female,Central,Bachelor,Silver Card,Entrepreneur,2015-03-25
+Susan Jones,59,9889217.5,9,4.37,Female,East,Master,Silver Card,Freelancer,2017-04-18
+Thomas Anderson,23,11456903.2,23,2.89,Female,East,High School,Silver Card,Entrepreneur,2017-10-01
+David Martin,32,15243443.89,3,4.92,Male,Central,Diploma,Classic Card,Student,2016-11-14
+Karen Miller,60,4811838.41,19,3.54,Male,Central,Bachelor,Gold Card,Other,2019-01-03
+Sarah Lopez,54,5380315.16,3,1.51,Female,Central,High School,Classic Card,Other,2017-08-26
+John Martin,50,7482624.64,21,3.7,Male,East,High School,Gold Card,Entrepreneur,2018-01-26
+Jessica Anderson,25,7530472.69,6,4.642353901109656,Male,West,Diploma,Gold Card,Government Employee,2017-11-05
+Elizabeth Thomas,61,15447137.83,21,4.822644914328737,Female,East,High School,Gold Card,Entrepreneur,2022-02-15
+Susan Hernandez,61,7262421.23,0,4.685470720583522,Male,Central,Bachelor,Silver Card,Private Employee,2021-10-06
+Patricia Thomas,22,13762667.08,11,4.53764804178318,Male,Central,High School,Classic Card,Private Employee,2015-04-27
+Thomas Davis,56,11402655.45,23,4.42,Male,East,Master,Classic Card,Other,2020-03-05
+John Miller,21,12746004.43,12,4.853962364094064,Female,Central,Bachelor,Silver Card,Government Employee,2017-12-20
+Linda Smith,23,17247818.37,9,4.35,Male,East,Bachelor,Classic Card,Student,2018-10-28
+Jennifer Brown,62,9874485.53,14,2.12,Female,Central,Bachelor,Gold Card,Private Employee,2022-10-23
+Susan Martin,49,16105493.41,12,3.57,Male,West,Master,Classic Card,Other,2024-09-14
+David Garcia,47,10174613.01,22,3.78,Male,West,High School,Classic Card,Freelancer,2016-07-02
+John Williams,64,9015813.4,21,3.05,Male,Central,Master,Classic Card,Other,2015-02-05
+William Johnson,52,19296662.01,21,2.22,Female,East,Bachelor,Classic Card,Private Employee,2021-04-04
+John Lopez,57,6134305.65,20,1.85,Female,West,Bachelor,Silver Card,Private Employee,2018-03-13
+Daniel Anderson,33,4535728.33,21,4.666710598577423,Male,East,Bachelor,Gold Card,Other,2015-07-25
+Charles Martin,30,16106760.73,8,4.73037627734012,Female,Central,High School,Silver Card,Student,2019-09-10
+Linda Rodriguez,59,4160244.99,8,3.61,Male,East,Diploma,Gold Card,Entrepreneur,2016-01-16
+William Jackson,47,17230342.84,14,4.75,Female,West,Bachelor,Gold Card,Private Employee,2016-07-02
+Mary Davis,36,10432287.74,9,4.48,Female,East,High School,Gold Card,Other,2015-11-08
+Daniel Johnson,34,18563732.51,23,4.06,Male,East,Bachelor,Classic Card,Other,2016-01-17
+Joseph Miller,36,15266058.64,24,4.864314900908683,Male,Central,High School,Gold Card,Government Employee,2020-04-14
+Susan Moore,45,13376879.34,9,3.66,Male,Central,High School,Classic Card,Entrepreneur,2018-04-05
+Susan Johnson,43,19138215.55,7,4.708653188629008,Male,Central,High School,Classic Card,Freelancer,2024-04-17
+Jennifer Jones,54,9743039.34,23,4.611167324627065,Female,West,High School,Silver Card,Student,2020-10-27
+Linda Miller,43,19219477.92,15,4.736297589356417,Female,West,Bachelor,Classic Card,Freelancer,2016-10-02
+Sarah Lopez,40,5295021.72,16,4.647443301909671,Female,Central,High School,Classic Card,Entrepreneur,2021-11-21
+Sarah Gonzalez,26,11223834.01,4,1.44,Male,Central,Doctorate,Classic Card,Entrepreneur,2015-07-21
+Jessica Martinez,29,7588490.78,3,2.79,Male,West,Bachelor,Classic Card,Entrepreneur,2023-08-14
+Karen Rodriguez,18,12177327.24,17,4.91316209133881,Female,West,High School,Platinum Card,Freelancer,2024-08-18
+Karen Hernandez,18,5754235.92,23,4.46,Male,West,Bachelor,Classic Card,Entrepreneur,2023-07-11
+David Johnson,64,17306004.23,18,3.19,Female,West,Master,Classic Card,Other,2017-12-24
+Elizabeth Jones,51,17388933.44,3,4.567707070108984,Female,Central,Bachelor,Silver Card,Freelancer,2017-03-25
+Sarah Smith,49,19239017.32,6,4.911580596847885,Female,West,High School,Classic Card,Entrepreneur,2019-05-11
+Patricia Rodriguez,42,5629426.4,9,1.44,Female,Central,Master,Platinum Card,Other,2022-02-13
+Thomas Gonzalez,57,13596653.37,24,4.739874448672296,Female,East,Bachelor,Classic Card,Government Employee,2015-11-07
+Robert Johnson,62,11062034.25,17,1.17,Male,East,High School,Silver Card,Entrepreneur,2019-07-21
+John Johnson,18,8854523.44,18,4.67734318582422,Male,West,High School,Silver Card,Freelancer,2020-03-03
+Susan Miller,33,8976182.74,3,4.922387468234323,Male,East,Bachelor,Platinum Card,Private Employee,2024-08-11
+Jennifer Martinez,56,10017490.36,9,4.692476278335958,Female,East,High School,Silver Card,Entrepreneur,2019-02-04
+Mary Miller,22,14983734.34,0,4.43,Female,East,Master,Gold Card,Private Employee,2020-09-19
+Michael Gonzalez,39,13170862.99,22,4.514164268891596,Female,West,Diploma,Classic Card,Other,2023-06-05
+Sarah Jones,46,10814585.72,17,4.64,Female,West,Master,Classic Card,Government Employee,2021-08-20
+Daniel Johnson,20,4290867.98,4,4.02,Male,East,Bachelor,Classic Card,Student,2015-01-05
+John Moore,29,4322010.85,14,4.22,Male,Central,High School,Gold Card,Government Employee,2022-07-27
+Michael Miller,43,3039769.64,16,1.07,Female,East,High School,Classic Card,Entrepreneur,2019-09-01
+James Lopez,33,19450889.6,2,4.678222508775457,Female,West,Bachelor,Classic Card,Private Employee,2016-09-30
+John Johnson,54,3089314.92,11,4.838925114784823,Female,West,Bachelor,Classic Card,Private Employee,2016-08-31
+David Smith,39,4752593.68,1,4.6696080402781766,Male,West,Bachelor,Classic Card,Freelancer,2021-10-06
+Sarah Wilson,46,8348141.47,0,4.32,Male,East,Diploma,Classic Card,Private Employee,2021-12-04
+Sarah Moore,31,16726314.28,22,2.13,Male,Central,High School,Platinum Card,Freelancer,2022-01-23
+John Brown,45,19355679.36,20,4.597181319258746,Female,West,High School,Silver Card,Other,2017-06-19
+Charles Thomas,22,16430230.5,16,4.51288255599653,Female,West,Bachelor,Silver Card,Student,2023-08-19
+Sarah Johnson,64,14739523.95,21,4.955680895492602,Male,East,High School,Gold Card,Entrepreneur,2021-08-09
+David Hernandez,47,11862111.35,15,3.16,Female,Central,Diploma,Classic Card,Freelancer,2019-04-24
+Jessica Jones,63,4473988.6,4,4.513651395562952,Male,East,Bachelor,Classic Card,Student,2015-08-23
+Joseph Miller,22,19288903.48,14,1.97,Female,West,Master,Classic Card,Private Employee,2022-09-07
+Michael Lopez,29,15892671.04,2,4.64507788574411,Male,Central,Diploma,Classic Card,Private Employee,2021-11-12
+Nancy Garcia,33,13862139.55,6,2.88,Female,Central,High School,Silver Card,Student,2021-05-09
+John Johnson,43,15903609.37,10,2.21,Male,West,Bachelor,Classic Card,Private Employee,2023-02-13
+Jessica Johnson,43,15309756.6,9,3.39,Male,Central,Bachelor,Classic Card,Other,2024-07-15
+John Hernandez,38,13832936.86,8,2.19,Male,Central,Diploma,Silver Card,Other,2015-09-07
+William Lopez,56,19669805.6,13,2.2,Male,East,Master,Platinum Card,Student,2020-05-03
+Elizabeth Wilson,53,18357184.81,12,3.97,Male,West,Master,Gold Card,Freelancer,2015-05-06
+John Brown,50,13993303.62,24,1.19,Male,West,High School,Gold Card,Freelancer,2022-07-07
+Daniel Jackson,47,14783978.59,24,4.61,Female,West,High School,Gold Card,Student,2019-11-23
+Thomas Martinez,54,3877128.71,1,4.943479919997697,Female,West,Bachelor,Classic Card,Freelancer,2015-03-20
+Daniel Martin,40,14388596.9,2,3.67,Female,West,Bachelor,Gold Card,Freelancer,2022-06-13
+Charles Rodriguez,27,3750812.44,6,4.675477115466051,Male,Central,High School,Classic Card,Other,2017-11-17
+John Moore,22,13000483.87,20,4.57,Male,East,Bachelor,Silver Card,Freelancer,2023-08-14
+Karen Wilson,53,19989009.49,17,1.74,Female,West,Bachelor,Silver Card,Government Employee,2017-06-12
+Karen Jackson,51,12448711.88,2,1.32,Male,East,High School,Classic Card,Entrepreneur,2021-10-29
+Karen Williams,48,11044572.01,9,4.5434677927519616,Male,East,Bachelor,Gold Card,Private Employee,2019-07-04
+Michael Taylor,27,8318532.56,21,4.18,Male,Central,Master,Platinum Card,Government Employee,2016-05-09
+John Jackson,36,5048883.84,6,1.14,Male,West,High School,Classic Card,Freelancer,2018-06-04
+Robert Martinez,49,15427402.41,8,3.33,Male,Central,Diploma,Gold Card,Other,2023-01-07
+Elizabeth Garcia,18,6274183.47,16,4.71293575758657,Female,West,Diploma,Classic Card,Student,2019-02-11
+Jennifer Johnson,22,4959794.36,10,4.42,Female,Central,Master,Silver Card,Freelancer,2015-12-27
+Robert Rodriguez,62,10169965.22,6,4.800414361445266,Female,East,Doctorate,Silver Card,Other,2017-08-16
+Thomas Martinez,21,16520811.25,23,1.25,Female,West,Diploma,Silver Card,Entrepreneur,2015-07-15
+Mary Williams,33,15666097.32,13,4.876030285286678,Female,East,Bachelor,Platinum Card,Freelancer,2016-09-16
+Michael Davis,41,3933004.45,18,3.4,Male,East,Bachelor,Gold Card,Student,2024-02-21
+Jennifer Brown,33,10737442.65,3,1.46,Male,Central,Bachelor,Gold Card,Other,2015-01-19
+William Davis,19,11881387.79,5,1.38,Male,West,Diploma,Classic Card,Other,2021-10-08
+Daniel Smith,45,13957293.06,9,4.64,Male,East,High School,Platinum Card,Other,2016-10-29
+David Martinez,49,14052844.96,6,4.64775780192342,Female,Central,Diploma,Classic Card,Entrepreneur,2015-01-30
+Sarah Jackson,44,9199853.24,12,4.591137678602985,Female,West,Bachelor,Gold Card,Freelancer,2020-08-17
+John Williams,37,12531512.3,13,4.639010224131075,Female,West,High School,Classic Card,Entrepreneur,2021-04-11
+William Thomas,41,11178052.03,3,4.599831512639515,Male,East,Master,Classic Card,Private Employee,2021-12-12
+Elizabeth Wilson,29,18044972.06,7,3.07,Female,West,High School,Silver Card,Private Employee,2021-10-14
+Michael Garcia,52,12014507.25,4,4.761452333649543,Male,East,High School,Classic Card,Freelancer,2024-03-11
+Thomas Rodriguez,50,10497546.75,0,4.57151640333678,Female,West,Bachelor,Classic Card,Entrepreneur,2022-09-15
+Elizabeth Garcia,50,9876252.64,3,4.915358841676404,Female,Central,Bachelor,Classic Card,Student,2019-06-27
+Robert Thomas,60,12731271.91,2,4.643467570369138,Male,East,High School,Classic Card,Other,2017-09-02
+Joseph Davis,54,16667608.65,8,3.41,Male,East,Diploma,Classic Card,Other,2020-08-17
+Linda Rodriguez,29,12152825.34,7,4.969367924612702,Female,West,Doctorate,Classic Card,Freelancer,2021-06-07
+Patricia Miller,20,14248137.98,0,2.77,Female,West,Diploma,Silver Card,Private Employee,2015-11-16
+Linda Miller,18,15543548.04,5,3.43,Male,East,Diploma,Classic Card,Private Employee,2024-06-17
+Robert Davis,50,11842857.87,8,4.597177022817893,Female,West,Master,Silver Card,Other,2017-09-30
+Thomas Smith,57,10255889.96,6,3.37,Female,Central,High School,Classic Card,Freelancer,2021-12-04
+William Miller,27,17903311.42,3,4.744008355546338,Male,West,Bachelor,Platinum Card,Entrepreneur,2021-05-17
+Michael Smith,60,10097603.43,12,1.95,Female,Central,Diploma,Gold Card,Private Employee,2019-09-23
+Charles Williams,61,10853028.46,16,3.05,Male,Central,Diploma,Classic Card,Entrepreneur,2023-02-09
+Thomas Lopez,46,19835802.33,1,4.567648099854673,Female,Central,Diploma,Gold Card,Private Employee,2018-09-16
+Nancy Rodriguez,30,3004037.9,4,2.54,Male,Central,High School,Gold Card,Private Employee,2018-06-29
+Patricia Jackson,29,6153039.46,11,2.95,Female,Central,Diploma,Platinum Card,Government Employee,2022-07-18
+Jennifer Jones,48,9527386.13,20,3.61,Male,West,High School,Silver Card,Private Employee,2017-02-05
+Mary Martinez,63,18854028.46,7,4.7537407710224295,Female,Central,Bachelor,Classic Card,Student,2021-06-16
+Sarah Davis,19,4190505.0,5,4.692785688401519,Male,West,Diploma,Silver Card,Freelancer,2016-03-15
+Elizabeth Martin,52,3161252.37,7,4.569642001550696,Female,Central,Diploma,Silver Card,Freelancer,2019-08-14
+Patricia Gonzalez,40,3895625.21,17,4.911258903193922,Female,East,Master,Silver Card,Entrepreneur,2015-03-06
+Joseph Johnson,34,4505237.98,2,4.633992467597157,Female,Central,Bachelor,Classic Card,Private Employee,2018-09-15
+Jennifer Smith,43,3639145.14,21,1.28,Female,East,High School,Gold Card,Student,2017-01-12
+Nancy Brown,25,11156282.56,11,4.7353268826241655,Female,Central,Master,Platinum Card,Entrepreneur,2016-07-03
+Elizabeth Wilson,46,12872872.52,2,2.45,Female,Central,High School,Classic Card,Government Employee,2024-11-14
+John Moore,43,7618678.51,21,2.89,Female,Central,High School,Classic Card,Entrepreneur,2017-04-07
+Robert Brown,27,9770885.53,5,1.18,Female,East,Bachelor,Classic Card,Entrepreneur,2020-08-17
+John Gonzalez,43,4558888.7,1,1.56,Female,East,Bachelor,Gold Card,Private Employee,2015-02-04
+Jennifer Lopez,51,8718297.89,22,2.11,Male,Central,Diploma,Silver Card,Government Employee,2016-11-02
+Jessica Garcia,58,11882826.26,11,4.89,Male,West,High School,Silver Card,Entrepreneur,2018-11-04
+David Jones,24,15448620.72,1,4.677461999080055,Female,Central,Bachelor,Silver Card,Student,2020-07-03
+Patricia Jones,21,3056888.15,5,4.743857987611278,Male,East,Diploma,Silver Card,Student,2024-12-19
+David Lopez,62,10944283.03,16,1.78,Female,Central,Master,Classic Card,Freelancer,2019-07-25
+Michael Anderson,28,8049048.9,2,3.44,Female,East,High School,Silver Card,Government Employee,2016-07-30
+Sarah Martinez,46,17497970.97,1,2.12,Male,East,Master,Gold Card,Government Employee,2023-11-29
+Jessica Hernandez,53,15164406.36,22,4.96157175184091,Female,East,Bachelor,Platinum Card,Freelancer,2018-01-28
+William Martin,42,13014845.09,19,3.07,Female,Central,Master,Platinum Card,Entrepreneur,2022-01-03
+Susan Taylor,38,7713515.98,7,1.02,Male,East,Bachelor,Platinum Card,Government Employee,2016-11-26
+Patricia Davis,53,18475764.73,21,4.718137367799477,Male,East,Bachelor,Silver Card,Student,2015-07-14
+Mary Davis,27,3766711.51,11,4.542530799727725,Female,Central,Diploma,Silver Card,Student,2022-03-28
+Jessica Jones,54,4860949.18,3,1.15,Male,East,High School,Gold Card,Private Employee,2023-10-18
+Elizabeth Jones,26,9657712.39,4,4.66179606085586,Male,Central,High School,Platinum Card,Government Employee,2017-01-26
+Robert Garcia,41,5115438.47,12,4.935772782430156,Female,East,Master,Classic Card,Entrepreneur,2022-06-07
+James Davis,52,19259066.86,14,4.21,Male,West,Master,Classic Card,Freelancer,2017-07-31
+Karen Hernandez,52,16565818.48,24,4.873914861958235,Male,West,Diploma,Classic Card,Freelancer,2019-06-26
+Jessica Moore,53,7402705.08,22,4.638577451689568,Female,East,High School,Silver Card,Entrepreneur,2019-07-04
+John Gonzalez,35,13005421.89,15,4.516422412038192,Male,West,Diploma,Classic Card,Other,2015-04-07
+Susan Martin,56,19699618.76,9,4.73,Male,Central,Bachelor,Classic Card,Private Employee,2020-07-03
+Jennifer Johnson,49,18031382.63,24,4.761044359295498,Female,West,Bachelor,Classic Card,Freelancer,2019-11-02
+Susan Jones,41,13213573.59,22,4.927524285811322,Female,East,Bachelor,Classic Card,Government Employee,2020-02-16
+Thomas Miller,40,18363307.44,15,4.572834000161094,Female,East,Doctorate,Gold Card,Private Employee,2022-09-11
+Mary Anderson,49,19816143.47,11,4.503255048230312,Male,Central,High School,Classic Card,Government Employee,2023-11-16
+Susan Gonzalez,54,15636997.99,16,4.614077399497775,Female,East,Bachelor,Silver Card,Student,2019-10-13
+James Miller,29,4104768.96,15,3.03,Female,Central,Diploma,Silver Card,Private Employee,2023-09-04
+James Johnson,30,9826864.02,11,4.5,Male,West,Diploma,Gold Card,Freelancer,2015-10-09
+Michael Martinez,40,17243037.5,7,4.720448076600816,Female,West,High School,Classic Card,Private Employee,2022-02-12
+Sarah Gonzalez,42,6919676.33,19,3.81,Female,Central,High School,Platinum Card,Private Employee,2022-06-22
+Daniel Moore,52,17120922.8,2,4.97,Female,Central,Master,Silver Card,Private Employee,2016-05-21
+Mary Thomas,58,5045758.95,15,1.53,Female,East,Diploma,Platinum Card,Other,2023-11-05
+James Johnson,47,3798071.07,12,2.1,Male,West,Bachelor,Platinum Card,Private Employee,2015-04-12
+Jessica Jones,34,9529540.4,22,2.58,Female,Central,Master,Classic Card,Government Employee,2021-04-11
+David Miller,37,3624442.94,18,4.529021929015594,Female,West,Bachelor,Classic Card,Student,2018-06-29
+William Jones,42,19273594.47,7,2.64,Male,Central,High School,Classic Card,Entrepreneur,2017-12-23
+Nancy Thomas,39,17045496.83,21,4.63,Female,West,Bachelor,Silver Card,Private Employee,2022-07-22
+Joseph Davis,30,16613084.68,4,3.86,Male,East,Diploma,Classic Card,Freelancer,2015-10-17
+Daniel Jackson,36,13706224.69,19,4.923466938314599,Male,West,Bachelor,Classic Card,Private Employee,2015-01-02
+Linda Gonzalez,53,6677508.39,7,2.24,Male,West,Bachelor,Silver Card,Freelancer,2018-02-21
+Nancy Taylor,29,11810426.23,23,4.766200763086628,Female,West,Bachelor,Classic Card,Government Employee,2016-03-12
+David Thomas,58,13153659.23,11,4.82,Male,West,Diploma,Classic Card,Freelancer,2023-06-28
+Mary Moore,36,11925535.51,0,4.564019474196463,Male,West,Master,Silver Card,Entrepreneur,2018-10-10
+Mary Johnson,29,7423967.26,24,1.01,Male,East,High School,Classic Card,Student,2021-02-18
+Linda Jackson,26,11759214.71,20,3.55,Female,Central,High School,Classic Card,Freelancer,2017-08-24
+Mary Rodriguez,24,11350167.79,19,4.747237313799057,Female,West,Diploma,Silver Card,Freelancer,2017-10-06
+Mary Thomas,45,19937708.19,5,4.607975915347121,Female,East,High School,Silver Card,Student,2022-12-16
+Robert Smith,31,18256414.52,21,4.602053090888399,Female,West,High School,Gold Card,Entrepreneur,2020-11-18
+Robert Hernandez,48,10877472.72,17,3.42,Female,West,Master,Silver Card,Private Employee,2015-02-17
+William Garcia,36,13589935.51,7,4.571398718592562,Female,Central,Master,Silver Card,Freelancer,2020-03-11
+Nancy Johnson,64,15713817.27,6,1.46,Female,West,Diploma,Silver Card,Student,2022-03-04
+Elizabeth Taylor,33,3592707.72,0,2.54,Male,East,Diploma,Gold Card,Government Employee,2024-03-05
+Susan Jones,22,18213664.5,20,4.911396693975906,Male,East,Diploma,Gold Card,Student,2018-09-09
+James Wilson,52,17622155.88,15,4.793449018633765,Male,Central,Diploma,Gold Card,Government Employee,2022-10-27
+Susan Lopez,29,10776345.66,11,4.950190864672399,Male,West,High School,Silver Card,Entrepreneur,2020-10-01
+Sarah Gonzalez,42,9649886.02,5,4.538469196693749,Female,East,Master,Classic Card,Private Employee,2022-04-15
+Karen Davis,38,7640309.37,19,4.0,Male,West,High School,Classic Card,Student,2022-09-12
+James Jackson,53,11103506.08,1,1.28,Male,West,Diploma,Classic Card,Other,2022-08-07
+Daniel Smith,40,3754403.28,13,4.726456728111968,Male,West,High School,Platinum Card,Freelancer,2019-09-13
+Susan Williams,33,17487290.07,3,4.673083930137576,Male,Central,Master,Silver Card,Entrepreneur,2018-07-24
+Charles Thomas,56,3602180.26,0,4.66622852719079,Female,West,Bachelor,Gold Card,Student,2021-05-31
+Jessica Martin,62,8593873.21,22,3.67,Female,East,Master,Classic Card,Freelancer,2022-06-13
+Joseph Martin,59,18837021.3,17,3.71,Female,West,Bachelor,Gold Card,Student,2018-04-20
+David Jones,56,15498615.13,12,2.45,Male,East,Diploma,Classic Card,Government Employee,2023-12-13
+Elizabeth Wilson,31,7783646.33,1,3.37,Female,West,High School,Classic Card,Student,2019-10-18
+Patricia Jackson,48,7295034.6,8,4.780047672172605,Male,East,Bachelor,Classic Card,Other,2021-10-25
+John Wilson,22,3086396.38,20,4.9388004848480165,Female,East,Diploma,Silver Card,Student,2021-11-14
+Sarah Brown,52,14827142.98,1,4.65,Female,West,Bachelor,Silver Card,Student,2016-10-04
+Patricia Lopez,40,3829320.89,24,4.861138216045439,Female,West,High School,Gold Card,Other,2017-12-26
+James Taylor,46,12054242.83,8,4.49,Female,East,High School,Classic Card,Entrepreneur,2016-02-19
+William Davis,60,19356073.53,0,3.9,Female,Central,Bachelor,Silver Card,Student,2020-08-30
+Michael Hernandez,28,4860970.62,10,1.48,Male,West,Bachelor,Silver Card,Other,2021-09-09
+James Martin,35,18206158.83,2,4.61,Female,Central,Bachelor,Classic Card,Freelancer,2024-11-23
+William Garcia,64,19855080.7,19,1.27,Male,West,High School,Gold Card,Government Employee,2016-06-05
+William Wilson,29,4045789.45,22,3.14,Male,West,Bachelor,Gold Card,Government Employee,2023-12-22
+David Jones,26,18009406.58,3,1.57,Male,West,High School,Gold Card,Student,2017-08-20
+John Moore,27,11773343.35,17,1.05,Male,West,High School,Gold Card,Entrepreneur,2024-08-15
+Karen Moore,61,18410733.23,22,2.69,Male,Central,Diploma,Gold Card,Entrepreneur,2021-06-22
+Jessica Williams,34,12712422.01,5,4.895595983879858,Female,West,High School,Classic Card,Freelancer,2020-03-08
+William Davis,55,14255904.17,2,2.94,Female,East,High School,Gold Card,Student,2016-11-09
+Robert Williams,24,12244241.44,21,3.31,Female,East,Diploma,Classic Card,Government Employee,2015-09-03
+Joseph Moore,63,17696378.97,10,1.17,Female,Central,Diploma,Classic Card,Entrepreneur,2022-10-24
+Charles Moore,30,15476468.62,14,1.49,Male,West,High School,Classic Card,Student,2022-10-04
+James Martinez,57,11861425.31,21,4.929327319388821,Female,East,High School,Gold Card,Entrepreneur,2019-01-13
+John Thomas,59,17758733.67,4,2.37,Female,Central,High School,Gold Card,Other,2022-03-03
+Robert Hernandez,26,7169854.05,19,3.92,Male,West,High School,Classic Card,Entrepreneur,2024-02-27
+Mary Smith,44,5674791.21,9,4.927271062624629,Male,East,Bachelor,Gold Card,Government Employee,2020-12-30
+Joseph Hernandez,19,5726801.79,11,4.649910471983263,Female,East,Diploma,Platinum Card,Private Employee,2019-06-16
+Mary Brown,22,8678150.94,14,4.571988813442821,Female,Central,Diploma,Classic Card,Freelancer,2015-10-16
+Susan Garcia,46,7057730.53,16,2.72,Male,West,Diploma,Classic Card,Freelancer,2016-11-14
+John Williams,54,18811535.96,9,4.5615685122716005,Female,West,Bachelor,Gold Card,Government Employee,2021-03-07
+Karen Taylor,55,4799179.6,5,2.1,Female,East,Master,Classic Card,Entrepreneur,2018-02-18
+Linda Jackson,36,14882842.55,17,2.23,Female,East,Bachelor,Silver Card,Student,2017-05-18
+Susan Miller,25,6216766.18,12,4.749417351920113,Female,East,Bachelor,Classic Card,Entrepreneur,2024-12-06
+Patricia Taylor,62,17987831.26,2,2.79,Male,West,Bachelor,Silver Card,Government Employee,2019-12-06
+Charles Smith,18,19342359.9,23,4.19,Male,Central,Bachelor,Gold Card,Freelancer,2020-08-28
+Michael Taylor,39,10912990.15,9,4.29,Male,Central,Bachelor,Silver Card,Entrepreneur,2018-03-16
+Mary Brown,34,17944215.16,13,4.43,Female,West,High School,Gold Card,Freelancer,2015-01-20
+Mary Johnson,24,3087467.9,5,4.67,Female,Central,High School,Gold Card,Student,2017-08-28
+Joseph Martinez,42,16939097.6,2,2.72,Female,East,Diploma,Gold Card,Freelancer,2023-10-15
+William Wilson,62,6886627.75,15,2.28,Female,Central,Master,Silver Card,Freelancer,2022-02-01
+Charles Jackson,21,18447922.26,6,3.33,Female,Central,Bachelor,Classic Card,Private Employee,2015-07-20
+Linda Miller,53,3019041.9,19,2.48,Male,Central,Bachelor,Silver Card,Private Employee,2015-05-01
+Thomas Lopez,23,12455089.5,13,3.4,Female,East,Diploma,Classic Card,Other,2019-06-13
+Michael Smith,48,15862808.66,8,3.82,Female,West,Diploma,Gold Card,Private Employee,2017-01-19
+Robert Davis,36,7397701.62,14,4.535233360576897,Male,East,High School,Classic Card,Freelancer,2015-09-18
+Charles Martinez,61,6283258.7,20,2.5,Female,West,High School,Silver Card,Government Employee,2020-04-19
+John Smith,56,4429669.82,2,4.728173050061585,Male,West,Master,Classic Card,Freelancer,2022-06-03
+Thomas Brown,44,8549370.8,1,2.72,Male,West,Bachelor,Gold Card,Government Employee,2021-05-18
+David Smith,27,12517353.31,1,4.502920901303915,Male,Central,Diploma,Gold Card,Government Employee,2022-05-14
+William Johnson,43,4969345.57,2,4.56,Male,Central,Master,Classic Card,Private Employee,2018-01-05
+John Miller,36,9403821.15,17,4.694851326458536,Male,West,High School,Gold Card,Entrepreneur,2019-04-29
+Thomas Hernandez,56,3154230.88,13,4.693407505740863,Female,West,Doctorate,Classic Card,Student,2018-08-10
+Karen Thomas,20,16917550.15,19,4.500725844307795,Male,Central,Diploma,Silver Card,Private Employee,2023-03-29
+Robert Martin,62,5183628.21,17,4.947999132433122,Male,East,Diploma,Gold Card,Private Employee,2023-01-22
+Thomas Jackson,30,7816830.12,9,3.55,Female,West,Diploma,Classic Card,Entrepreneur,2019-06-29
+Linda Gonzalez,45,3313271.22,24,2.36,Female,East,High School,Platinum Card,Student,2022-12-16
+Elizabeth Hernandez,37,10348093.33,1,1.29,Male,Central,High School,Classic Card,Freelancer,2019-04-19
+Karen Gonzalez,45,17282065.55,24,2.64,Female,West,Bachelor,Classic Card,Other,2024-05-23
+William Rodriguez,25,9666570.59,21,2.24,Female,East,Master,Platinum Card,Other,2016-10-15
+Robert Rodriguez,58,6051454.5,0,3.71,Male,East,Bachelor,Classic Card,Freelancer,2021-04-05
+Daniel Smith,56,15812880.18,3,3.42,Male,East,High School,Platinum Card,Private Employee,2017-09-05
+David Moore,18,16409718.69,13,4.899366063453129,Female,Central,Bachelor,Platinum Card,Student,2019-07-01
+Linda Davis,20,5953809.08,0,4.926350776084459,Male,Central,High School,Classic Card,Private Employee,2023-07-16
+Patricia Moore,30,16104519.85,13,4.95,Male,East,High School,Silver Card,Government Employee,2021-11-08
+Daniel Rodriguez,45,19104064.1,15,2.82,Female,East,Bachelor,Classic Card,Private Employee,2020-06-06
+Jessica Williams,42,5828418.98,21,4.641621649285141,Male,Central,Bachelor,Silver Card,Private Employee,2018-01-15
+Nancy Jackson,50,16106732.97,13,1.56,Male,East,High School,Classic Card,Freelancer,2023-10-16
+Linda Taylor,55,15045724.08,19,2.94,Male,East,High School,Classic Card,Freelancer,2017-11-07
+Patricia Rodriguez,23,11050756.1,2,1.11,Male,Central,Doctorate,Classic Card,Freelancer,2017-10-27
+Charles Garcia,61,3984647.83,2,3.02,Male,East,High School,Silver Card,Other,2021-07-25
+Michael Martin,62,4269805.1,8,4.881831084363031,Female,East,Diploma,Platinum Card,Government Employee,2017-09-20
+Michael Martin,49,17491049.21,5,4.826839551700625,Female,East,Bachelor,Gold Card,Freelancer,2023-02-17
+Sarah Lopez,62,19832522.34,24,1.16,Male,Central,High School,Gold Card,Student,2020-01-05
+Susan Jones,64,14492888.37,12,1.12,Female,East,High School,Silver Card,Other,2017-01-18
+James Davis,38,10581291.22,20,4.732385178612577,Male,Central,Diploma,Gold Card,Entrepreneur,2018-06-21
+Robert Thomas,33,14008751.94,1,4.7468884169870655,Male,Central,Bachelor,Classic Card,Student,2017-07-25
+Linda Gonzalez,38,13104729.61,7,4.792070052276004,Male,West,Bachelor,Gold Card,Student,2016-06-19
+Patricia Jackson,28,9521408.43,20,4.698978581444529,Male,West,Bachelor,Platinum Card,Freelancer,2020-03-06
+Susan Taylor,54,4115644.46,1,2.83,Male,East,Doctorate,Classic Card,Entrepreneur,2017-08-14
+Linda Moore,53,16965720.11,3,2.16,Female,Central,Bachelor,Silver Card,Entrepreneur,2018-07-11
+Karen Miller,52,9321170.0,24,4.6,Female,West,Diploma,Gold Card,Other,2018-09-30
+Joseph Garcia,36,16919355.94,14,1.46,Male,East,Diploma,Platinum Card,Entrepreneur,2019-10-19
+Nancy Williams,37,7292648.74,3,4.746878241197622,Female,West,Bachelor,Gold Card,Government Employee,2024-11-22
+Mary Martin,35,3017501.16,12,4.8800101786210925,Male,West,Bachelor,Classic Card,Freelancer,2015-10-21
+Nancy Rodriguez,64,5701950.82,11,4.657325728293217,Female,Central,Bachelor,Classic Card,Entrepreneur,2019-05-07
+Daniel Martin,58,10965170.09,12,3.41,Male,Central,Bachelor,Classic Card,Other,2018-01-17
+Karen Rodriguez,31,19053161.79,13,4.31,Female,West,High School,Gold Card,Government Employee,2022-04-19
+Mary Wilson,32,4737291.53,19,4.94,Male,West,Diploma,Classic Card,Private Employee,2023-05-10
+Sarah Martin,48,17521566.17,17,4.890900336394681,Male,Central,Diploma,Gold Card,Private Employee,2022-04-04
+Linda Anderson,18,11959409.64,5,4.787992926005551,Female,East,High School,Classic Card,Government Employee,2022-02-15
+Joseph Hernandez,20,17040653.02,10,2.56,Female,Central,High School,Classic Card,Other,2024-09-03
+Susan Wilson,33,8072365.33,1,2.54,Male,West,Bachelor,Silver Card,Government Employee,2024-08-19
+Patricia Smith,40,17279101.8,22,2.36,Female,East,Bachelor,Gold Card,Freelancer,2018-05-24
+Mary Brown,28,16137987.26,18,4.849021048597822,Male,West,Diploma,Classic Card,Freelancer,2024-01-16
+James Wilson,29,6910912.61,18,1.62,Female,East,Bachelor,Silver Card,Private Employee,2023-03-17
+Jennifer Jackson,27,5232697.15,4,4.5343867915941445,Female,West,Bachelor,Silver Card,Entrepreneur,2024-06-14
+Michael Martinez,49,17756923.48,18,4.898656593871833,Male,East,High School,Classic Card,Other,2016-04-09
+Daniel Hernandez,33,19375023.11,1,4.856707706030155,Female,East,Bachelor,Classic Card,Private Employee,2023-12-23
+Linda Lopez,25,3532139.33,9,4.65097154428375,Female,West,Bachelor,Gold Card,Entrepreneur,2016-10-05
+Linda Johnson,55,15431591.14,24,2.76,Male,East,Bachelor,Silver Card,Entrepreneur,2015-06-18
+Charles Smith,29,18461916.69,1,4.510435388810847,Female,Central,Bachelor,Classic Card,Freelancer,2020-02-16
+Sarah Jackson,41,17575121.57,10,4.840177523436118,Male,West,Bachelor,Gold Card,Student,2024-09-16
+Joseph Wilson,45,19396848.03,17,4.777462345542606,Male,Central,High School,Platinum Card,Student,2020-09-15
+Mary Jones,25,15921599.33,23,4.798311675926248,Male,West,Diploma,Silver Card,Government Employee,2023-09-29
+Jennifer Jones,45,10519078.96,14,4.6754970003491305,Male,East,High School,Silver Card,Freelancer,2022-03-15
+John Moore,53,8303183.84,8,2.08,Male,East,Doctorate,Gold Card,Entrepreneur,2015-06-02
+William Rodriguez,43,8452626.59,22,4.844386661887229,Female,East,High School,Platinum Card,Other,2022-07-06
+Patricia Anderson,25,15315185.43,18,3.23,Male,West,High School,Gold Card,Student,2024-08-09
+Jessica Brown,45,15679229.2,8,2.39,Male,Central,Master,Silver Card,Entrepreneur,2016-09-25
+David Davis,45,6406105.44,2,3.32,Female,Central,Master,Silver Card,Student,2021-12-13
+Charles Martin,54,17758087.83,20,1.56,Female,West,Bachelor,Gold Card,Student,2020-01-06
+Nancy Lopez,58,15153708.68,8,4.547655410194871,Female,West,High School,Classic Card,Student,2020-08-30
+Linda Jones,53,12566754.87,13,3.5,Male,Central,High School,Silver Card,Other,2017-03-15
+Nancy Davis,44,11016051.82,18,4.7093243423753925,Male,Central,Diploma,Gold Card,Freelancer,2019-03-22
+Mary Brown,34,12234957.7,6,4.718157172521986,Male,Central,High School,Silver Card,Other,2017-12-08
+James Williams,26,5707177.55,15,4.98,Female,Central,High School,Silver Card,Private Employee,2024-10-08
+Nancy Anderson,50,6462921.24,15,4.52,Male,West,Bachelor,Silver Card,Entrepreneur,2024-11-19
+Joseph Johnson,37,4549796.34,0,4.94003796505641,Female,West,Master,Classic Card,Freelancer,2023-06-09
+Thomas Thomas,30,5612186.65,3,4.711597299725283,Male,East,Diploma,Silver Card,Freelancer,2016-06-21
+William Miller,45,10712791.79,3,3.48,Female,Central,Bachelor,Gold Card,Freelancer,2019-03-15
+Susan Garcia,46,12016024.69,6,1.81,Male,East,Bachelor,Classic Card,Freelancer,2017-09-06
+Jessica Miller,30,3303652.17,7,4.931846984083565,Male,West,Diploma,Classic Card,Other,2017-07-07
+Charles Hernandez,63,16545563.07,16,4.803252698353529,Male,West,Bachelor,Platinum Card,Freelancer,2016-06-02
+Charles Smith,52,8000855.55,4,4.519855773032932,Female,East,High School,Classic Card,Government Employee,2022-07-08
+Joseph Williams,23,18501212.59,6,4.594521831565915,Female,Central,High School,Classic Card,Entrepreneur,2022-10-22
+Elizabeth Gonzalez,35,19447691.48,19,1.91,Male,Central,Bachelor,Platinum Card,Freelancer,2019-09-16
+John Anderson,22,6152800.87,19,4.743764049818221,Male,Central,High School,Gold Card,Entrepreneur,2017-01-11
+Jennifer Jones,64,10855653.94,3,4.64,Male,Central,Doctorate,Silver Card,Government Employee,2016-10-09
+Michael Martin,42,3020941.2,5,4.921939512872487,Female,East,High School,Gold Card,Government Employee,2018-06-29
+John Jones,19,13171563.51,6,4.784256225470003,Male,East,Bachelor,Classic Card,Entrepreneur,2023-11-18
+James Hernandez,27,13324209.62,17,4.48,Male,West,Diploma,Gold Card,Student,2017-03-07
+Mary Jackson,47,7208179.25,4,4.848503790980546,Male,Central,High School,Silver Card,Private Employee,2017-09-05
+Sarah Hernandez,62,12493015.43,19,4.8508382825162,Male,Central,High School,Gold Card,Student,2015-09-14
+Michael Miller,22,6834182.42,2,1.5,Female,Central,Bachelor,Silver Card,Student,2022-07-28
+Susan Brown,50,5734032.97,6,4.18,Female,East,Master,Silver Card,Other,2016-06-05
+Michael Jackson,18,14075830.94,21,4.966008908170179,Male,Central,Master,Silver Card,Student,2022-05-19
+Susan Anderson,35,8540732.89,13,4.572342022214541,Male,East,Bachelor,Silver Card,Freelancer,2023-09-09
+John Wilson,49,13034486.96,6,4.501505170500742,Female,Central,Bachelor,Gold Card,Other,2023-02-03
+Joseph Johnson,64,10365194.73,4,4.887254051640613,Female,Central,Bachelor,Silver Card,Other,2023-03-30
+Patricia Anderson,28,19733973.93,21,2.85,Male,West,Bachelor,Silver Card,Government Employee,2020-04-17
+Linda Davis,38,5542870.93,4,4.7918886755236025,Female,Central,Bachelor,Silver Card,Student,2022-03-22
+Karen Thomas,43,10898176.14,22,4.567917903371887,Female,Central,Bachelor,Silver Card,Government Employee,2023-07-05
+John Davis,42,14567762.65,1,4.45,Male,West,Master,Gold Card,Entrepreneur,2021-08-20
+Linda Taylor,39,9724266.43,20,4.84620022276572,Female,East,Diploma,Gold Card,Private Employee,2020-09-17
+Linda Jones,44,19569897.48,21,2.5,Female,East,Master,Silver Card,Other,2017-06-01
+Thomas Martinez,30,15272089.67,5,2.14,Male,Central,Bachelor,Platinum Card,Entrepreneur,2015-11-18
+Thomas Thomas,50,14168725.58,14,1.81,Male,East,High School,Gold Card,Entrepreneur,2024-04-09
+Thomas Wilson,51,15870007.55,20,4.75077359197161,Female,Central,High School,Silver Card,Freelancer,2016-07-24
+Jennifer Thomas,58,19195026.85,9,2.55,Male,West,Diploma,Silver Card,Private Employee,2018-05-08
+William Thomas,52,18432917.1,22,3.05,Female,West,Bachelor,Platinum Card,Entrepreneur,2018-10-09
+Sarah Garcia,18,15312850.24,23,4.7384187274657545,Male,Central,Master,Silver Card,Entrepreneur,2021-11-22
+Linda Lopez,38,15735747.86,6,3.31,Female,West,High School,Gold Card,Private Employee,2021-09-17
+John Johnson,23,5480675.26,4,4.46,Male,West,Master,Silver Card,Private Employee,2016-11-21
+Karen Garcia,45,4747470.88,0,4.831114278994289,Female,Central,Master,Silver Card,Entrepreneur,2022-07-07
+Robert Thomas,34,12705376.53,12,2.63,Female,Central,High School,Classic Card,Private Employee,2018-06-23
+Jessica Gonzalez,22,3312249.83,20,4.738476009837908,Female,West,Master,Silver Card,Entrepreneur,2023-12-28
+Nancy Taylor,48,11200058.49,17,4.631549186629631,Male,East,Doctorate,Platinum Card,Entrepreneur,2024-07-17
+Karen Martin,22,6575942.86,12,4.857058600420037,Male,East,Bachelor,Silver Card,Freelancer,2023-02-25
+Nancy Miller,55,8882281.65,20,4.82,Female,Central,Bachelor,Silver Card,Student,2019-09-29
+Joseph Davis,20,16188680.51,20,1.8,Female,Central,Doctorate,Platinum Card,Entrepreneur,2018-09-13
+Michael Martinez,40,19001037.57,17,1.44,Male,East,Bachelor,Silver Card,Government Employee,2022-08-18
+James Taylor,54,4231076.63,4,4.42,Male,West,Diploma,Silver Card,Other,2020-07-21
+Jennifer Rodriguez,54,12082117.5,12,2.76,Male,East,Master,Gold Card,Student,2023-05-21
+Thomas Lopez,27,18003069.26,3,4.39,Male,East,Bachelor,Gold Card,Student,2017-07-01
+Patricia Thomas,27,4402645.09,16,4.57,Male,East,Bachelor,Classic Card,Student,2020-12-08
+John Thomas,36,17016738.8,2,4.955479842771534,Male,East,Diploma,Silver Card,Freelancer,2022-02-18
+Nancy Taylor,34,9082622.97,16,4.867711881224336,Female,Central,Bachelor,Silver Card,Entrepreneur,2018-07-16
+Jennifer Thomas,44,17037293.26652837,11,4.107130247036319,Female,East,High School,Gold Card,Freelancer,2021-12-24
+Sarah Thomas,38,5718877.223514311,17,3.1761304418699265,Male,Central,Diploma,Classic Card,Entrepreneur,2020-10-09
+Susan Garcia,48,11929480.845520273,6,1.586738524857208,Male,East,Bachelor,Classic Card,Freelancer,2021-07-10
+John Martin,28,6989263.158901482,0,4.993730539327292,Male,West,High School,Classic Card,Freelancer,2023-01-28
+Sarah Martinez,45,17746407.553384367,4,4.908725361809931,Male,East,Master,Gold Card,Other,2022-07-01
+James Hernandez,59,16904903.273726083,2,1.504775429327064,Female,West,High School,Gold Card,Government Employee,2020-07-14
+Sarah Davis,22,3665321.452189864,8,4.657995326118309,Male,West,Diploma,Silver Card,Freelancer,2019-08-29
+Sarah Lopez,62,19694135.708377663,21,4.829578723303822,Male,Central,High School,Gold Card,Other,2018-01-28
+Jennifer Smith,43,6718151.937277613,0,4.711861151146552,Male,East,Bachelor,Platinum Card,Private Employee,2015-08-09
+William Thomas,42,11451352.823597137,0,4.877196869915087,Male,East,Master,Classic Card,Government Employee,2023-10-29
+Susan Wilson,34,8193542.726389863,3,2.3943294575669696,Male,West,Bachelor,Silver Card,Freelancer,2016-01-05
+Sarah Lopez,39,5160230.328675973,16,2.953197413455683,Female,Central,High School,Classic Card,Student,2020-02-09
+Charles Martin,28,12735058.979119366,13,4.768802635895384,Female,Central,High School,Silver Card,Private Employee,2023-06-16
+Karen Hernandez,18,5705842.733912237,22,4.524606895417839,Male,West,Bachelor,Classic Card,Private Employee,2015-03-05
+Patricia Anderson,28,19523035.751339663,22,2.796952654974905,Male,West,Bachelor,Silver Card,Other,2018-04-19
+William Jones,62,15054768.683427744,19,1.116721086975255,Female,Central,Bachelor,Gold Card,Private Employee,2020-09-17
+Robert Taylor,55,12611021.705247544,10,5.0,Male,Central,High School,Platinum Card,Government Employee,2015-03-23
+Mary Brown,21,8774814.733022897,11,4.418412273269639,Female,Central,Diploma,Classic Card,Freelancer,2021-03-04
+Thomas Wilson,52,15445943.321234137,18,4.5749306275962285,Female,Central,High School,Silver Card,Freelancer,2016-11-25
+Daniel Jackson,61,10953610.27528137,16,4.660903863412535,Male,Central,Bachelor,Gold Card,Student,2019-04-30
+Susan Rodriguez,44,18755439.02397392,21,4.933414663594505,Male,West,Master,Platinum Card,Other,2023-08-05
+Karen Williams,52,14990641.538044918,7,3.3263015866108363,Female,Central,Diploma,Silver Card,Student,2016-07-05
+Thomas Martinez,33,16109208.143813305,8,4.905301969538345,Male,Central,Bachelor,Platinum Card,Private Employee,2016-03-13
+Karen Gonzalez,57,17409183.732057523,15,5.0,Male,Central,Master,Silver Card,Student,2020-10-27
+Joseph Davis,27,13040434.919393336,0,4.5145722535379065,Male,Central,Bachelor,Gold Card,Government Employee,2021-06-09
+Patricia Taylor,62,17979174.805177767,3,4.835271865658312,Male,West,Bachelor,Silver Card,Freelancer,2021-11-14
+Thomas Thomas,33,5883771.71294987,5,4.525321298346916,Male,East,Diploma,Silver Card,Private Employee,2015-03-25
+Joseph Gonzalez,61,7848608.932121629,4,1.4331493318653563,Male,Central,High School,Classic Card,Student,2017-01-27
+Susan Williams,35,17111330.00480444,5,2.763450771378404,Male,Central,Master,Silver Card,Other,2020-06-25
+Patricia Davis,56,8250702.421981024,9,4.825598637422373,Female,West,Diploma,Silver Card,Government Employee,2020-09-23
+John Moore,30,11639711.134669306,19,4.729006260279104,Male,West,High School,Gold Card,Government Employee,2020-05-21
+Michael Jackson,29,9387898.17204276,9,4.688545047907128,Female,West,High School,Silver Card,Student,2017-12-11
+Jennifer Jones,63,10762177.984004388,3,4.653969863005816,Male,Central,Doctorate,Silver Card,Freelancer,2019-04-27
+Charles Smith,39,4373387.423092141,16,4.583363236839669,Male,East,Diploma,Silver Card,Student,2021-08-30
+Michael Lopez,43,17587083.028844655,2,1.074330626290857,Male,Central,Master,Silver Card,Private Employee,2019-09-19
+Jennifer Taylor,44,6411950.945615856,6,2.932188616980259,Male,Central,High School,Classic Card,Student,2020-11-24
+John Davis,22,16310357.189245733,0,3.930980518538042,Male,East,Bachelor,Silver Card,Government Employee,2023-11-19
+Karen Thomas,44,11309463.906666284,20,3.2358365935903133,Female,Central,Bachelor,Silver Card,Student,2021-12-02
+James Wilson,50,17391180.53378596,12,4.854936194250167,Male,Central,Diploma,Gold Card,Freelancer,2017-04-25
+Mary Thomas,52,6489903.449712522,17,3.555230811243483,Female,East,Bachelor,Classic Card,Other,2021-07-04
+Jennifer Smith,49,5987836.045530322,0,2.8485693102399265,Male,East,Bachelor,Platinum Card,Entrepreneur,2017-07-09
+David Smith,41,4775437.069312687,0,2.2457791666813494,Male,West,Bachelor,Classic Card,Student,2020-04-27
+David Lopez,37,8642554.801785398,16,1.6551411297274083,Female,West,Doctorate,Classic Card,Freelancer,2017-03-21
+Nancy Lopez,60,14911814.290724676,6,4.809845293042014,Female,West,High School,Classic Card,Freelancer,2015-03-13
+Daniel Williams,39,10938014.891668305,12,3.5771058290808684,Female,Central,Doctorate,Platinum Card,Other,2019-09-25
+Thomas Brown,24,15973875.22127905,11,4.378069471272662,Female,Central,High School,Gold Card,Government Employee,2015-08-24
+Charles Jackson,21,18403286.955596395,4,2.805459570243615,Female,Central,Bachelor,Classic Card,Freelancer,2019-02-11
+Charles Hernandez,66,16604969.359141871,14,4.850268690649795,Male,West,Bachelor,Platinum Card,Freelancer,2023-01-31
+Daniel Taylor,47,11721785.871229293,0,2.607680659155301,Male,East,Diploma,Platinum Card,Freelancer,2018-02-03
+William Martinez,40,8974371.121278986,2,4.529892889119652,Female,Central,Bachelor,Classic Card,Freelancer,2017-09-16
+Jessica Gonzalez,24,3708524.165049608,19,4.533821190735161,Female,West,Master,Silver Card,Private Employee,2021-01-23
+John Gonzalez,20,8280272.168159347,0,4.5463231021553066,Female,East,Bachelor,Classic Card,Private Employee,2023-02-25
+Mary Miller,52,10379427.818478515,4,4.55695297545229,Female,East,Diploma,Silver Card,Government Employee,2020-01-05
+Linda Wilson,18,16486570.94631396,3,4.898479761773737,Female,West,Diploma,Silver Card,Student,2023-02-10
+Karen Anderson,46,9730356.112206869,19,4.578674002991433,Female,West,Master,Classic Card,Freelancer,2022-11-01
+Susan Smith,19,13829744.454294609,20,1.7317343710613908,Male,Central,Diploma,Silver Card,Other,2024-09-12
+Thomas Martinez,23,16551268.20215622,21,1.0,Female,West,Diploma,Silver Card,Student,2018-07-14
+Robert Martinez,47,15720167.815902334,8,4.974983237532083,Male,Central,Diploma,Gold Card,Other,2022-04-17
+William Thomas,41,11296911.617393523,5,3.0891259707825136,Male,East,Master,Classic Card,Student,2019-09-21
+Sarah Johnson,67,14754335.8383218,21,3.5569691822091927,Male,East,High School,Gold Card,Government Employee,2022-05-08
+John Lopez,59,11284483.779771963,18,4.765618895734727,Female,Central,Bachelor,Platinum Card,Freelancer,2024-09-02
+Susan Brown,24,12856527.786332875,6,4.639239616570728,Male,West,Master,Classic Card,Freelancer,2016-03-28
+Sarah Martinez,27,18922301.01403656,19,4.596994433297435,Female,Central,High School,Platinum Card,Entrepreneur,2019-08-10
+Sarah Smith,23,16659409.65911264,10,4.945279285270583,Female,West,Diploma,Silver Card,Other,2024-09-18
+Joseph Hernandez,19,5797332.846601983,10,4.554940448313897,Female,East,Diploma,Platinum Card,Student,2016-11-27
+Daniel Rodriguez,46,19386529.792039227,16,3.039446540995102,Female,East,Bachelor,Classic Card,Student,2015-08-13
+Linda Johnson,52,15576092.99977525,27,4.906171157211769,Male,East,Bachelor,Silver Card,Private Employee,2019-11-18
+David Wilson,19,16285844.83619023,1,1.4015712265622111,Female,East,Bachelor,Silver Card,Entrepreneur,2018-08-18
+Nancy Johnson,67,15719814.758789662,3,1.3568706882107835,Female,West,Diploma,Silver Card,Private Employee,2023-11-11
+Michael Garcia,55,12077000.824298916,6,2.3809618437548536,Male,East,High School,Classic Card,Private Employee,2015-01-22
+Jessica Lopez,18,17004208.57627729,18,1.1714844612093736,Female,Central,Diploma,Platinum Card,Private Employee,2023-10-02
+Susan Thomas,47,14491280.106650662,9,2.205238668175842,Female,Central,High School,Classic Card,Other,2017-09-23
+John Garcia,18,11933544.984655524,26,4.524826426557095,Male,East,Master,Silver Card,Other,2019-03-30
+John Jones,18,12896176.497898262,4,4.90138435922874,Male,East,Bachelor,Classic Card,Government Employee,2021-12-29
+Charles Smith,52,8205816.507846451,6,4.687324345371999,Female,East,High School,Classic Card,Government Employee,2015-04-01
+Nancy Garcia,37,4131435.353924346,8,4.752272772306863,Female,Central,Bachelor,Gold Card,Private Employee,2015-10-20
+David Jones,24,15403465.975307465,3,2.5009521544296613,Female,Central,Bachelor,Silver Card,Entrepreneur,2024-05-04
+Sarah Gonzalez,56,19230162.09952539,11,3.2757672169900647,Female,Central,Master,Gold Card,Student,2016-11-24
+James Martin,47,7231478.185741195,18,1.0,Male,East,Master,Classic Card,Other,2018-04-03
+Nancy Martinez,57,6828365.610938188,12,1.0,Female,Central,Bachelor,Classic Card,Entrepreneur,2019-01-29
+Patricia Jones,24,8926678.850076973,8,1.8525801263341248,Female,West,High School,Classic Card,Freelancer,2024-11-22
+Elizabeth Garcia,18,6142423.009826414,17,5.0,Female,West,Diploma,Classic Card,Other,2017-04-27
+Karen Davis,43,15194834.860176966,13,2.954260337167086,Female,Central,Master,Classic Card,Other,2020-08-01
+Charles Martin,29,16205609.912557,11,2.635561265806801,Female,Central,High School,Silver Card,Government Employee,2019-03-12
+Susan Martin,58,19603701.83096638,8,4.411236113345732,Male,Central,Bachelor,Classic Card,Student,2022-05-04
+Daniel Williams,44,11391036.494872833,12,4.5836616745836745,Female,Central,Doctorate,Platinum Card,Student,2017-03-07
+John Jackson,34,5623639.425848023,5,1.0,Male,West,High School,Classic Card,Freelancer,2015-06-04
+Karen Miller,57,4770359.6523933085,20,3.5525759622920288,Male,Central,Bachelor,Gold Card,Freelancer,2018-09-11
+John Martin,49,4175995.157078168,23,1.3697302255218595,Male,East,Bachelor,Gold Card,Other,2016-05-31
+Charles Martin,61,10012087.19833078,9,4.060667088034621,Female,Central,Master,Gold Card,Private Employee,2018-09-16
+Charles Garcia,58,4112723.8868098487,0,2.771746137108483,Male,East,High School,Silver Card,Government Employee,2015-09-29
+Jennifer Martinez,55,9844933.046832094,6,4.935356295054532,Female,East,High School,Silver Card,Government Employee,2021-11-13
+Robert Lopez,45,17733413.838188235,2,4.99243734679131,Male,East,High School,Classic Card,Other,2018-03-07
+Sarah Johnson,48,6992474.001944865,24,1.7435716314867826,Female,West,High School,Classic Card,Entrepreneur,2017-03-07
+Nancy Williams,40,7486624.887467745,0,4.934890983026821,Female,West,Bachelor,Gold Card,Private Employee,2024-03-29
+Karen Davis,39,7443979.658171553,18,3.813956339234368,Male,West,High School,Classic Card,Other,2022-07-09
+Daniel Taylor,49,11854264.899402697,2,2.0264861690089853,Male,East,Diploma,Platinum Card,Private Employee,2024-11-09
+James Davis,35,2966086.895070787,5,1.4870363411594287,Female,East,High School,Classic Card,Private Employee,2015-01-14
+Joseph Davis,30,9759451.41609316,9,4.534387745318107,Male,West,Bachelor,Silver Card,Private Employee,2017-06-16
+Elizabeth Williams,40,12301497.9193283,16,4.996099298952672,Male,West,Master,Classic Card,Other,2022-10-27
+Nancy Jackson,59,13863747.221062051,7,1.33947597308206,Male,West,High School,Gold Card,Government Employee,2018-05-29
+Mary Smith,64,14994269.937385108,11,2.2964248599414043,Female,Central,High School,Silver Card,Government Employee,2024-03-04
+Joseph Anderson,58,8273795.22908126,3,4.633150526541659,Female,Central,Master,Classic Card,Private Employee,2020-11-01
+David Smith,27,12650179.3024436,2,1.3506225029091758,Male,Central,Diploma,Gold Card,Entrepreneur,2015-11-10
+Elizabeth Davis,39,10286004.198611077,6,1.3650258970843483,Male,West,Bachelor,Gold Card,Student,2019-05-31
+Jennifer Johnson,23,5265721.898165805,11,3.672604692579553,Female,Central,Master,Silver Card,Other,2020-08-13
+Sarah Smith,47,19053907.313928746,4,4.534090786513045,Female,West,High School,Classic Card,Student,2017-01-03
+Michael Martin,62,4591158.701199359,10,5.0,Female,East,Diploma,Platinum Card,Entrepreneur,2022-05-20
+Linda Smith,64,12420147.900309712,20,4.88715321355421,Male,West,High School,Classic Card,Other,2015-08-09
+Patricia Thomas,54,4685900.920802636,22,4.944371205763328,Female,Central,Bachelor,Platinum Card,Private Employee,2024-08-09
+William Davis,55,14730072.379754372,0,2.915996226804816,Female,East,High School,Gold Card,Government Employee,2015-06-08
+Thomas Lopez,23,12558524.325085867,16,4.533687246756148,Female,East,Diploma,Classic Card,Student,2020-04-03
+Karen Williams,57,14922050.101768255,12,3.796387016121949,Female,Central,Diploma,Silver Card,Freelancer,2015-10-23
+Joseph Davis,21,13174792.371252846,0,2.3688988005821727,Male,Central,Bachelor,Gold Card,Freelancer,2021-03-02
+James Jones,41,7431571.666045044,12,4.845976702668809,Female,West,Master,Gold Card,Entrepreneur,2016-09-20
+Michael Smith,50,15720271.024343414,11,3.572288212349145,Female,West,Diploma,Gold Card,Private Employee,2022-05-11
+Elizabeth Davis,35,9839423.680897184,9,4.899507323077592,Male,West,Bachelor,Gold Card,Student,2021-04-29
+Joseph Williams,24,18713851.62816465,5,4.881954007952045,Female,Central,High School,Classic Card,Private Employee,2017-06-29
+Jessica Moore,50,7698641.034947265,22,3.27956829202155,Female,East,High School,Silver Card,Student,2015-04-10
+Daniel Martin,43,14584329.1801169,2,3.936967407253929,Female,West,Bachelor,Gold Card,Entrepreneur,2023-02-12
+Robert Miller,40,16543413.43448861,12,4.718983252417536,Female,East,Diploma,Gold Card,Entrepreneur,2024-04-28
+Jessica Jones,56,4962584.586047033,5,1.1300755814056371,Male,East,High School,Gold Card,Freelancer,2023-01-17
+Patricia Thomas,25,13383524.564875737,10,4.6063329245983375,Male,Central,High School,Classic Card,Private Employee,2021-08-26
+Patricia Thomas,25,13966524.997303268,8,1.7922336597850217,Male,Central,High School,Classic Card,Other,2024-08-08
+James Garcia,27,13179775.265460895,26,4.566481429144042,Male,West,Bachelor,Classic Card,Freelancer,2017-12-13
+Mary Johnson,22,3016442.095162933,2,5.0,Female,Central,High School,Gold Card,Private Employee,2021-08-10
+Joseph Wilson,42,19333936.790493384,17,1.939609812979367,Male,Central,High School,Platinum Card,Freelancer,2018-08-22
+Thomas Lopez,43,19502719.2917772,2,4.891164412687407,Female,Central,Diploma,Gold Card,Other,2022-08-20
+John Anderson,52,19815033.64048125,4,2.3916601920687226,Male,Central,Bachelor,Classic Card,Government Employee,2015-11-02
+Michael Martinez,45,11095910.64570318,19,1.201689201389334,Male,West,Diploma,Silver Card,Government Employee,2019-12-18
+Karen Davis,39,7586143.868321898,17,3.875505138070575,Male,West,High School,Classic Card,Government Employee,2020-12-24
+Joseph Brown,46,17472957.040293004,10,4.897745834152738,Female,West,High School,Gold Card,Government Employee,2017-06-16
+Charles Brown,20,9182073.9414397,23,1.9533040225055225,Male,Central,Bachelor,Platinum Card,Student,2021-01-09
+David Gonzalez,43,18037435.17157002,11,4.986641186869144,Male,East,Bachelor,Gold Card,Government Employee,2016-10-22
+Nancy Jackson,48,16177718.990331776,15,1.5960653870800028,Male,East,High School,Classic Card,Other,2023-10-23
+Patricia Miller,32,4822735.563245993,11,3.5797197545072748,Male,Central,Master,Classic Card,Entrepreneur,2023-09-16
+James Martin,47,7032010.2957863975,16,1.0,Male,East,Master,Classic Card,Entrepreneur,2015-08-22
+Nancy Jackson,61,11992353.657869251,20,4.233951576974629,Female,Central,High School,Classic Card,Student,2020-02-09
+Daniel Moore,53,17098451.610953204,3,4.745633721395168,Female,Central,Master,Silver Card,Government Employee,2019-07-07
+John Rodriguez,51,17149083.757762376,19,4.688076937968978,Female,West,Bachelor,Silver Card,Government Employee,2021-06-21
+Susan Rodriguez,55,13962387.536009235,0,4.869415963705262,Male,West,High School,Platinum Card,Government Employee,2022-01-17
+Jessica Garcia,61,11662894.245075677,13,4.574909124564467,Male,West,High School,Silver Card,Freelancer,2020-06-07
+Karen Miller,49,9708068.17472906,22,4.49756524909282,Female,West,Diploma,Gold Card,Private Employee,2015-10-12
+Mary Rodriguez,55,6923627.641755786,19,4.505005400319671,Female,West,Bachelor,Silver Card,Freelancer,2022-02-24
+James Wilson,54,17589639.82237056,15,4.687712918592029,Male,Central,Diploma,Gold Card,Private Employee,2018-08-27
+David Moore,18,16372910.58579384,12,4.508159434655078,Female,Central,Bachelor,Platinum Card,Government Employee,2017-04-06
+Thomas Hernandez,31,20344897.79563106,19,4.842421372039075,Male,West,Diploma,Classic Card,Government Employee,2022-09-07
+Jennifer Davis,20,13904117.085657978,8,4.726046512190008,Female,West,Bachelor,Classic Card,Freelancer,2024-05-18
+Karen Martin,23,6541670.693883154,13,3.2170425827610445,Male,East,Bachelor,Silver Card,Freelancer,2017-05-18
+James Hernandez,25,12798391.46004146,15,4.936740671397904,Male,West,Diploma,Gold Card,Private Employee,2020-01-17
+John Brown,28,8828482.78308762,3,4.964629079035548,Female,Central,Bachelor,Classic Card,Entrepreneur,2017-04-13
+Michael Anderson,29,7834346.036778663,4,4.6111038910796935,Female,East,High School,Silver Card,Private Employee,2023-01-30
+David Jones,29,17691823.83135802,3,1.1288544721811726,Male,West,High School,Gold Card,Freelancer,2022-02-01
+Sarah Martin,49,17734350.861795,18,2.078001943716455,Male,Central,Diploma,Gold Card,Other,2015-04-09
+James Williams,25,5194093.711184587,18,5.0,Female,Central,High School,Silver Card,Freelancer,2017-03-19
+Susan Johnson,41,18986028.0187514,10,2.2868505775398367,Male,Central,High School,Classic Card,Other,2022-07-11
+Patricia Moore,33,15903652.970028006,12,4.975488992403104,Male,East,High School,Silver Card,Student,2024-07-26
+James Martin,38,17995706.35779664,3,4.632239982882754,Female,Central,Bachelor,Classic Card,Freelancer,2018-09-22
+Joseph Garcia,35,16690139.410954254,16,1.3285708099893372,Male,East,Diploma,Platinum Card,Student,2021-02-16
+David Hernandez,47,11946722.46769308,12,3.289754168684045,Female,Central,Diploma,Classic Card,Entrepreneur,2022-06-01
+Charles Smith,32,18406600.955108047,1,2.68896064157374,Female,Central,Bachelor,Classic Card,Private Employee,2015-01-13
+John Williams,56,18825804.13828108,10,4.794019304923953,Female,West,Bachelor,Gold Card,Other,2016-06-07
+Michael Gonzalez,41,13267546.570688032,22,1.7786929268744518,Female,West,Diploma,Classic Card,Private Employee,2018-10-12
+Patricia Rodriguez,23,10757677.56401977,4,4.728924308249997,Male,Central,Doctorate,Classic Card,Student,2024-11-16
+William Jones,27,11228676.444474723,19,3.305153943611322,Male,Central,Master,Gold Card,Other,2017-05-12
+John Anderson,24,6435708.510722886,17,4.707751186852829,Male,Central,High School,Gold Card,Private Employee,2023-11-10
+Elizabeth Hernandez,38,10229672.076234028,2,1.3963117633796909,Male,Central,High School,Classic Card,Freelancer,2021-07-09
+Linda Lopez,26,3309607.815870528,11,4.399405183074342,Female,West,Bachelor,Gold Card,Government Employee,2018-06-28
+Jennifer Taylor,41,7084897.63975896,7,4.69145948845286,Male,Central,High School,Classic Card,Student,2018-08-14
+Joseph Taylor,23,16621927.767374031,15,4.77491879667429,Male,East,Bachelor,Silver Card,Private Employee,2019-07-26
+Jennifer Williams,39,8495326.724434394,16,3.2628025106604057,Female,West,Bachelor,Silver Card,Student,2017-10-19
+John Wilson,48,3797038.773744164,4,4.741993600568716,Female,West,Bachelor,Silver Card,Student,2024-08-13
+Robert Rodriguez,57,13375995.035244215,2,2.8643214751724484,Male,West,High School,Classic Card,Other,2022-08-13
+Thomas Martinez,48,13229063.461033337,16,4.948515240292748,Female,West,Diploma,Classic Card,Other,2017-07-08
+John Wilson,22,3140493.6637097485,22,3.4333507439259066,Female,East,Diploma,Silver Card,Government Employee,2020-03-14
+James Moore,51,7058682.818396471,19,2.169343342240451,Female,West,Master,Classic Card,Freelancer,2018-08-29
+Robert Smith,37,8104553.199625606,5,3.710961551413886,Female,West,Diploma,Gold Card,Student,2017-01-11
+Jessica Miller,22,11678109.985628575,10,4.813036270158934,Female,East,Master,Classic Card,Private Employee,2021-07-15
+Jessica Anderson,22,7600740.777832113,7,2.2659530439402404,Male,West,Diploma,Gold Card,Entrepreneur,2019-06-04
+Elizabeth Moore,36,10078227.706124704,12,4.791592798238676,Female,East,High School,Classic Card,Student,2018-09-16
+Charles Martin,33,16088661.089731434,5,4.507684846496836,Female,Central,High School,Silver Card,Student,2022-10-07
+David Moore,26,3632204.594120137,18,4.91802087440514,Female,East,Bachelor,Silver Card,Government Employee,2020-05-15
+James Martin,50,12011205.030068057,0,4.855669710449086,Female,West,Master,Silver Card,Freelancer,2015-02-21
+Karen Wilson,52,9836119.14418243,21,4.7753327136692185,Female,East,Bachelor,Silver Card,Entrepreneur,2022-10-27
+John Taylor,65,13115929.048823567,6,2.626601545917954,Male,West,High School,Classic Card,Other,2016-07-07
+Susan Williams,39,17712934.514802143,18,1.8865934941415552,Male,Central,Bachelor,Classic Card,Other,2015-09-29
+Charles Martin,31,16136350.7866931,10,2.1151372021654704,Female,Central,High School,Silver Card,Private Employee,2018-11-08
+Daniel Moore,41,18311703.056051105,21,2.3957025205603206,Male,Central,Bachelor,Gold Card,Entrepreneur,2015-11-29
+John Taylor,63,13330234.036602302,6,2.476862781575252,Male,West,High School,Classic Card,Other,2019-02-13
+Susan Hernandez,60,7358614.930880176,3,4.94159925238197,Male,Central,Bachelor,Silver Card,Private Employee,2023-01-20
+Patricia Anderson,26,20030312.888068367,21,2.75688465810046,Male,West,Bachelor,Silver Card,Freelancer,2024-03-19
+Patricia Wilson,44,16784606.995899748,8,4.629071532846361,Male,East,Diploma,Classic Card,Private Employee,2020-01-20
+Charles Gonzalez,40,7354024.687053606,14,2.5515506418122498,Male,West,High School,Classic Card,Other,2017-09-13
+Patricia Jones,20,8544003.867223354,6,4.543575265045577,Female,West,High School,Classic Card,Government Employee,2016-07-26
+Robert Williams,26,12097023.53034702,20,3.022058365301376,Female,East,Diploma,Classic Card,Government Employee,2023-10-22
+James Smith,33,7453982.33350401,4,4.517707665216917,Male,East,High School,Gold Card,Government Employee,2015-02-09
+Charles Smith,18,19040159.07408696,24,4.162477648471593,Male,Central,Bachelor,Gold Card,Other,2022-12-04
+Thomas Lopez,47,19936194.40285652,4,4.814237864431773,Female,Central,Diploma,Gold Card,Government Employee,2020-02-14
+Nancy Anderson,53,6284189.158556013,15,4.7360390509740045,Male,West,Bachelor,Silver Card,Entrepreneur,2015-04-04
+Sarah Smith,47,19377202.869369373,5,4.316805963316741,Female,West,High School,Classic Card,Freelancer,2015-09-05
+Linda Miller,40,19448530.80295073,17,4.552366401653574,Female,West,Bachelor,Classic Card,Private Employee,2023-01-23
+Joseph Brown,46,16920647.315238215,5,4.6528127182847125,Female,West,High School,Gold Card,Private Employee,2018-02-27
+Daniel Moore,62,5480634.588156781,2,4.302347142055506,Female,West,High School,Platinum Card,Other,2020-11-29
+Thomas Martin,25,9111134.59602578,25,3.2786541175452064,Male,Central,Diploma,Gold Card,Government Employee,2019-05-16
+Charles Lopez,30,14291857.11639451,8,3.8540249055705815,Female,East,Bachelor,Classic Card,Government Employee,2015-03-19
+James Taylor,26,13230015.947591396,23,2.74391200095401,Female,Central,Bachelor,Gold Card,Student,2017-05-04
+Susan Smith,18,17833617.217591014,22,4.97716569842067,Female,Central,Master,Classic Card,Freelancer,2018-10-25
+Joseph Lopez,40,15725790.329724496,15,4.934373897384825,Male,West,High School,Classic Card,Entrepreneur,2021-05-11
+John Martinez,43,5106485.301443199,5,1.4625530958816155,Male,Central,High School,Silver Card,Private Employee,2015-05-26
+Mary Wilson,29,4643735.527858862,18,4.605572061255,Male,West,Diploma,Classic Card,Student,2015-01-16
+Mary Gonzalez,58,16642915.91202272,25,4.681949989803277,Female,Central,Diploma,Silver Card,Student,2015-10-15
+James Martin,32,18375937.681730144,0,4.598682471165418,Female,Central,Bachelor,Classic Card,Other,2024-07-20
+Nancy Jackson,62,12028742.773614252,23,3.6198411782706574,Female,Central,High School,Classic Card,Private Employee,2021-06-17
+Karen Taylor,56,4493176.68902599,3,1.876837214423572,Female,East,Master,Classic Card,Other,2017-07-04
+Nancy Garcia,41,4751546.27085779,9,2.3642546278197827,Female,Central,Bachelor,Gold Card,Entrepreneur,2021-09-07
+Elizabeth Wilson,28,7330111.9750446975,4,4.550394159717077,Female,West,High School,Classic Card,Student,2023-04-17
+Daniel Brown,18,6418655.1370195,11,4.35585236302494,Male,East,Diploma,Platinum Card,Student,2018-08-25
+Joseph Johnson,65,10656055.517085103,7,1.6891063963385744,Female,Central,Bachelor,Silver Card,Freelancer,2024-03-15
+Susan Anderson,40,19632850.889494628,21,4.992133887842213,Male,East,Bachelor,Silver Card,Entrepreneur,2024-12-02
+Robert Hernandez,58,20004752.961872697,19,4.960433512626421,Male,Central,Diploma,Silver Card,Student,2015-06-07
+Thomas Martinez,45,13318792.346151754,18,4.716765654016883,Female,West,Diploma,Classic Card,Entrepreneur,2017-03-22
+Patricia Smith,42,16780073.969154313,15,2.3781371940166367,Male,East,Master,Classic Card,Private Employee,2015-10-05
+John Williams,53,18848398.56968864,8,4.606668196161391,Female,West,Bachelor,Gold Card,Government Employee,2017-02-27
+Mary Wilson,29,4601879.964884823,17,4.651573317911805,Male,West,Diploma,Classic Card,Student,2021-03-20
+Elizabeth Garcia,53,9471903.17525745,1,3.4036897117054923,Female,Central,Bachelor,Classic Card,Freelancer,2018-12-06
+Jessica Johnson,35,18665994.22633665,0,2.809098496453008,Female,East,Diploma,Classic Card,Private Employee,2015-10-17
+Patricia Hernandez,32,16755786.821370754,3,2.094854002638697,Male,East,High School,Classic Card,Entrepreneur,2022-04-24
+Jennifer Smith,41,3884042.960999967,24,1.3358755884628062,Female,East,High School,Gold Card,Other,2020-09-11
+John Gonzalez,32,4462915.04651532,2,2.665046309895479,Male,East,Doctorate,Silver Card,Private Employee,2024-09-28
+Thomas Thomas,52,13927950.997173743,14,4.544056354390914,Male,East,High School,Gold Card,Student,2021-04-22
+David Martinez,49,13862497.168133764,6,3.196731485910364,Female,Central,Diploma,Classic Card,Entrepreneur,2017-04-23
+Nancy Gonzalez,18,3275413.480874583,2,1.9220835951244943,Male,West,Diploma,Silver Card,Government Employee,2015-10-27
+Joseph Martin,47,14945577.783309003,0,3.825351770328964,Female,West,High School,Silver Card,Private Employee,2015-04-08
+Thomas Brown,47,8416900.521936065,0,2.7997433475910825,Male,West,Bachelor,Gold Card,Student,2019-09-04
+Sarah Martin,49,17841590.262329623,18,4.820076870585331,Male,Central,Diploma,Gold Card,Freelancer,2021-03-31
+Jennifer Jones,25,18798740.83421041,9,3.8424794631870975,Female,Central,Diploma,Silver Card,Other,2018-03-24
+David Garcia,62,10963586.141674096,17,4.845599137210653,Male,Central,High School,Classic Card,Entrepreneur,2020-09-28
+John Martin,27,6703011.563553651,15,4.715831740862475,Female,East,Master,Platinum Card,Private Employee,2018-05-14
+Sarah Thomas,26,11201364.085560665,25,4.524201256623212,Female,West,Bachelor,Silver Card,Private Employee,2015-03-07
+Patricia Miller,20,14261567.835797476,0,2.988646589221497,Female,West,Diploma,Silver Card,Government Employee,2017-10-10
+Susan Smith,34,2915966.381600112,16,3.592779078761274,Female,East,Bachelor,Silver Card,Government Employee,2016-03-12
+Patricia Thomas,54,4360986.964592482,23,4.528263235250333,Female,Central,Bachelor,Platinum Card,Freelancer,2021-09-26
+Sarah Smith,46,18989913.06618497,5,4.841036132680753,Female,West,High School,Classic Card,Other,2018-07-18
+Jessica Jones,34,9655547.440958848,20,4.577742915077986,Female,Central,Master,Classic Card,Freelancer,2020-08-21
+Nancy Anderson,49,6849752.151083456,15,4.902650119611586,Male,West,Bachelor,Silver Card,Student,2019-05-10
+Joseph Davis,27,16487417.930836303,3,3.780936366427412,Male,East,Diploma,Classic Card,Student,2022-05-09
+Thomas Lopez,29,18456325.349790387,2,4.650116698899169,Male,East,Bachelor,Gold Card,Freelancer,2018-03-14
+Elizabeth Wilson,32,18153815.53783933,5,3.082315538654243,Female,West,High School,Silver Card,Other,2023-06-04
+David Miller,33,19473385.57897234,11,2.871792731327519,Female,East,Bachelor,Classic Card,Freelancer,2020-03-29
+David Martinez,50,14200070.664681068,8,4.7683772468321495,Female,Central,Diploma,Classic Card,Other,2021-03-18
+William Martin,50,11691070.45722776,12,2.2511959786863587,Female,East,Diploma,Silver Card,Other,2015-09-06
+John Taylor,59,13557480.757596442,4,4.516390567079849,Male,West,High School,Classic Card,Entrepreneur,2023-09-27
+William Brown,20,9221049.40947214,19,3.1813649464750995,Male,East,High School,Silver Card,Other,2024-04-04
+Elizabeth Martinez,59,8904773.802885836,21,4.322136702711939,Male,East,Bachelor,Silver Card,Government Employee,2015-09-29
+David Smith,42,4646063.802504138,2,4.527981963428631,Male,West,Bachelor,Classic Card,Other,2024-07-27
+Jennifer Lopez,51,8646959.178411234,21,2.0716432741216653,Male,Central,Diploma,Silver Card,Other,2018-05-01
+Daniel Thomas,31,12610444.804756436,14,2.3176105799202333,Male,Central,Bachelor,Classic Card,Other,2019-08-03
+Patricia Rodriguez,40,5575961.69316966,8,4.7018224566404765,Female,Central,Master,Platinum Card,Student,2020-03-11
+Thomas Lopez,44,19885796.321661137,0,1.447870715692031,Female,Central,Diploma,Gold Card,Government Employee,2020-02-27
+David Smith,29,12501126.827600136,1,1.2793539064593007,Male,Central,Diploma,Gold Card,Government Employee,2017-10-03
+Karen Williams,57,15286459.306256412,10,4.061078869468125,Female,Central,Diploma,Silver Card,Freelancer,2024-11-01
+Sarah Hernandez,57,7219921.03487999,3,3.4328070316011257,Male,East,Bachelor,Classic Card,Entrepreneur,2024-10-30
+Joseph Miller,36,14854778.062261382,22,3.733188772084653,Male,Central,High School,Gold Card,Other,2022-01-05
+Patricia Garcia,57,10030684.465319352,1,2.2089033841989263,Female,Central,Diploma,Classic Card,Private Employee,2023-12-28
+Nancy Rodriguez,28,2827524.837514314,6,2.8428054427750915,Male,Central,High School,Gold Card,Entrepreneur,2018-11-07
+Elizabeth Thomas,60,15241137.946158316,21,4.844470217608182,Female,East,High School,Gold Card,Entrepreneur,2021-02-14
+Michael Hernandez,31,5047847.488278268,11,1.4538293163463922,Male,West,Bachelor,Silver Card,Government Employee,2023-03-22
+Susan Anderson,42,19792422.61077348,21,4.503722506565171,Male,East,Bachelor,Silver Card,Entrepreneur,2017-07-02
+Robert Thomas,32,12795228.542963937,15,2.351425298225319,Female,Central,High School,Classic Card,Other,2020-09-28
+Karen Taylor,54,4793852.904104059,5,2.194774641511935,Female,East,Master,Classic Card,Other,2022-03-27
+Jennifer Garcia,49,12256211.527283924,6,4.3301367632338765,Female,East,High School,Classic Card,Student,2020-10-03
+Jennifer Davis,18,14183301.548713682,10,5.0,Female,West,Bachelor,Classic Card,Other,2015-10-31
+Robert Miller,36,17757997.774338633,17,4.61127998590716,Female,West,Bachelor,Platinum Card,Other,2020-08-23
+Joseph Gonzalez,60,7996705.400029342,7,1.6707147784169063,Male,Central,High School,Classic Card,Government Employee,2021-09-30
+Michael Jackson,18,14171323.621591808,21,2.164002659064611,Male,Central,Master,Silver Card,Other,2024-12-21
+Mary Rodriguez,21,11401916.217377646,17,1.218692882376065,Female,West,Diploma,Silver Card,Student,2019-11-04
+David Jones,27,17844259.900277637,5,4.984579494173729,Male,West,High School,Gold Card,Private Employee,2024-02-05
+Susan Thomas,46,14437752.037593195,7,4.621649607045953,Female,Central,High School,Classic Card,Government Employee,2016-12-20
+John Moore,54,4127685.81645586,0,4.766865345884235,Male,East,Diploma,Silver Card,Private Employee,2016-03-09
+Susan Thomas,40,18133960.22263224,11,4.67228492585235,Female,East,High School,Classic Card,Government Employee,2017-02-14
+Karen Miller,63,5201764.580394776,17,4.184376955963764,Male,Central,Bachelor,Gold Card,Freelancer,2016-06-05
+William Martin,51,11845034.70777468,8,2.369370787098906,Female,East,Diploma,Silver Card,Entrepreneur,2015-06-08
+Thomas Hernandez,33,19823714.11829125,19,4.236508401759599,Male,West,Diploma,Classic Card,Freelancer,2016-06-01
+Jennifer Rodriguez,57,12256649.93670824,13,3.1695673836334626,Male,East,Master,Gold Card,Other,2019-10-29
+Nancy Taylor,26,11199631.456432857,26,4.891756104999061,Female,West,Bachelor,Classic Card,Private Employee,2021-12-13
+Joseph Lopez,39,15922692.361361552,19,1.0,Male,West,High School,Classic Card,Other,2024-11-12
+James Rodriguez,45,16377965.23947902,2,3.9133735623800674,Female,West,Diploma,Classic Card,Entrepreneur,2023-07-20
+Charles Moore,29,15567301.595626203,13,4.963811736365126,Male,West,High School,Classic Card,Government Employee,2020-02-11
+Thomas Martinez,21,16888286.446540553,22,4.736827830659361,Female,West,Diploma,Silver Card,Entrepreneur,2016-11-07
+Jennifer Thomas,61,19343134.23098776,9,4.877763091291849,Male,West,Diploma,Silver Card,Student,2021-07-05
+Nancy Brown,26,11472517.433168428,13,4.715206344687035,Female,Central,Master,Platinum Card,Entrepreneur,2020-12-08
+James Smith,18,11311769.857270692,3,4.66016459877284,Male,West,Master,Silver Card,Student,2018-03-05
+Nancy Smith,26,4890375.820215516,9,4.561250876261281,Female,West,Bachelor,Gold Card,Entrepreneur,2024-06-29
+Nancy Anderson,43,17646593.548071444,2,4.135314173789568,Female,East,Bachelor,Platinum Card,Student,2018-04-05
+Karen Garcia,42,4627256.202219268,2,5.0,Female,Central,Master,Silver Card,Private Employee,2015-12-10
+Daniel Moore,44,18148586.669881787,23,4.702452120999002,Male,Central,Bachelor,Gold Card,Other,2020-04-24
+Daniel Jackson,35,13799066.315396763,17,3.662313899261322,Male,West,Bachelor,Classic Card,Other,2019-09-06
+Susan Hernandez,63,7489458.573092331,0,1.116964284343684,Male,Central,Bachelor,Silver Card,Freelancer,2021-12-17
+Patricia Wilson,44,17025325.325595316,8,4.479521616544647,Male,East,Diploma,Classic Card,Other,2023-10-02
+Karen Gonzalez,61,4493707.040330461,7,4.594786617877699,Female,East,Master,Gold Card,Government Employee,2019-03-21
+Sarah Wilson,47,8675438.402449915,1,4.496114585348525,Male,East,Diploma,Classic Card,Entrepreneur,2019-01-16
+Linda Gonzalez,47,3158346.660084473,26,4.986545882738724,Female,East,High School,Platinum Card,Freelancer,2023-09-04
+Susan Brown,42,19459169.649365377,17,4.627650681633639,Female,West,Master,Gold Card,Government Employee,2015-03-03
+Michael Anderson,27,8150276.613354731,4,4.993208904433449,Female,East,High School,Silver Card,Government Employee,2017-09-16
+Jennifer Thomas,42,17244756.29166327,12,4.550000098645335,Female,East,High School,Gold Card,Student,2015-01-27
+Robert Williams,26,5835484.635841586,7,1.0116056786219478,Male,West,Bachelor,Classic Card,Other,2018-10-18
+Jessica Garcia,19,14956047.582727067,9,4.90197312496387,Male,West,Bachelor,Classic Card,Private Employee,2023-02-20
+Michael Martinez,46,17760982.72958119,18,4.758319870970578,Male,East,High School,Classic Card,Private Employee,2019-07-11
+Susan Williams,36,17423855.3715845,0,2.8977876921346217,Male,Central,Master,Silver Card,Freelancer,2023-09-01
+David Johnson,62,17239155.3351444,16,4.696222519997868,Female,West,Master,Classic Card,Private Employee,2018-05-14
+James Jackson,56,11064623.818078255,2,1.1332260460280497,Male,West,Diploma,Classic Card,Entrepreneur,2016-11-26
+Robert Rodriguez,55,6194569.970125479,0,4.9837767185632735,Male,East,Bachelor,Classic Card,Private Employee,2021-02-01
+John Brown,39,11639832.432925511,18,4.940742042366987,Male,West,Bachelor,Silver Card,Freelancer,2020-11-05
+Nancy Miller,52,8699865.965909533,17,4.729539440868424,Female,Central,Bachelor,Silver Card,Private Employee,2019-03-10
+William Rodriguez,22,9298140.131737905,20,2.716607729983381,Female,East,Master,Platinum Card,Entrepreneur,2021-07-22
+David Wilson,41,15432712.070862224,25,4.465066644637881,Female,West,High School,Silver Card,Student,2015-03-13
+John Brown,42,12794315.63658785,8,2.954892216488846,Female,Central,Bachelor,Classic Card,Freelancer,2024-09-19
+Linda Wilson,55,12284434.016108949,19,2.311421463675705,Male,Central,Diploma,Platinum Card,Student,2022-12-07
+Susan Miller,36,9123769.877766658,4,4.517054846612187,Male,East,Bachelor,Platinum Card,Student,2022-10-06
+Mary Wilson,60,4511763.910302767,20,3.1038975216171645,Male,Central,Bachelor,Silver Card,Student,2015-03-04
+Mary Davis,24,4061753.791471464,9,1.915431108663417,Female,Central,Diploma,Silver Card,Government Employee,2017-06-14
+Nancy Williams,39,7578332.313972527,2,4.635320156529121,Female,West,Bachelor,Gold Card,Other,2022-04-07
+James Williams,27,5406198.295820162,15,4.6873354161763325,Female,Central,High School,Silver Card,Government Employee,2015-04-19
+Karen Taylor,36,11697215.777541948,0,4.9862070387718855,Male,Central,Master,Classic Card,Other,2021-05-14
+Patricia Moore,32,16154570.165570011,15,4.760899641101725,Male,East,High School,Silver Card,Student,2021-07-28
+Joseph Taylor,22,16288114.390691224,15,4.940371896975039,Male,East,Bachelor,Silver Card,Freelancer,2016-01-04
+James Taylor,45,14694258.464136152,18,4.310850152726946,Female,Central,Bachelor,Classic Card,Other,2022-03-01
+John Williams,51,16077996.168154536,15,2.9417529670795663,Female,West,Doctorate,Platinum Card,Entrepreneur,2020-11-28
+David Smith,26,12827149.234610653,4,1.4642771969450072,Male,Central,Diploma,Gold Card,Entrepreneur,2016-02-14
+Jessica Hernandez,34,4567991.428944387,12,4.999717104396127,Male,Central,Master,Silver Card,Private Employee,2015-04-08
+Patricia Rodriguez,21,10701698.747496411,5,1.1115008593106848,Male,Central,Doctorate,Classic Card,Other,2018-08-07
+Michael Martinez,38,17273077.991849393,6,2.4617255608576034,Female,West,High School,Classic Card,Freelancer,2024-04-27
+David Taylor,56,6619541.306011946,25,2.19938380669037,Female,West,High School,Silver Card,Government Employee,2021-08-24
+Karen Gonzalez,46,15496735.079132926,15,1.56122472460938,Female,West,Bachelor,Gold Card,Student,2019-05-29
+Elizabeth Gonzalez,46,14213542.442943567,1,4.38768195175366,Male,Central,Bachelor,Classic Card,Private Employee,2018-09-24
+Elizabeth Jones,39,18826491.88070372,6,1.6465242201149335,Male,West,High School,Silver Card,Entrepreneur,2024-07-19
+Charles Martin,52,17548757.023519117,18,1.6462553843176049,Female,West,Bachelor,Gold Card,Government Employee,2016-05-15
+Jessica Lopez,18,16858186.97764912,17,1.314236848421629,Female,Central,Diploma,Platinum Card,Government Employee,2015-10-23
+Susan Smith,63,11359307.840929046,6,4.512754273071057,Female,West,High School,Classic Card,Student,2023-01-28
+Karen Miller,59,4703729.6421287535,19,4.793806176065671,Male,Central,Bachelor,Gold Card,Other,2019-09-18
+Linda Gonzalez,52,6748603.327062801,4,2.0137295240285136,Male,West,Bachelor,Silver Card,Entrepreneur,2018-06-10
+William Jackson,24,6967997.37982185,21,3.565524523195326,Male,Central,High School,Silver Card,Freelancer,2020-11-04
+Susan Moore,44,13041234.236668458,12,4.7812293494770834,Male,Central,High School,Classic Card,Government Employee,2020-05-24
+Mary Anderson,49,19540897.36919012,12,1.174693514460882,Male,Central,High School,Classic Card,Student,2016-12-09
+Karen Rodriguez,31,18946937.12917287,13,4.9819293372827005,Female,West,High School,Gold Card,Freelancer,2024-06-29
+Karen Miller,51,9540729.173629092,26,4.36141928995917,Female,West,Diploma,Gold Card,Other,2021-03-16
+John Moore,25,12829922.299236445,23,4.838283703298726,Male,East,Bachelor,Silver Card,Entrepreneur,2018-09-23
+Robert Williams,47,17713863.181282867,10,4.846856626018387,Male,Central,High School,Classic Card,Other,2024-08-10
+Joseph Rodriguez,44,6334777.485444048,5,4.8289697713243775,Female,East,Doctorate,Classic Card,Government Employee,2019-07-31
+Patricia Moore,67,11093626.828396818,12,4.503983713820975,Female,East,Bachelor,Gold Card,Freelancer,2018-12-05
+William Jones,61,14800280.88226809,23,1.7833234428310163,Female,Central,Bachelor,Gold Card,Freelancer,2021-04-06
+Linda Thomas,60,17878577.639901325,10,4.611823394006991,Female,Central,Bachelor,Gold Card,Freelancer,2018-11-17
+Susan Brown,38,19733351.69525918,17,4.877190823751654,Female,West,Master,Gold Card,Government Employee,2022-12-29
+Elizabeth Wilson,27,18314684.60897177,4,3.3085324061877466,Female,West,High School,Silver Card,Government Employee,2023-06-15
+David Hernandez,52,5274454.180307468,18,4.50798005017896,Female,West,Master,Classic Card,Other,2023-11-09
+Thomas Smith,57,9921639.325703232,8,3.8009773963701288,Female,Central,High School,Classic Card,Private Employee,2024-10-21
+Patricia Smith,39,17158252.495369017,13,4.710861044117934,Male,East,Master,Classic Card,Other,2021-05-24
+Michael Martinez,64,13359326.571515637,19,4.512613776123393,Female,East,High School,Silver Card,Entrepreneur,2020-02-21
+Nancy Anderson,49,6759861.411730245,13,3.724001997149692,Male,West,Bachelor,Silver Card,Student,2022-09-27
+Jessica Gonzalez,46,9953062.33186474,10,4.463574451476333,Female,West,Bachelor,Gold Card,Freelancer,2018-07-16
+Nancy Brown,58,16293321.11623374,13,4.584205968128441,Female,Central,Bachelor,Classic Card,Private Employee,2016-03-28
+Michael Lopez,25,17528258.24284141,23,4.534063854667248,Male,West,Diploma,Silver Card,Student,2023-08-31
+Karen Taylor,36,11759996.02952378,0,4.803306894840084,Male,Central,Master,Classic Card,Private Employee,2020-06-15
+David Taylor,57,6180037.451485734,23,2.705151684633631,Female,West,High School,Silver Card,Other,2024-07-21
+Linda Martin,53,9551846.62236644,12,4.3279995500369575,Male,East,Bachelor,Silver Card,Government Employee,2019-04-08
+Nancy Johnson,41,4667881.467262604,15,3.0117272135751243,Female,Central,High School,Silver Card,Freelancer,2016-10-05
+Thomas Martinez,53,3973569.232925424,1,4.979605878236384,Female,West,Bachelor,Classic Card,Other,2019-01-25
+Linda Lopez,55,18752199.410199936,21,4.556961701216879,Male,Central,Master,Platinum Card,Student,2016-09-20
+Thomas Martin,21,9826113.407668686,25,4.649375915990342,Male,Central,Diploma,Gold Card,Student,2015-09-08
+Joseph Garcia,60,15108050.137452086,22,1.927352064230448,Female,East,Bachelor,Silver Card,Student,2024-03-20
+Susan Jones,20,17915561.87395034,18,4.972955281232341,Male,East,Diploma,Gold Card,Student,2022-02-24
+Thomas Jackson,29,7913427.419319299,9,3.433898849618003,Female,West,Diploma,Classic Card,Student,2017-05-04
+Jennifer Brown,62,10052893.401685854,16,2.423714510929466,Female,Central,Bachelor,Gold Card,Private Employee,2023-09-29
+Daniel Garcia,52,12717894.074795518,3,5.0,Male,Central,Master,Silver Card,Other,2023-12-06
+Sarah Garcia,27,6428245.044115899,10,4.740175206797103,Female,West,High School,Silver Card,Freelancer,2023-09-17
+David Smith,39,4851201.966428651,0,2.072444785410332,Male,West,Bachelor,Classic Card,Government Employee,2015-05-09
+Michael Gonzalez,57,16176515.383283906,17,4.840271935188099,Male,East,Diploma,Silver Card,Government Employee,2017-12-15
+Elizabeth Wilson,56,18509287.966196235,11,3.6927849725253568,Male,West,Master,Gold Card,Other,2018-01-20
+Jennifer Lopez,54,8924906.285178952,19,1.5565262477509991,Male,Central,Diploma,Silver Card,Other,2020-02-03
+Elizabeth Jones,37,18812151.96030184,8,4.735289461600623,Male,West,High School,Silver Card,Government Employee,2020-02-02
+Nancy Gonzalez,27,15372250.252815409,17,4.651428638891122,Female,West,Diploma,Silver Card,Government Employee,2018-09-29
+Mary Wilson,30,5061232.450615691,22,5.0,Male,West,Diploma,Classic Card,Private Employee,2016-09-02
+James Martin,37,18094078.868336704,1,4.831734514954421,Female,Central,Bachelor,Classic Card,Entrepreneur,2018-12-22
+Jennifer Jones,25,18715354.025356915,14,3.6162710071178665,Female,Central,Diploma,Silver Card,Freelancer,2022-03-05
+Joseph Martinez,45,16709389.752513936,3,2.745378030644919,Female,East,Diploma,Gold Card,Student,2017-01-08
+Linda Wilson,54,12124927.792789215,17,2.544007135776921,Male,Central,Diploma,Platinum Card,Entrepreneur,2023-04-17
+John Gonzalez,22,8880881.764706114,1,3.2049733205492217,Female,East,Bachelor,Classic Card,Other,2020-07-07
+Patricia Jackson,31,6137913.220706636,9,4.624462824854892,Female,Central,Diploma,Platinum Card,Government Employee,2023-02-22
+Charles Rodriguez,28,3690551.397633699,9,3.066654401464832,Male,Central,High School,Classic Card,Entrepreneur,2020-01-15
+Thomas Lopez,43,19975322.003432773,0,1.6504849279126126,Female,Central,Diploma,Gold Card,Freelancer,2015-02-05
+Daniel Rodriguez,45,19035520.372970164,13,3.253831655415808,Female,East,Bachelor,Classic Card,Other,2019-02-05
+Elizabeth Hernandez,38,10225504.616482263,0,1.0,Male,Central,High School,Classic Card,Student,2019-08-14
+John Wilson,46,15457020.024481596,17,4.819538463267518,Male,East,Diploma,Platinum Card,Student,2017-08-12
+John Martinez,51,8302216.849173166,4,4.874909524306597,Female,East,Master,Silver Card,Freelancer,2020-04-11
+Jessica Hernandez,26,15635529.551794617,7,4.85779433736007,Male,East,Bachelor,Classic Card,Freelancer,2016-09-27
+James Miller,30,3619111.574911449,18,4.617742115908854,Female,Central,Diploma,Silver Card,Government Employee,2021-07-14
+Susan Jones,62,10025003.487623945,10,4.762038746816566,Female,East,Master,Silver Card,Student,2021-04-23
+Linda Davis,36,16581981.39383838,7,2.7771823284431054,Female,Central,Doctorate,Silver Card,Other,2021-12-12
+Sarah Moore,33,16709809.43159004,21,2.4168884623350606,Male,Central,High School,Platinum Card,Entrepreneur,2020-04-04
+Michael Miller,44,3575790.2501702425,15,1.404180568878679,Female,East,High School,Classic Card,Other,2018-05-25
+John Davis,39,14508585.28714944,0,4.580571478427647,Male,West,Master,Gold Card,Private Employee,2018-01-27
+Linda Smith,22,17426971.259106178,10,3.955792067129727,Male,East,Bachelor,Classic Card,Private Employee,2019-08-22
+Mary Brown,31,18089764.837985363,15,4.654704181847846,Female,West,High School,Gold Card,Freelancer,2018-05-30
+Mary Davis,37,10338990.248541951,12,4.1475130936273725,Female,East,High School,Gold Card,Government Employee,2015-08-12
+Patricia Thomas,25,4363684.232013336,13,4.7389430053775525,Male,East,Bachelor,Classic Card,Private Employee,2019-04-11
+David Lopez,40,8903569.801239366,11,4.745665091377673,Female,West,Doctorate,Classic Card,Student,2023-10-25
+Robert Thomas,32,12645354.29372276,11,4.5542663535536505,Female,Central,High School,Classic Card,Other,2022-02-27
+Karen Davis,37,7385268.638203115,19,3.85865222805352,Male,West,High School,Classic Card,Other,2020-12-28
+Patricia Taylor,62,17950561.1642186,1,2.410256975920686,Male,West,Bachelor,Silver Card,Freelancer,2023-12-07
+Robert Thomas,34,12394619.319341766,11,2.2749486419357017,Female,Central,High School,Classic Card,Entrepreneur,2023-08-19
+John Davis,23,15748723.97743198,0,3.633576405715577,Male,East,Bachelor,Silver Card,Freelancer,2017-08-26
+Nancy Williams,55,11217471.680154918,12,4.317677410830123,Male,East,Bachelor,Gold Card,Entrepreneur,2022-08-12
+Susan Rodriguez,56,14025520.237810688,3,4.313634262520008,Male,West,High School,Platinum Card,Freelancer,2023-03-10
+Thomas Gonzalez,56,13659889.197396375,21,4.713514916001548,Female,East,Bachelor,Classic Card,Freelancer,2021-06-27
+Thomas Davis,59,11723329.049692454,22,4.87134937366566,Male,East,Master,Classic Card,Freelancer,2016-06-24
+Linda Jackson,38,14955472.742140535,20,4.99275227059348,Female,East,Bachelor,Silver Card,Entrepreneur,2022-09-13
+Mary Gonzalez,61,11139239.399385216,6,3.510462362712384,Male,West,Master,Classic Card,Entrepreneur,2024-12-04
+Charles Thomas,59,3888181.352930015,3,5.0,Female,West,Bachelor,Gold Card,Freelancer,2016-04-15
+Thomas Davis,57,11365808.088609118,22,4.630596262312092,Male,East,Master,Classic Card,Private Employee,2017-01-30
+Susan Miller,26,5724154.8491333695,15,4.081752710853266,Female,East,Bachelor,Classic Card,Government Employee,2022-03-02
+Michael Miller,42,2645182.54604742,19,1.0,Female,East,High School,Classic Card,Government Employee,2016-10-17
+David Gonzalez,39,18560023.46468558,12,4.95420460243213,Male,East,Bachelor,Gold Card,Government Employee,2021-05-20
+John Williams,53,15639934.117790194,14,4.559815347236736,Female,West,Doctorate,Platinum Card,Entrepreneur,2020-11-28
+William Thomas,49,18128865.549365763,25,2.5126943493818112,Female,West,Bachelor,Platinum Card,Entrepreneur,2020-10-25
+Susan Martin,51,15834871.860396978,9,4.581829977979194,Male,West,Master,Classic Card,Private Employee,2015-11-02
+John Wilson,20,2844626.61050063,23,3.8949274841765074,Female,East,Diploma,Silver Card,Government Employee,2018-10-12
+John Garcia,47,8553118.245307533,15,4.794874076937186,Female,Central,Bachelor,Classic Card,Government Employee,2023-05-14
+Charles Smith,52,8317346.899020316,1,2.9618001482852185,Female,East,High School,Classic Card,Freelancer,2020-03-03
+Elizabeth Taylor,54,10489634.492372522,5,3.819349037831822,Male,Central,Bachelor,Silver Card,Entrepreneur,2021-03-02
+Jennifer Williams,42,8397128.370627275,16,3.2020256262992643,Female,West,Bachelor,Silver Card,Government Employee,2021-03-16
+Michael Lopez,21,16931887.07757133,21,3.361578096979482,Male,West,Diploma,Silver Card,Other,2023-06-21
+William Davis,20,12183297.640077882,8,4.780216964498416,Male,West,Diploma,Classic Card,Private Employee,2017-12-09
+Elizabeth Martin,49,4630776.188646182,14,4.554327461238964,Male,Central,Bachelor,Gold Card,Other,2019-06-09
+William Jones,26,11058121.22932435,20,4.559397930233406,Male,Central,Master,Gold Card,Other,2020-11-27
+Mary Davis,29,3684567.9876465057,14,1.6989786923029522,Female,Central,Diploma,Silver Card,Private Employee,2022-09-12
+Patricia Thomas,52,4835841.357406681,19,4.556122165129262,Female,Central,Bachelor,Platinum Card,Other,2021-06-01
+Jennifer Miller,28,13616466.416593963,18,3.593716986831238,Male,West,Master,Classic Card,Government Employee,2018-05-18
+Sarah Jones,47,10815330.20614824,15,4.552046761178764,Female,West,Master,Classic Card,Entrepreneur,2021-01-31
+William Davis,57,14102253.682546116,0,3.271720253693189,Female,East,High School,Gold Card,Private Employee,2023-11-01
+Daniel Anderson,35,4506033.094965607,20,4.933165737164784,Male,East,Bachelor,Gold Card,Freelancer,2018-07-29
+Susan Taylor,21,3803905.141073808,27,4.41497351419102,Male,East,Diploma,Silver Card,Other,2021-02-05
+David Thomas,58,13401045.536599215,11,4.972701054536585,Male,West,Diploma,Classic Card,Private Employee,2024-04-28
+Jennifer Jones,26,19002914.50760115,13,3.5787672908416344,Female,Central,Diploma,Silver Card,Student,2024-03-02
+David Miller,34,19578978.862555664,11,4.988878374002276,Female,East,Bachelor,Classic Card,Student,2018-12-02
+Elizabeth Wilson,30,7623843.749883977,0,3.9362665279831752,Female,West,High School,Classic Card,Entrepreneur,2017-04-09
+Joseph Johnson,37,4602960.665617784,0,3.2827853093271324,Female,West,Master,Classic Card,Government Employee,2018-01-04
+Thomas Martinez,62,9599684.896645805,21,4.981906815737351,Male,Central,Diploma,Silver Card,Entrepreneur,2015-06-04
+Elizabeth Wilson,47,13064057.438532865,4,2.551925013963141,Female,Central,High School,Classic Card,Entrepreneur,2023-11-08
+Elizabeth Davis,39,10173870.190470375,5,4.812103112100318,Male,West,Bachelor,Gold Card,Entrepreneur,2021-06-29
+Daniel Taylor,49,11859191.95964596,4,4.532296996791956,Male,East,Diploma,Platinum Card,Entrepreneur,2022-05-14
+Michael Jackson,26,9511947.02388522,12,4.528715347452595,Female,West,High School,Silver Card,Freelancer,2023-04-29
+Susan Martin,31,6391251.8619715925,5,4.887706334797317,Male,East,Bachelor,Silver Card,Freelancer,2020-07-02
+Patricia Miller,20,14123686.181968097,0,4.575878837995706,Female,West,Diploma,Silver Card,Private Employee,2024-04-18
+Susan Miller,31,8956015.00000031,1,4.342078352364265,Male,East,Bachelor,Platinum Card,Student,2017-02-24
+Patricia Davis,56,8420074.977140708,8,4.529463326684206,Female,West,Diploma,Silver Card,Entrepreneur,2015-04-20
+John Taylor,45,5382610.758911544,5,4.546544223165967,Male,East,Diploma,Classic Card,Private Employee,2017-05-26
+David Miller,37,19250572.62660737,13,2.692613003871158,Female,East,Bachelor,Classic Card,Student,2020-10-02
+Linda Anderson,18,12157935.271020792,4,4.739410615589883,Female,East,High School,Classic Card,Other,2017-06-08
+Linda Davis,50,12196206.950055538,21,2.7878122226100714,Female,West,Bachelor,Classic Card,Government Employee,2020-03-02
+Patricia Jones,22,8824706.779940624,10,4.809787179684506,Female,West,High School,Classic Card,Freelancer,2024-01-28
+David Hernandez,48,5311635.305908706,17,1.288839136588232,Female,West,Master,Classic Card,Other,2021-02-25
+William Martinez,18,17450565.634168822,20,4.804546400395123,Male,East,Diploma,Silver Card,Student,2015-11-24
+Mary Davis,38,10474425.419048058,11,4.3220253235440085,Female,East,High School,Gold Card,Other,2015-01-28
+Susan Garcia,22,18619472.17864237,11,3.987822044015768,Male,East,Diploma,Classic Card,Government Employee,2022-08-25
+Mary Anderson,47,19626467.370548222,11,4.9442866747558725,Male,Central,High School,Classic Card,Student,2023-06-08
+Linda Gonzalez,55,6690515.697827574,6,2.547449872443591,Male,West,Bachelor,Silver Card,Other,2023-10-11
+Mary Jackson,59,17100755.605424203,17,4.557554156624602,Male,East,Master,Classic Card,Freelancer,2021-07-11
+James Lopez,33,19526142.025543816,5,4.363909624728585,Female,West,Bachelor,Classic Card,Freelancer,2015-06-22
+Patricia Garcia,19,4032428.533286317,19,2.2751706723153604,Male,West,Master,Classic Card,Private Employee,2015-03-31
+David Lopez,42,8750422.884847902,13,2.359312687651128,Female,West,Doctorate,Classic Card,Other,2023-10-04
+Joseph Hernandez,19,5670310.3957548905,9,4.981325751624538,Female,East,Diploma,Platinum Card,Entrepreneur,2023-01-26
+Elizabeth Taylor,59,11109774.796701418,5,4.152951254628532,Male,Central,Bachelor,Silver Card,Other,2019-01-02
+Joseph Brown,46,17152997.328971546,5,1.7162068306199498,Female,West,High School,Gold Card,Student,2022-10-17
+Joseph Anderson,44,16296215.427349744,2,2.124456328736002,Female,East,Bachelor,Classic Card,Student,2016-08-07
+James Johnson,57,16596325.143617077,16,4.673480171721652,Male,West,Master,Classic Card,Other,2015-08-27
+Nancy Garcia,42,3950512.629908784,8,2.214659044822155,Female,Central,Bachelor,Gold Card,Government Employee,2021-09-13
+Thomas Anderson,59,15322876.842315884,13,5.0,Female,East,High School,Classic Card,Freelancer,2017-03-09
+Charles Thomas,55,3275015.513156405,3,4.965196180991785,Female,West,Bachelor,Gold Card,Student,2016-03-12
+Susan Miller,53,16751440.651004262,7,4.505993311836489,Male,West,Bachelor,Classic Card,Freelancer,2016-06-22
+Charles Williams,58,10700090.847563395,17,2.806603638081622,Male,Central,Diploma,Classic Card,Student,2024-11-11
+Karen Miller,50,9381587.055421865,22,4.93813655034376,Female,West,Diploma,Gold Card,Private Employee,2024-03-08
+Jennifer Lopez,53,8675214.00165941,21,2.0432501256908555,Male,Central,Diploma,Silver Card,Entrepreneur,2021-12-03
+Sarah Martinez,26,18004760.379919775,15,4.766935950877058,Female,Central,High School,Platinum Card,Student,2021-11-27
+Michael Jackson,22,16984222.889016666,5,4.917890266134345,Female,East,Bachelor,Gold Card,Freelancer,2016-04-27
+Patricia Williams,26,18855874.81489322,8,1.302072695766003,Male,East,High School,Silver Card,Private Employee,2016-03-16
+William Johnson,46,19483696.82149154,4,4.337620435317729,Female,West,Bachelor,Classic Card,Student,2019-12-23
+William Williams,40,15878642.248570755,15,3.637152806998726,Female,East,Master,Classic Card,Government Employee,2021-10-30
+Joseph Davis,28,9863223.631109249,14,4.681671568893531,Male,West,Bachelor,Silver Card,Entrepreneur,2023-09-07
+James Smith,30,6938626.430865087,1,3.90655784965252,Male,East,High School,Gold Card,Student,2019-04-11
+Linda Martin,34,7447508.501029391,6,4.381508817766084,Male,West,Bachelor,Classic Card,Private Employee,2022-09-25
+Thomas Anderson,34,12302562.81000849,21,1.885661884991582,Female,Central,Bachelor,Silver Card,Government Employee,2017-03-06
+John Miller,38,9217430.14620437,19,2.05416446555142,Male,West,High School,Gold Card,Other,2021-07-31
+Charles Smith,49,8356552.287065984,5,2.9294559761415755,Female,East,High School,Classic Card,Private Employee,2015-03-21
+Mary Rodriguez,55,7051583.961521145,17,4.335771515109809,Female,West,Bachelor,Silver Card,Private Employee,2022-11-29
+Mary Martin,33,14442375.863791704,8,4.625915057676828,Male,West,Master,Classic Card,Government Employee,2024-08-19
+John Moore,41,7778662.545969281,23,2.563130091669807,Female,Central,High School,Classic Card,Private Employee,2017-03-12
+Karen Davis,28,3344488.741669339,0,4.856155016890426,Female,East,Bachelor,Classic Card,Government Employee,2019-07-05
+Charles Brown,18,9236266.109389631,19,4.968174289998986,Male,Central,Bachelor,Platinum Card,Student,2024-07-12
+Patricia Miller,43,14636033.302649545,12,4.57463125061618,Male,East,High School,Classic Card,Government Employee,2024-12-27
+John Thomas,29,15075673.794885604,2,4.828928879848528,Female,West,Bachelor,Classic Card,Government Employee,2021-01-13
+Patricia Davis,57,8278016.913137252,9,5.0,Female,West,Diploma,Silver Card,Entrepreneur,2015-01-28
+James Martin,50,7057690.487955521,19,4.913357450358959,Male,East,Master,Classic Card,Government Employee,2015-03-17
+David Garcia,59,11037142.371842992,18,3.112489995968225,Male,Central,High School,Classic Card,Government Employee,2024-01-19
+Jennifer Miller,45,12835442.254744835,13,3.461025720599448,Male,Central,Bachelor,Classic Card,Other,2018-07-29
+Elizabeth Thomas,63,14982819.125424773,19,3.618428302038544,Female,East,High School,Gold Card,Student,2015-11-23
+Nancy Anderson,40,17237732.043938335,2,3.87681539618634,Female,East,Bachelor,Platinum Card,Entrepreneur,2022-02-05
+Jessica Williams,43,5846601.151295003,18,4.910752573193043,Male,Central,Bachelor,Silver Card,Other,2015-08-03
+Michael Martin,40,3038332.388643144,7,3.926760339114782,Female,East,High School,Gold Card,Freelancer,2018-03-27
+Patricia Miller,22,14205306.12589362,0,4.631398782303378,Female,West,Diploma,Silver Card,Student,2019-05-13
+Thomas Davis,59,11913659.39611859,22,4.470180605121817,Male,East,Master,Classic Card,Student,2018-03-15
+William Wilson,60,6700393.147098926,18,1.7362301976451804,Female,Central,Master,Silver Card,Freelancer,2015-09-03
+David Johnson,62,17280641.38147256,21,3.1317412362843005,Female,West,Master,Classic Card,Government Employee,2023-07-06
+James Davis,35,10874438.96709838,18,4.78094489797431,Male,Central,Diploma,Gold Card,Other,2020-01-07
+Joseph Jackson,38,4179662.883420641,7,2.3881021885684817,Female,Central,Bachelor,Silver Card,Private Employee,2017-10-15
+Robert Thomas,59,13016914.069350766,5,4.256930899049761,Male,East,High School,Classic Card,Entrepreneur,2017-04-07
+Charles Hernandez,63,16433799.065691158,18,4.766315071044631,Male,West,Bachelor,Platinum Card,Private Employee,2022-07-16
+Joseph Miller,19,19738450.318541475,13,4.9488265834984215,Female,West,Master,Classic Card,Freelancer,2017-03-04
+Nancy Anderson,49,5884716.331638459,15,4.611481008026368,Male,West,Bachelor,Silver Card,Student,2020-02-28
+David Martinez,46,13904557.61560623,7,4.691977753677946,Female,Central,Diploma,Classic Card,Student,2023-07-11
+Nancy Davis,48,5196972.621401315,18,4.567861877404718,Female,East,Master,Classic Card,Entrepreneur,2018-11-07
+John Lopez,47,17736664.80309029,13,2.62675114367806,Male,West,Bachelor,Gold Card,Student,2024-08-12
+William Wilson,29,4722406.663046182,23,2.85602993736491,Male,West,Bachelor,Gold Card,Student,2019-01-31
+Patricia Johnson,35,13387213.133186745,11,1.93389306166242,Male,East,Doctorate,Classic Card,Entrepreneur,2016-05-13
+James Miller,57,4735942.275498232,1,4.549636896584901,Male,East,Diploma,Platinum Card,Other,2015-10-23
+Michael Anderson,28,8032641.771734478,5,3.114631335235551,Female,East,High School,Silver Card,Other,2020-09-24
+Nancy Jackson,51,15901481.636785496,14,4.7968887594642124,Male,East,High School,Classic Card,Entrepreneur,2018-09-25
+John Lopez,62,11213739.477395236,18,1.5201523655165976,Female,Central,Bachelor,Platinum Card,Freelancer,2015-08-31
+John Wilson,45,15140676.622321276,13,4.961668785784167,Male,East,Diploma,Platinum Card,Student,2016-08-28
+Susan Anderson,45,19264956.28583421,19,4.8988521925514,Male,East,Bachelor,Silver Card,Student,2018-12-06
+Nancy Davis,50,5551430.233489568,21,2.2974583810866926,Female,East,Master,Classic Card,Freelancer,2022-01-16
+Karen Miller,57,4933822.538658764,22,3.6271153546530033,Male,Central,Bachelor,Gold Card,Other,2019-06-09
+Jennifer Thomas,57,18952594.39267211,8,4.688766324454853,Male,West,Diploma,Silver Card,Government Employee,2017-11-08
+Mary Johnson,41,19523399.75723905,13,4.581195336798843,Female,West,High School,Silver Card,Government Employee,2015-06-09
+Sarah Hernandez,55,6507304.683088046,5,3.0771235955030587,Male,East,Bachelor,Classic Card,Government Employee,2016-05-28
+Daniel Williams,39,10867362.566561686,12,4.559663614519172,Female,Central,Doctorate,Platinum Card,Other,2022-05-31
+Elizabeth Moore,38,11020908.897325996,11,1.7316629642200712,Female,East,High School,Classic Card,Other,2022-05-12
+John Brown,41,13105507.240261652,9,2.9990253682020835,Female,Central,Bachelor,Classic Card,Freelancer,2016-03-02
+Elizabeth Davis,33,9910802.43881929,8,1.2328956127127797,Male,West,Bachelor,Gold Card,Student,2015-03-05
+Joseph Rodriguez,46,6224919.71531433,5,4.919083668037044,Female,East,Doctorate,Classic Card,Freelancer,2015-03-25
+Mary Martin,36,3084874.50226199,11,4.692144567639926,Male,West,Bachelor,Classic Card,Freelancer,2018-12-22
+Linda Miller,43,19050437.34628731,12,4.692624364590396,Female,West,Bachelor,Classic Card,Other,2024-05-19
+Susan Brown,49,6260686.85521125,4,4.820413732117222,Female,East,Master,Silver Card,Government Employee,2020-11-16
+Joseph Gonzalez,43,15640593.10211731,20,4.943739850746487,Female,East,Doctorate,Classic Card,Private Employee,2015-07-04
+William Miller,40,4571277.988350443,23,4.718181965940111,Female,Central,Bachelor,Classic Card,Student,2017-10-01
+Daniel Moore,62,5565099.000097657,0,3.8625712615555368,Female,West,High School,Platinum Card,Other,2023-08-26
+Jessica Johnson,31,18609829.93078923,1,4.750226736277841,Female,East,Diploma,Classic Card,Government Employee,2019-08-07
+John Gonzalez,41,4148817.252508533,1,1.0858558270506642,Female,East,Bachelor,Gold Card,Private Employee,2022-01-02
+James Lopez,35,19131231.885787856,4,5.0,Female,West,Bachelor,Classic Card,Private Employee,2016-12-11
+Susan Jones,19,18010108.117676374,21,4.646437696050613,Male,East,Diploma,Gold Card,Other,2019-06-10
+Mary Rodriguez,25,10984088.281484894,18,1.0,Female,West,Diploma,Silver Card,Entrepreneur,2016-10-16
+David Martin,33,15425815.497447385,5,4.843401980699987,Male,Central,Diploma,Classic Card,Student,2022-05-28
+Susan Gonzalez,56,15780418.057476332,14,4.591348208000612,Female,East,Bachelor,Silver Card,Private Employee,2022-05-16
+Karen Garcia,45,4517668.015663405,1,4.679139444858514,Female,Central,Master,Silver Card,Other,2017-03-17
+David Jackson,66,15408508.518564155,16,3.607471780927514,Male,West,High School,Silver Card,Other,2021-04-29
+Robert Thomas,35,12622780.002686577,10,2.875295113586369,Female,Central,High School,Classic Card,Government Employee,2024-11-05
+Thomas Davis,57,19756096.524418738,26,4.713559282348734,Male,West,Doctorate,Classic Card,Entrepreneur,2021-03-23
+Susan Thomas,39,18462525.874828063,13,4.2533601110359855,Female,East,High School,Classic Card,Student,2020-08-13
+John Wilson,48,3784416.494325719,4,4.929246410745714,Female,West,Bachelor,Silver Card,Freelancer,2023-03-01
+Michael Martin,48,16825442.390931096,3,2.807022265332213,Female,East,Bachelor,Gold Card,Government Employee,2017-10-29
+Jessica Williams,41,5955535.716504379,24,4.960540350586919,Male,Central,Bachelor,Silver Card,Private Employee,2023-02-17
+Sarah Wilson,48,19082888.317836724,14,4.7951704608254735,Male,West,High School,Classic Card,Private Employee,2022-11-15
+Joseph Anderson,43,16243830.96814369,2,4.755922325867624,Female,East,Bachelor,Classic Card,Government Employee,2021-10-27
+William Miller,24,18092019.92283265,5,4.571648531875663,Male,West,Bachelor,Platinum Card,Other,2021-05-21
+Patricia Davis,65,11359977.728084331,15,4.948912129728109,Female,West,Diploma,Classic Card,Private Employee,2015-09-21
+Joseph Jackson,37,3851799.0134518174,9,2.147946807422412,Female,Central,Bachelor,Silver Card,Entrepreneur,2015-06-17
+James Hernandez,27,12977318.612890828,14,4.875938426352327,Male,West,Diploma,Gold Card,Student,2016-03-10
+John Williams,61,8616509.081719862,20,4.63989521907959,Male,Central,Master,Classic Card,Entrepreneur,2017-06-11
+James Smith,34,7072267.1023820285,3,4.856143945797537,Male,East,High School,Gold Card,Private Employee,2019-09-02
+Robert Martin,53,16015772.066264326,18,4.81054141876815,Female,West,High School,Platinum Card,Freelancer,2015-11-03
+Elizabeth Martinez,56,8935510.10604533,20,4.673798685177244,Male,East,Bachelor,Silver Card,Student,2019-08-25
+Patricia Jackson,31,9311786.380188396,21,4.929664719970107,Male,West,Bachelor,Platinum Card,Student,2015-12-16
+Joseph Hernandez,19,16819748.27527189,13,4.823305910759551,Female,Central,High School,Classic Card,Government Employee,2019-08-25
+Mary Brown,25,15839445.123435622,19,4.594850573934442,Male,West,Diploma,Classic Card,Government Employee,2019-08-30
+Susan Anderson,35,8873849.805223837,13,4.94391246124895,Male,East,Bachelor,Silver Card,Freelancer,2020-01-13
+John Gonzalez,18,8635577.09567544,2,4.719832373500179,Female,East,Bachelor,Classic Card,Other,2023-06-12
+James Hernandez,32,11656931.051504873,17,4.693337799992073,Male,Central,Bachelor,Silver Card,Student,2022-07-19
+Jennifer Davis,19,13563433.29089686,14,4.942305673965713,Female,West,Bachelor,Classic Card,Freelancer,2017-05-09
+Thomas Wilson,51,16004718.464808404,21,4.717594916050297,Female,Central,High School,Silver Card,Government Employee,2020-07-23
+Sarah Martin,19,14884670.508720389,21,1.5722192077348596,Female,West,Bachelor,Classic Card,Government Employee,2016-02-29
+Joseph Johnson,66,10503450.014227204,5,4.6430549894354485,Female,Central,Bachelor,Silver Card,Student,2022-05-10
+Elizabeth Davis,34,10485030.494343504,10,1.413776806105805,Male,West,Bachelor,Gold Card,Entrepreneur,2021-05-22
+David Jones,34,6095395.36622824,17,1.998143070274604,Female,Central,Master,Gold Card,Private Employee,2021-01-19
+Mary Brown,28,16363855.718224436,21,3.138891459965856,Male,West,Diploma,Classic Card,Government Employee,2018-12-05
+Mary Thomas,29,5280629.032827365,21,1.8510036695809944,Female,East,Master,Classic Card,Other,2021-09-19
+Charles Martinez,61,5830294.795298539,22,4.580433064219355,Female,West,High School,Silver Card,Other,2018-09-13
+Susan Lopez,44,16525610.50417024,10,4.8458421163613234,Female,East,High School,Classic Card,Government Employee,2017-06-08
+Patricia Anderson,30,15454955.414073491,0,4.548113087202976,Female,Central,Master,Classic Card,Entrepreneur,2021-08-05
+Jessica Gonzalez,22,3399547.751362586,23,4.066248126901264,Female,West,Master,Silver Card,Entrepreneur,2018-12-13
+Robert Miller,38,17678081.06102684,20,4.958786567065949,Female,West,Bachelor,Platinum Card,Freelancer,2018-03-31
+Thomas Davis,57,20260703.76063506,23,4.659884879787965,Male,West,Doctorate,Classic Card,Other,2024-01-03
+Sarah Smith,50,19583473.93137649,9,4.717379462933179,Female,West,High School,Classic Card,Freelancer,2015-09-05
+Daniel Taylor,50,18565430.10326304,7,4.169605468981191,Male,West,Master,Classic Card,Other,2022-11-15
+Sarah Hernandez,38,11348362.667802516,17,2.9539712928178057,Female,West,Master,Gold Card,Private Employee,2022-08-22
+Joseph Miller,33,15277549.750723982,21,3.929072321871306,Male,Central,High School,Gold Card,Private Employee,2022-05-03
+Thomas Brown,54,19359846.796147566,11,3.857715564199717,Male,East,Bachelor,Classic Card,Student,2015-10-21
+Michael Martin,61,4246503.955997825,10,4.782794070377895,Female,East,Diploma,Platinum Card,Freelancer,2023-09-22
+John Johnson,18,8712719.409844581,18,4.6921847409217765,Male,West,High School,Silver Card,Government Employee,2016-05-29
+Thomas Davis,56,16019850.316821966,23,2.81253263665997,Female,West,High School,Gold Card,Freelancer,2018-12-26
+Thomas Martin,21,8961270.737731518,20,3.24170695310995,Male,Central,Diploma,Gold Card,Government Employee,2019-06-02
+Michael Anderson,30,8271367.170394588,4,3.395292517366438,Female,East,High School,Silver Card,Entrepreneur,2018-06-13
+Patricia Davis,60,11130391.503127642,14,1.67154248220741,Female,West,Diploma,Classic Card,Freelancer,2021-07-03
+Nancy Williams,49,10896929.066633737,11,3.804772141712225,Male,East,Bachelor,Gold Card,Entrepreneur,2019-05-17
+Patricia Taylor,52,17903803.1748125,10,4.787647424225324,Female,West,High School,Silver Card,Private Employee,2021-08-08
+Michael Garcia,50,11776711.496911293,3,2.8207832315331203,Male,East,High School,Classic Card,Private Employee,2017-06-09
+David Miller,35,19484835.8770913,12,2.800005841385268,Female,East,Bachelor,Classic Card,Student,2022-10-13
+Linda Taylor,41,9713149.892258495,20,3.5868427673281,Female,East,Diploma,Gold Card,Freelancer,2022-03-16
+Jessica Smith,22,17488644.481244724,14,3.4148428921888043,Male,East,Master,Gold Card,Entrepreneur,2015-09-10
+James Miller,27,4352932.219036365,14,4.836085655925496,Female,Central,Diploma,Silver Card,Government Employee,2018-09-04
+John Moore,55,8262283.821177667,7,2.038347377907421,Male,East,Doctorate,Gold Card,Private Employee,2021-07-03
+John Hernandez,37,13886259.764821252,10,2.1492798231643,Male,Central,Diploma,Silver Card,Private Employee,2021-11-28
+Nancy Brown,24,11142465.115934571,11,2.2087924228632474,Female,Central,Master,Platinum Card,Government Employee,2018-09-04
+Joseph Taylor,26,16382352.908156654,15,5.0,Male,East,Bachelor,Silver Card,Entrepreneur,2023-03-05
+Thomas Johnson,64,4696023.031231056,24,1.1248120443382708,Male,East,Master,Silver Card,Entrepreneur,2017-02-16
+David Martinez,51,14149533.97907174,6,4.985943297761373,Female,Central,Diploma,Classic Card,Freelancer,2016-11-16
+John Brown,43,13161066.927987885,7,4.850950874801874,Female,Central,Bachelor,Classic Card,Freelancer,2024-02-13
+Karen Miller,49,9166738.254968798,23,4.890953749125936,Female,West,Diploma,Gold Card,Other,2021-05-22
+Sarah Davis,22,4609746.107436993,2,4.527186071885351,Male,West,Diploma,Silver Card,Other,2020-08-12
+John Martinez,34,10458335.293509418,8,4.842890833343676,Female,Central,Master,Classic Card,Student,2022-09-12
+Thomas Gonzalez,57,13769359.046000712,27,4.741047333751058,Female,East,Bachelor,Classic Card,Private Employee,2018-05-25
+Nancy Brown,58,16515742.086091278,13,1.5501386132010186,Female,Central,Bachelor,Classic Card,Freelancer,2022-02-03
+David Hernandez,44,12166060.543908956,17,4.757665990820556,Female,Central,Diploma,Classic Card,Entrepreneur,2018-11-25
+Patricia Gonzalez,37,4258222.797382187,17,3.1872213339454705,Female,East,Master,Silver Card,Government Employee,2020-05-01
+David Lopez,59,10492030.45130928,14,1.5613321499504318,Female,Central,Master,Classic Card,Entrepreneur,2016-04-20
+Susan Williams,31,17402630.117174093,0,2.901060228957544,Male,Central,Master,Silver Card,Private Employee,2020-07-31
+Mary Jones,27,16142722.004339898,21,4.66095964331071,Male,West,Diploma,Silver Card,Other,2024-06-17
+David Johnson,65,17312254.061556462,21,4.826543191632843,Female,West,Master,Classic Card,Entrepreneur,2023-06-21
+Jessica Jones,38,5904564.9434550665,8,4.493562466839122,Female,West,Bachelor,Classic Card,Student,2020-01-17
+Thomas Brown,24,15788561.56211118,12,4.977863843139414,Female,Central,High School,Gold Card,Private Employee,2017-10-24
+William Garcia,34,13843077.468739577,8,3.8642801598587577,Female,Central,Master,Silver Card,Other,2022-09-23
+Daniel Brown,18,6686967.674009502,8,4.150741682486665,Male,East,Diploma,Platinum Card,Government Employee,2021-11-21
+Susan Martin,32,6204913.818264298,5,5.0,Male,East,Bachelor,Silver Card,Other,2024-12-16
+Jennifer Jones,66,10912984.77955891,6,4.472818181081501,Male,Central,Doctorate,Silver Card,Student,2020-10-01
+Linda Anderson,19,11863385.077945074,8,4.891958101818053,Female,East,High School,Classic Card,Private Employee,2016-11-09
+William Taylor,60,11473219.492205828,2,1.0,Female,East,High School,Silver Card,Government Employee,2021-04-29
+Mary Wilson,62,18422162.797329977,24,3.7431563534623846,Male,East,Doctorate,Platinum Card,Student,2019-09-09
+Linda Gonzalez,54,6533307.917860849,10,2.53728035569824,Male,West,Bachelor,Silver Card,Other,2017-03-01
+Jessica Garcia,18,14867701.575245723,10,1.683918830951039,Male,West,Bachelor,Classic Card,Student,2020-04-24
+Linda Martin,28,6223911.950416993,12,2.2131467723044222,Male,Central,Diploma,Platinum Card,Private Employee,2018-08-05
+Linda Martin,26,6402290.941708109,8,2.476769791028296,Male,Central,Diploma,Platinum Card,Freelancer,2019-05-08
+Charles Jones,47,12874460.871823814,10,4.52504814099039,Female,West,Doctorate,Gold Card,Student,2022-03-12
+Thomas Anderson,56,15456875.892224915,7,4.64477582654292,Female,East,High School,Classic Card,Student,2020-03-20
+Susan Taylor,39,8008420.757978053,10,1.0,Male,East,Bachelor,Platinum Card,Other,2019-04-11
+Joseph Garcia,59,14894719.885967083,21,4.6481339550826295,Female,East,Bachelor,Silver Card,Other,2016-11-13
+Daniel Williams,39,11135335.535657289,16,3.0718238296920712,Female,Central,Doctorate,Platinum Card,Government Employee,2021-06-08
+William Jackson,23,6627737.200452719,25,4.611296012643358,Male,Central,High School,Silver Card,Other,2018-03-17
+Jessica Anderson,22,7414254.847926245,9,2.287607565521788,Male,West,Diploma,Gold Card,Entrepreneur,2018-11-06
+Linda Wilson,18,16195308.094339076,3,4.781535004527636,Female,West,Diploma,Silver Card,Private Employee,2019-02-09
+William Jones,62,14758729.64573042,25,1.284291411297616,Female,Central,Bachelor,Gold Card,Private Employee,2023-05-05
+Thomas Wilson,53,16080057.334966049,17,4.739166212242305,Female,Central,High School,Silver Card,Freelancer,2018-03-13
+Thomas Brown,57,13536108.75997294,2,4.194459662272508,Female,Central,Bachelor,Classic Card,Freelancer,2024-05-24
+Susan Brown,24,13100724.192626918,9,3.081844407167333,Male,West,Master,Classic Card,Private Employee,2023-08-03
+Jennifer Taylor,56,8083379.450094828,17,1.1590018241784823,Male,Central,High School,Silver Card,Freelancer,2015-11-04
+Jessica Gonzalez,22,3531504.3474363494,18,4.5982643068447056,Female,West,Master,Silver Card,Government Employee,2022-05-28
+Jessica Martinez,28,7290655.489439191,6,2.6002798645289578,Male,West,Bachelor,Classic Card,Other,2022-09-20
+Thomas Smith,55,10165953.079543345,9,3.1973382231698784,Female,Central,High School,Classic Card,Private Employee,2024-12-01
+Linda Jones,59,6370906.889561487,10,2.2621779666550097,Female,Central,High School,Classic Card,Freelancer,2016-05-14
+John Brown,52,13855160.816410514,23,4.741088969942847,Male,West,High School,Gold Card,Private Employee,2015-11-06
+Nancy Smith,22,5074854.761604596,9,4.538732772341106,Female,West,Bachelor,Gold Card,Entrepreneur,2024-11-21
+Linda Wilson,54,11772846.895302068,22,4.693126200754622,Male,Central,Diploma,Platinum Card,Student,2016-06-30
+Joseph Martinez,42,17023766.87649261,1,4.902765642306887,Female,East,Diploma,Gold Card,Other,2023-06-07
+Sarah Johnson,62,14825885.205091352,20,3.968252997462176,Male,East,High School,Gold Card,Private Employee,2015-03-23
+Thomas Wilson,51,16229040.013093088,23,4.514331521725633,Female,Central,High School,Silver Card,Student,2015-07-03
+Karen Smith,52,18409006.5744215,0,4.98544066338235,Female,Central,Bachelor,Classic Card,Freelancer,2024-08-12
+Robert Williams,22,5979631.17178485,10,4.686048070551781,Male,West,Bachelor,Classic Card,Student,2023-09-01
+Daniel Garcia,56,12495294.622074967,2,4.675941905572578,Male,Central,Master,Silver Card,Other,2023-11-28
+John Martinez,39,10390469.665619414,8,1.8687374904519647,Female,Central,Master,Classic Card,Private Employee,2022-08-04
+Karen Johnson,58,9297778.902955595,24,4.086561054559295,Male,West,Bachelor,Classic Card,Entrepreneur,2024-10-23
+Nancy Rodriguez,22,10136469.617239485,20,4.790419860295913,Female,East,High School,Classic Card,Freelancer,2015-04-12
+William Rodriguez,46,8453686.939258892,20,4.153670871983215,Female,East,High School,Platinum Card,Private Employee,2019-10-22
+William Jones,29,11191821.36651637,19,4.933540043043099,Male,Central,Master,Gold Card,Other,2015-05-06
+Linda Smith,26,16935799.393219158,10,4.2813819131911455,Male,East,Bachelor,Classic Card,Freelancer,2019-11-24
+Joseph Garcia,26,18941285.355810147,4,3.517404610872427,Female,Central,Bachelor,Gold Card,Government Employee,2024-11-19
+James Miller,54,4610718.485950159,2,4.696926197852393,Male,East,Diploma,Platinum Card,Student,2024-11-18
+Joseph Martin,18,8504297.856433196,17,4.889743377947939,Male,Central,High School,Silver Card,Other,2016-07-10
+Sarah Jones,49,11066368.616642114,16,4.477950266355293,Female,West,Master,Classic Card,Government Employee,2017-10-15
+Mary Brown,31,11789174.02800966,8,4.887436608172727,Male,Central,High School,Silver Card,Private Employee,2020-06-18
+John Brown,40,11335506.357055943,24,3.1943151641081675,Male,West,Bachelor,Silver Card,Entrepreneur,2015-05-22
+Sarah Jones,49,10755912.529234065,20,5.0,Female,West,Master,Classic Card,Freelancer,2023-04-10
+Charles Lopez,29,14827796.76513056,5,4.668849739423166,Female,East,Bachelor,Classic Card,Student,2021-05-13
+Thomas Anderson,34,12717291.45988385,20,4.684468170888203,Female,Central,Bachelor,Silver Card,Freelancer,2021-04-12
+Karen Gonzalez,62,4378187.486276751,9,4.5025198903597685,Female,East,Master,Gold Card,Private Employee,2019-12-22
+Linda Davis,41,5655765.242939844,1,4.242253875578752,Female,Central,Bachelor,Silver Card,Freelancer,2024-12-01
+Daniel Hernandez,63,5770242.889250488,18,3.4527231282406845,Male,Central,Bachelor,Classic Card,Student,2016-11-19
+William Martinez,36,8749031.971178196,0,4.992590680499483,Female,Central,Bachelor,Classic Card,Private Employee,2016-07-04
+John Thomas,33,17013422.920300018,4,4.574298388039203,Male,East,Diploma,Silver Card,Freelancer,2016-06-14
+Mary Thomas,43,19835647.225608587,4,4.593530840989439,Female,East,High School,Silver Card,Entrepreneur,2018-03-02
+Joseph Davis,34,9954156.564356582,9,4.737644511248013,Male,West,Bachelor,Silver Card,Other,2017-03-10
+James Taylor,31,12814637.936760597,19,4.777526538021455,Female,Central,Bachelor,Gold Card,Private Employee,2019-11-20
+John Martin,53,7551102.347183765,24,4.065986031418823,Male,East,High School,Gold Card,Other,2016-10-05
+Charles Thomas,20,16377308.135657972,16,1.546790042361626,Female,West,Bachelor,Silver Card,Private Employee,2020-11-25
+Michael Hernandez,44,12471398.923470575,26,4.655719073491848,Male,East,Diploma,Gold Card,Entrepreneur,2023-07-20
+Susan Anderson,33,8972410.309832662,11,4.650638001887185,Male,East,Bachelor,Silver Card,Other,2022-03-13
+Linda Martin,32,7386397.1675907215,7,4.3709082213565305,Male,West,Bachelor,Classic Card,Government Employee,2022-06-05
+William Lopez,60,8820828.641463134,18,4.079709956444957,Female,West,Bachelor,Gold Card,Student,2016-11-19
+Patricia Hernandez,30,16851879.123614866,8,4.529477989462987,Male,East,High School,Classic Card,Government Employee,2024-01-09
+Linda Davis,20,5891394.104563179,2,2.407345656071797,Male,Central,High School,Classic Card,Freelancer,2015-08-11
+Karen Jackson,50,12372315.975096848,5,1.384670724414402,Male,East,High School,Classic Card,Entrepreneur,2018-03-16
+Mary Martinez,23,13289512.215325233,19,2.793049267825918,Male,Central,Diploma,Gold Card,Government Employee,2016-03-25
+Robert Miller,31,4813165.48260309,7,2.1477579745020954,Male,East,Diploma,Classic Card,Private Employee,2019-07-08
+Linda Brown,28,11316446.472052576,13,2.32154176183346,Female,East,Bachelor,Classic Card,Freelancer,2024-03-29
+Susan Moore,47,13324300.867622964,10,4.007883634822014,Male,Central,High School,Classic Card,Freelancer,2023-07-09
+Michael Martinez,39,17575107.013463452,5,2.85180198721722,Female,West,High School,Classic Card,Government Employee,2015-01-25
+Elizabeth Jones,39,19415626.18346661,5,4.503853734533767,Male,West,High School,Silver Card,Government Employee,2024-09-29
+Robert Johnson,62,10965819.01210018,14,4.849559300859971,Male,East,High School,Silver Card,Entrepreneur,2016-07-24
+Susan Williams,47,11243404.840648836,2,2.2289187407035294,Female,West,High School,Silver Card,Student,2021-08-03
+Michael Miller,40,3301347.484165209,18,1.6544787186288343,Female,East,High School,Classic Card,Government Employee,2021-01-09
+Susan Miller,50,16954728.907398764,5,1.7463071744542351,Male,West,Bachelor,Classic Card,Government Employee,2016-03-22
+Patricia Smith,41,17573328.867914446,22,4.864293062530792,Female,East,Bachelor,Gold Card,Other,2021-06-23
+Thomas Davis,56,19544449.21508376,20,4.685152306918473,Male,West,Doctorate,Classic Card,Private Employee,2020-05-31
+Sarah Johnson,50,6795143.904946229,24,4.985806864573631,Female,West,High School,Classic Card,Other,2024-05-27
+Robert Davis,33,7539906.769905324,17,3.84401630606164,Male,East,High School,Classic Card,Other,2021-09-08
+Mary Jones,22,16154852.63389683,9,3.502123665785878,Male,West,Bachelor,Silver Card,Freelancer,2015-03-29
+Daniel Smith,42,13957540.762534477,9,4.978684085434743,Male,East,High School,Platinum Card,Student,2022-08-30
+Joseph Wilson,47,19174353.79939668,18,1.8950213002023268,Male,Central,High School,Platinum Card,Private Employee,2023-10-02
+Charles Lopez,39,3787457.840908351,1,3.8588794540682247,Male,Central,Diploma,Platinum Card,Entrepreneur,2015-03-14
+Nancy Taylor,51,11093761.977601295,18,3.8986384847089,Male,East,Doctorate,Platinum Card,Entrepreneur,2017-12-14
+Mary Davis,33,10121097.641442358,7,4.390710573637808,Female,East,High School,Gold Card,Government Employee,2015-10-12
+David Gonzalez,40,18647090.792523272,14,4.539961481848098,Male,East,Bachelor,Gold Card,Government Employee,2024-07-20
+James Martin,48,11783616.65879744,0,2.2304561420444795,Female,West,Master,Silver Card,Entrepreneur,2016-09-24
+Susan Thomas,46,14618227.802856885,5,4.818173609045569,Female,Central,High School,Classic Card,Government Employee,2016-05-25
+John Wilson,49,14868343.32557862,14,2.421334869653888,Male,East,Diploma,Platinum Card,Student,2018-03-02
+Joseph Jones,48,12727448.960612442,10,4.611724626463976,Male,West,Bachelor,Classic Card,Other,2015-05-03
+Sarah Martin,21,15177191.311617916,18,2.194710009260676,Female,West,Bachelor,Classic Card,Government Employee,2022-05-21
+Elizabeth Gonzalez,33,19620008.02744648,19,4.96286837028021,Male,Central,Bachelor,Platinum Card,Freelancer,2019-05-12
+James Hernandez,37,11846949.68554281,18,3.898339905290316,Male,Central,Bachelor,Silver Card,Government Employee,2022-11-19
+Daniel Moore,49,16558122.3179875,4,4.89704788252092,Female,Central,Master,Silver Card,Private Employee,2021-03-22
+Susan Miller,34,17727322.073480893,15,4.643343399357086,Female,East,Master,Classic Card,Student,2023-10-19
+Patricia Wilson,43,16357553.741542472,13,4.909235367808623,Male,East,Diploma,Classic Card,Private Employee,2019-01-27
+Thomas Brown,43,8345048.625058785,3,2.793359088256874,Male,West,Bachelor,Gold Card,Private Employee,2015-10-16
+Joseph Davis,47,13983507.835543348,2,4.532158633180948,Female,East,Bachelor,Silver Card,Freelancer,2019-11-22
+Thomas Davis,60,19733926.182834547,24,2.2520475599766696,Male,West,Doctorate,Classic Card,Student,2017-03-27
+Michael Taylor,36,15789476.586438224,14,4.923886979996237,Female,Central,Bachelor,Gold Card,Student,2021-05-06
+Charles Smith,53,7918806.820825745,5,3.0392011843231046,Female,East,High School,Classic Card,Student,2022-06-17
+Patricia Smith,33,18310077.5753898,21,2.471400749410091,Male,East,High School,Classic Card,Student,2022-08-21
+Charles Hernandez,42,8607970.86307104,11,1.0,Male,West,Doctorate,Silver Card,Student,2020-10-11
+John Lopez,57,6204620.479240857,21,1.869103381677161,Female,West,Bachelor,Silver Card,Freelancer,2021-12-14
+Jennifer Davis,20,3869691.5432131295,5,3.284107368121429,Male,East,Bachelor,Silver Card,Government Employee,2021-01-18
+James Miller,56,4751865.187417856,7,2.176600931816615,Male,East,Diploma,Platinum Card,Private Employee,2019-05-08
+James Williams,50,6874528.922315248,24,4.53139867749366,Male,East,Master,Classic Card,Student,2015-06-17
+Thomas Hernandez,34,19594878.80757443,19,4.549899245128997,Male,West,Diploma,Classic Card,Government Employee,2017-08-14
+William Martin,50,11579817.018003063,11,2.626522658555616,Female,East,Diploma,Silver Card,Government Employee,2022-12-01
+Mary Martinez,25,13084629.979409706,18,4.511520539805897,Male,Central,Diploma,Gold Card,Private Employee,2015-07-01
+Michael Taylor,29,8593997.975929486,23,3.8058647685361127,Male,Central,Master,Platinum Card,Freelancer,2018-02-25
+Thomas Lopez,20,8759901.904466221,8,2.7657936313265994,Male,West,Master,Silver Card,Entrepreneur,2024-06-10
+John Hernandez,41,13674641.175415471,5,2.5357753300102552,Male,Central,Diploma,Silver Card,Entrepreneur,2020-02-25
+Jessica Hernandez,29,4052872.925526804,11,3.273998106198141,Male,Central,Master,Silver Card,Government Employee,2023-03-15
+Thomas Martinez,47,13217511.442365186,20,4.831870763568981,Female,West,Diploma,Classic Card,Other,2018-10-29
+John Rodriguez,57,17136804.89055019,19,4.987358537938618,Female,West,Bachelor,Silver Card,Other,2019-10-04
+Jennifer Garcia,47,12055385.242257904,8,4.900245623602898,Female,East,High School,Classic Card,Private Employee,2018-09-05
+Nancy Martinez,57,6638979.733018125,8,1.3253057300773008,Female,Central,Bachelor,Classic Card,Entrepreneur,2022-07-27
+Karen Martin,21,6381919.458176515,9,3.4453754193945136,Male,East,Bachelor,Silver Card,Government Employee,2021-03-29
+John Hernandez,41,13356486.534008076,9,2.238234740480469,Male,Central,Diploma,Silver Card,Freelancer,2021-09-11
+Elizabeth Garcia,18,6001820.017074358,13,4.690250271047875,Female,West,Diploma,Classic Card,Entrepreneur,2017-04-22
+Charles Lopez,30,14598343.266882846,7,4.69275268413631,Female,East,Bachelor,Classic Card,Government Employee,2022-04-11
+John Gonzalez,19,8337614.0317211645,3,4.891481339852586,Female,East,Bachelor,Classic Card,Government Employee,2022-08-12
+Karen Gonzalez,43,17119976.760760907,27,2.9773574430252743,Female,West,Bachelor,Classic Card,Student,2024-03-03
+Charles Thomas,60,19811985.26636112,19,4.957196410260458,Male,East,Bachelor,Gold Card,Freelancer,2020-03-21
+Mary Anderson,46,19661151.81438946,10,4.525927428792543,Male,Central,High School,Classic Card,Student,2022-04-27
+Daniel Jackson,62,10614987.397825914,20,4.681472939137602,Male,Central,Bachelor,Gold Card,Private Employee,2017-01-25
+Thomas Thomas,52,13292276.481818847,6,1.2394419819355629,Female,Central,Bachelor,Classic Card,Student,2016-04-04
+Robert Miller,36,3608655.934823404,4,3.156849141363637,Female,West,Master,Silver Card,Student,2021-02-21
+Susan Jones,44,13420366.006085288,25,1.438285045744021,Female,East,Bachelor,Classic Card,Entrepreneur,2022-12-07
+Sarah Jones,46,10727944.313249497,14,4.518877634766448,Female,West,Master,Classic Card,Other,2024-08-25
+Susan Lopez,28,10545264.877590423,12,4.8000726406780245,Male,West,High School,Silver Card,Government Employee,2024-05-17
+David Moore,25,3535978.473955938,18,2.821041580861785,Female,East,Bachelor,Silver Card,Freelancer,2019-12-07
+David Hernandez,45,11480644.891781392,17,4.724154096790789,Female,Central,Diploma,Classic Card,Student,2018-12-04
+Daniel Moore,64,5027296.764494319,0,4.360404703099648,Female,West,High School,Platinum Card,Freelancer,2023-07-13
+Joseph Davis,51,16578714.031280443,9,3.681808056895624,Male,East,Diploma,Classic Card,Other,2022-05-19
+Joseph Martinez,44,16467152.560967425,5,4.782750144400858,Female,East,Diploma,Gold Card,Other,2021-03-03
+Karen Thomas,44,10853824.193621252,20,4.8082469660997935,Female,Central,Bachelor,Silver Card,Student,2019-04-24
+Elizabeth Jones,29,9778579.334332667,5,4.791113534533023,Male,Central,High School,Platinum Card,Private Employee,2020-03-01
+Karen Smith,47,18616588.377482977,2,4.608928778887334,Female,Central,Bachelor,Classic Card,Student,2023-09-01
+Karen Garcia,43,4864106.946431727,3,5.0,Female,Central,Master,Silver Card,Entrepreneur,2020-09-27
+Charles Thomas,66,19454589.973093227,18,3.0208274578816963,Male,East,Bachelor,Gold Card,Government Employee,2023-09-10
+Robert Davis,52,11767146.174791392,7,3.741498234232073,Female,West,Master,Silver Card,Private Employee,2018-05-24
+Susan Taylor,19,3646000.114398455,21,4.525622174306293,Male,East,Diploma,Silver Card,Student,2017-10-10
+Joseph Johnson,34,4806600.33986053,3,3.287096753193392,Female,Central,Bachelor,Classic Card,Freelancer,2015-05-05
+John Hernandez,35,13510757.199120944,5,1.5876641255873682,Male,Central,Diploma,Silver Card,Private Employee,2017-12-25
+Linda Martin,32,7530049.963664272,5,4.762614579523272,Male,West,Bachelor,Classic Card,Private Employee,2021-06-25
+Thomas Martinez,41,17958380.903789863,18,4.587316273320428,Female,Central,Bachelor,Classic Card,Student,2019-05-23
+James Taylor,51,4177282.200449056,1,4.305491407085946,Male,West,Diploma,Silver Card,Private Employee,2021-03-24
+Linda Miller,18,16145733.74762001,3,4.648576019658702,Male,East,Diploma,Classic Card,Freelancer,2018-10-16
+Nancy Smith,24,4849714.929287782,9,4.67674492656381,Female,West,Bachelor,Gold Card,Other,2017-05-08
+Jessica Gonzalez,49,9894562.15935018,9,4.894255969679567,Female,West,Bachelor,Gold Card,Private Employee,2016-01-14
+Susan Martin,35,6413222.549798397,3,4.901772820322856,Male,East,Bachelor,Silver Card,Other,2018-02-24
+Linda Lopez,35,15362386.103386726,5,3.174063465832825,Female,West,High School,Gold Card,Freelancer,2024-01-20
+John Miller,24,12427524.12526146,14,1.4129656683123115,Female,Central,Bachelor,Silver Card,Student,2020-10-06
+John Gonzalez,18,8784376.863093663,0,4.562296313612899,Female,East,Bachelor,Classic Card,Government Employee,2022-08-14
+Thomas Martinez,43,17506539.46981822,17,3.581683588566788,Female,Central,Bachelor,Classic Card,Private Employee,2024-02-20
+Jennifer Jones,65,10666203.96422334,1,4.444224651159213,Male,Central,Doctorate,Silver Card,Government Employee,2024-03-04
+Mary Miller,20,14980721.130847402,0,4.852393549566138,Female,East,Master,Gold Card,Freelancer,2023-11-20
+Susan Moore,48,13339883.017747246,8,4.928714016701776,Male,Central,High School,Classic Card,Private Employee,2017-06-27
+Michael Moore,57,13468160.86466412,0,3.738119640338857,Male,West,Diploma,Silver Card,Other,2019-03-21
+Elizabeth Davis,35,13012139.560290111,15,1.8705391215284048,Male,West,Diploma,Classic Card,Entrepreneur,2023-11-03
+Thomas Thomas,28,11739477.019456867,14,2.6787813467345334,Female,West,High School,Classic Card,Government Employee,2021-01-02
+Charles Rodriguez,28,3607673.3060804354,8,3.494732949779498,Male,Central,High School,Classic Card,Private Employee,2024-01-01
+Jessica Jones,37,9610479.936223648,24,2.5973938928966307,Female,Central,Master,Classic Card,Government Employee,2017-12-24
+Charles Brown,21,9559676.060847456,24,4.516563497533814,Male,Central,Bachelor,Platinum Card,Private Employee,2019-02-04
+Charles Hernandez,38,8526478.477376692,5,4.871407463091375,Male,West,Doctorate,Silver Card,Student,2021-01-11
+James Smith,20,11487794.225110969,5,4.935327397508932,Male,West,Master,Silver Card,Other,2015-03-13
+James Davis,29,3494601.5986253954,24,4.501886159280901,Female,West,Master,Classic Card,Government Employee,2015-03-05
+Sarah Miller,55,11177177.573571544,20,4.850583629827352,Female,West,Diploma,Classic Card,Entrepreneur,2020-04-14
+James Moore,51,6889868.781170294,17,1.9380456530924308,Female,West,Master,Classic Card,Entrepreneur,2020-04-15
+John Garcia,18,12328322.447421731,25,4.412520412762189,Male,East,Master,Silver Card,Freelancer,2023-01-28
+Susan Miller,52,17252195.284757562,2,1.1544358365755856,Male,West,Bachelor,Classic Card,Private Employee,2019-06-29
+Charles Moore,30,15667637.674740192,14,1.0,Male,West,High School,Classic Card,Government Employee,2023-07-11
+William Johnson,42,4853026.099610546,0,4.93346210270033,Male,Central,Master,Classic Card,Freelancer,2016-09-10
+Michael Garcia,54,11952374.820063245,3,4.722260085399262,Male,East,High School,Classic Card,Government Employee,2024-10-01
+John Williams,38,12369717.648401467,14,4.261677287107291,Female,West,High School,Classic Card,Private Employee,2019-05-31
+Michael Jackson,18,13960646.823079566,19,2.2192109807517206,Male,Central,Master,Silver Card,Entrepreneur,2022-04-20
+Jennifer Smith,43,6379205.458731029,3,3.380086213076373,Male,East,Bachelor,Platinum Card,Student,2023-11-15
+Linda Thomas,60,18109198.46922089,10,4.401156414989734,Female,Central,Bachelor,Gold Card,Entrepreneur,2023-04-16
+Mary Rodriguez,23,11185662.149363352,17,1.3459816115195729,Female,West,Diploma,Silver Card,Freelancer,2018-12-06
+Thomas Hernandez,53,3128092.677577356,16,4.541965067358377,Female,West,Doctorate,Classic Card,Other,2019-07-26
+Jennifer Martinez,55,10002682.392981747,10,2.5839957136239264,Female,East,High School,Silver Card,Student,2015-10-07
+Patricia Miller,18,14510124.496828135,0,2.667635483695721,Female,West,Diploma,Silver Card,Freelancer,2017-06-01
+Jennifer Rodriguez,55,12107742.669623757,9,3.0144757468363124,Male,East,Master,Gold Card,Private Employee,2021-12-18
+Sarah Anderson,46,18354132.264011845,16,2.439825339628684,Female,Central,Bachelor,Gold Card,Student,2015-05-03
+Jessica Moore,55,7405167.334902533,24,3.287884465963397,Female,East,High School,Silver Card,Freelancer,2019-11-10
+John Miller,19,13106277.282474477,10,4.896553113311057,Female,Central,Bachelor,Silver Card,Private Employee,2024-06-18
+James Hernandez,29,13214228.906304924,15,4.271636083277195,Male,West,Diploma,Gold Card,Entrepreneur,2016-09-22
+Patricia Garcia,56,9719206.62600896,5,4.649244339209992,Female,Central,Diploma,Classic Card,Other,2015-05-18
+Elizabeth Gonzalez,38,19565358.719397783,21,1.640777057693411,Male,Central,Bachelor,Platinum Card,Private Employee,2017-07-30
+Daniel Anderson,25,17138764.431523122,14,4.8604848697533045,Male,East,Diploma,Gold Card,Government Employee,2023-09-25
+Linda Davis,46,11981309.485667778,23,4.858573640018763,Female,West,Bachelor,Classic Card,Private Employee,2018-04-23
+Susan Taylor,36,7491272.126455399,5,4.590756957573834,Male,East,Bachelor,Platinum Card,Private Employee,2018-08-12
+Thomas Miller,40,17872969.445683096,14,4.838988046381024,Female,East,Doctorate,Gold Card,Other,2018-03-08
+Michael Lopez,20,16639199.23636116,21,3.7843738843151327,Male,West,Diploma,Silver Card,Government Employee,2020-10-18
+Michael Martin,60,4411437.9585887175,5,4.679710108295705,Female,East,Diploma,Platinum Card,Freelancer,2019-01-18
+Susan Brown,36,19830603.74229657,22,4.570839548911852,Female,West,Master,Gold Card,Freelancer,2022-01-14
+Susan Taylor,35,8146702.438477143,5,4.65979716059339,Male,East,Bachelor,Platinum Card,Private Employee,2023-10-11
+Karen Davis,37,7663562.8449639855,16,3.964720298022293,Male,West,High School,Classic Card,Government Employee,2018-04-29
+Sarah Gonzalez,40,6923175.912449413,18,4.89091399307083,Female,Central,High School,Platinum Card,Government Employee,2016-07-06
+Jessica Williams,41,6059146.992426237,19,4.617953360077278,Male,Central,Bachelor,Silver Card,Other,2024-12-07
+Elizabeth Garcia,34,15374316.78482582,19,4.237893998046971,Female,East,Bachelor,Classic Card,Entrepreneur,2020-01-27
+Elizabeth Garcia,31,15047250.68501528,14,4.638874780627527,Female,East,Bachelor,Classic Card,Freelancer,2020-01-23
+Jennifer Taylor,59,7861186.545415998,14,1.0,Male,Central,High School,Silver Card,Other,2016-06-05
+Elizabeth Martinez,35,7946757.806946452,11,1.006112157555821,Female,Central,Bachelor,Silver Card,Student,2015-03-02
+Nancy Rodriguez,43,12327224.901548048,13,3.58406507987615,Male,West,Diploma,Platinum Card,Freelancer,2023-03-08
+Thomas Thomas,30,5715146.097132359,6,3.716935967302667,Male,East,Diploma,Silver Card,Other,2015-01-15
+John Moore,50,4348310.363298152,1,4.691221436410153,Male,East,Diploma,Silver Card,Freelancer,2024-07-14
+Susan Miller,35,17523500.30745158,14,4.911435939150199,Female,East,Master,Classic Card,Entrepreneur,2020-10-19
+John Garcia,18,12034449.749766275,20,4.896714340604676,Male,East,Master,Silver Card,Student,2017-01-31
+Susan Jones,62,14510323.035250902,11,4.576221547125334,Female,East,High School,Silver Card,Entrepreneur,2019-03-12
+Jessica Anderson,28,7653208.895072814,7,4.513822062776766,Male,West,Diploma,Gold Card,Student,2020-01-16
+Elizabeth Taylor,31,3401251.383158991,2,2.7444403137449824,Male,East,Diploma,Gold Card,Private Employee,2020-06-25
+Joseph Johnson,66,10330694.956326896,1,4.665776023695951,Female,Central,Bachelor,Silver Card,Other,2016-12-17
+Linda Gonzalez,50,6775271.0728447065,5,4.8674266036046925,Male,West,Bachelor,Silver Card,Student,2022-11-07
+Susan Johnson,23,17756127.79222339,4,2.772948711239512,Male,West,Diploma,Platinum Card,Entrepreneur,2023-02-23
+Sarah Martin,51,17526919.196915187,14,1.853992840593652,Male,Central,Diploma,Gold Card,Freelancer,2018-10-24
+David Moore,20,11748515.819275232,23,4.897234693762954,Male,Central,Master,Silver Card,Student,2019-04-07
+Jennifer Jackson,24,5398682.661816986,1,4.719130534686841,Female,West,Bachelor,Silver Card,Other,2023-02-04
+Jennifer Anderson,48,11149468.14048336,0,4.254069939674007,Female,West,Diploma,Classic Card,Student,2022-01-09
+Charles Garcia,55,6012718.919236577,9,4.973152742249886,Female,Central,High School,Classic Card,Government Employee,2015-08-12
+Jennifer Smith,48,6955845.817141335,4,2.909239494554147,Male,East,Bachelor,Platinum Card,Freelancer,2016-12-26
+Jessica Garcia,57,11605017.854871014,12,4.47334686719733,Male,West,High School,Silver Card,Other,2017-04-30
+Robert Hernandez,27,7288168.532322092,22,4.17006536508939,Male,West,High School,Classic Card,Other,2020-08-12
+Elizabeth Wilson,47,12886683.66403101,1,2.6244580049750392,Female,Central,High School,Classic Card,Private Employee,2024-10-26
+Jessica Martinez,26,7414499.100935673,0,4.671714654331931,Male,West,Bachelor,Classic Card,Entrepreneur,2017-01-14
+Mary Davis,51,19186147.53595804,21,3.1308198811312584,Male,West,Bachelor,Classic Card,Private Employee,2022-03-02
+Charles Jackson,22,18165068.101351418,3,3.555361664230886,Female,Central,Bachelor,Classic Card,Other,2023-12-09
+Robert Thomas,31,13431544.469762849,0,2.094773657113356,Male,Central,Bachelor,Classic Card,Freelancer,2021-07-18
+David Wilson,38,15981072.828913651,24,4.643002819812587,Female,West,High School,Silver Card,Student,2019-03-28
+John Moore,30,11513405.659364585,16,1.0,Male,West,High School,Gold Card,Student,2023-08-13
+Mary Anderson,47,20028605.9126028,9,4.636050438192328,Male,Central,High School,Classic Card,Freelancer,2016-06-20
+Jennifer Johnson,19,4832880.363344923,13,4.753003181160911,Female,Central,Master,Silver Card,Other,2022-03-19
+John Martin,46,4185402.7149672383,18,1.620428700773806,Male,East,Bachelor,Gold Card,Student,2017-03-23
+Jennifer Taylor,41,6092043.734388631,6,4.794090743541819,Male,Central,High School,Classic Card,Student,2020-07-31
+James Miller,58,5162864.498085514,6,2.167272864132313,Male,East,Diploma,Platinum Card,Student,2017-09-28
+Michael Jackson,44,8702911.718669083,3,4.89250371521651,Female,Central,Master,Silver Card,Entrepreneur,2024-08-08
+Charles Jones,46,12904907.526850997,11,4.600443916229627,Female,West,Doctorate,Gold Card,Entrepreneur,2015-05-18
+Daniel Lopez,29,10607055.959555034,2,3.1090898115935115,Male,East,Diploma,Silver Card,Government Employee,2023-07-04
+Karen Davis,29,3280358.64136416,0,2.1963617420867045,Female,East,Bachelor,Classic Card,Private Employee,2018-08-03
+Patricia Anderson,29,15200516.14640738,3,3.771774821384988,Female,Central,Master,Classic Card,Freelancer,2022-12-01
+Susan Williams,44,11006095.634850888,5,4.789415549422378,Female,West,High School,Silver Card,Freelancer,2022-06-16
+Linda Martin,59,9125500.45412624,13,4.043019169367633,Male,East,Bachelor,Silver Card,Freelancer,2019-08-10
+Daniel Hernandez,34,19226702.17989938,0,3.4919978742081748,Female,East,Bachelor,Classic Card,Government Employee,2019-02-25
+Mary Davis,49,19308594.832816508,24,4.534133008936491,Male,West,Bachelor,Classic Card,Entrepreneur,2015-11-06
+Patricia Thomas,23,13219534.051204262,8,1.608765254823357,Male,Central,High School,Classic Card,Other,2018-09-05
+Elizabeth Gonzalez,33,19558436.536291163,19,4.621655174466299,Male,Central,Bachelor,Platinum Card,Other,2016-12-06
+Jessica Garcia,57,11942979.249845074,14,4.734766152910729,Male,West,High School,Silver Card,Government Employee,2016-05-23
+Nancy Anderson,44,17968516.07217129,2,3.975531388008844,Female,East,Bachelor,Platinum Card,Other,2016-04-14
+Jessica Hernandez,39,13145677.590627806,15,1.4143803915957722,Male,Central,Bachelor,Classic Card,Freelancer,2023-11-02
+Elizabeth Hernandez,48,7127797.182895097,17,4.716181760016728,Male,West,Bachelor,Gold Card,Private Employee,2021-08-08
+William Martinez,34,8793512.818659516,1,2.3092580568149024,Female,Central,Bachelor,Classic Card,Student,2016-05-05
+Michael Garcia,54,11977840.874842484,5,2.5854831219791032,Male,East,High School,Classic Card,Entrepreneur,2022-06-28
+Susan Williams,40,17893809.565783978,20,4.819067597951031,Male,Central,Bachelor,Classic Card,Entrepreneur,2021-02-23
+Linda Thomas,19,7017805.16517518,7,4.805926944337436,Male,West,Diploma,Silver Card,Government Employee,2022-01-13
+James Lopez,55,16852624.81880846,0,4.902230683688621,Male,Central,Bachelor,Classic Card,Entrepreneur,2024-04-25
+Susan Martin,30,5993260.607004871,2,4.551726022320831,Male,East,Bachelor,Silver Card,Freelancer,2022-12-13
+Jennifer Williams,36,8338954.013705364,17,2.665477104672365,Female,West,Bachelor,Silver Card,Other,2017-03-25
+Joseph Taylor,27,16263951.344162608,14,5.0,Male,East,Bachelor,Silver Card,Freelancer,2022-06-17
+Charles Lopez,37,3182224.179488596,0,3.5558709665188983,Male,Central,Diploma,Platinum Card,Government Employee,2017-01-23
+John Thomas,31,15535981.6426024,2,4.535004273044386,Female,West,Bachelor,Classic Card,Freelancer,2016-10-19
+David Davis,40,14228666.938370464,27,3.658376552717151,Female,West,Diploma,Silver Card,Other,2018-05-06
+Patricia Smith,31,17672286.805917572,22,4.500556666982687,Male,East,High School,Classic Card,Private Employee,2024-01-14
+David Moore,18,11823281.331420004,22,4.74147012006035,Male,Central,Master,Silver Card,Government Employee,2022-07-14
+David Martin,18,12868083.944986649,15,3.7709162607453135,Male,East,Bachelor,Classic Card,Private Employee,2019-03-30
+William Anderson,38,9805068.551743569,17,4.524846181589336,Male,Central,Bachelor,Silver Card,Student,2016-12-29
+Karen Williams,56,14715367.404536398,6,3.725069975875983,Female,Central,Diploma,Silver Card,Private Employee,2018-11-30
+Thomas Thomas,28,5611623.981434901,6,2.7153836196277923,Male,East,Diploma,Silver Card,Student,2021-03-23
+Sarah Lopez,65,20049847.160468988,25,1.2198573502111447,Male,Central,High School,Gold Card,Student,2016-01-12
+Joseph Martin,46,14179534.502928432,1,3.522929956059494,Female,West,High School,Silver Card,Private Employee,2018-04-09
+Mary Martinez,34,12004375.19929752,5,3.425144652729875,Male,West,Diploma,Classic Card,Government Employee,2021-01-22
+Mary Thomas,47,19714378.787054423,7,1.9009888964317656,Female,East,High School,Silver Card,Other,2024-07-25
+Nancy Gonzalez,22,3681107.543056731,2,4.755574502834726,Male,West,Diploma,Silver Card,Freelancer,2015-01-05
+Thomas Davis,58,15577838.221763356,23,2.38504137929152,Female,West,High School,Gold Card,Freelancer,2017-09-05
+Patricia Anderson,28,15852306.614548886,18,3.5715780725228643,Male,West,High School,Gold Card,Other,2023-07-29
+William Johnson,46,4763248.48548719,4,4.822156877735963,Male,Central,Master,Classic Card,Student,2019-11-30
+Jennifer Williams,31,9104329.2582271,11,2.155078215621564,Female,Central,Diploma,Gold Card,Student,2017-02-13
+Patricia Williams,27,20102125.153403435,8,1.0,Male,East,High School,Silver Card,Government Employee,2019-01-06
+Karen Rodriguez,18,12164319.202229816,19,4.9438132669385295,Female,West,High School,Platinum Card,Entrepreneur,2016-07-11
+Daniel Williams,41,10986892.834063778,13,4.6924352053643,Female,Central,Doctorate,Platinum Card,Private Employee,2017-12-05
+Robert Lopez,27,4510884.242946372,18,2.159121322324317,Male,East,Bachelor,Silver Card,Student,2016-04-14
+Daniel Smith,51,7437278.5097713,9,4.656221051930718,Female,West,High School,Classic Card,Freelancer,2015-10-10
+Elizabeth Martinez,55,8683110.596408581,20,4.112600037295439,Male,East,Bachelor,Silver Card,Government Employee,2016-12-22
+Karen Thomas,44,11045444.21738224,21,4.874040043282007,Female,Central,Bachelor,Silver Card,Private Employee,2024-12-03
+Elizabeth Davis,32,13385100.457335386,20,4.545191021020949,Male,West,Diploma,Classic Card,Government Employee,2020-10-29
+Thomas Martinez,45,13650926.922989365,15,3.925811185451072,Female,West,Diploma,Classic Card,Private Employee,2023-09-03
+Jessica Martin,63,8841542.17158744,24,4.798156512130121,Female,East,Master,Classic Card,Private Employee,2020-05-01
+Susan Smith,36,3315540.257349076,22,3.0281709391692964,Female,East,Bachelor,Silver Card,Other,2023-06-18
+Thomas Thomas,23,11535875.05593785,20,2.6741994928561663,Female,West,High School,Classic Card,Student,2020-12-17
+Thomas Rodriguez,48,10813240.35007112,2,4.534542257143526,Female,West,Bachelor,Classic Card,Government Employee,2020-04-27
+Thomas Martinez,54,4307094.011182312,3,4.307291404976479,Female,West,Bachelor,Classic Card,Government Employee,2018-11-24
+Jennifer Davis,18,3623831.359341215,1,4.503086853230814,Male,East,Bachelor,Silver Card,Other,2024-12-30
+Robert Smith,34,18108040.199541587,20,4.504699356016903,Female,West,High School,Gold Card,Freelancer,2016-05-25
+Linda Jones,44,18995329.977263626,20,2.2687463642245453,Female,East,Master,Silver Card,Freelancer,2020-01-10
+Nancy Wilson,38,11428590.99692914,14,3.192605623365065,Female,West,Diploma,Classic Card,Student,2016-06-21
+Susan Wilson,36,7857780.675681718,4,2.3379459064445247,Male,West,Bachelor,Silver Card,Student,2021-02-27
+Charles Gonzalez,60,7721671.784717143,7,2.2498000049577245,Female,East,Bachelor,Silver Card,Entrepreneur,2021-06-15
+Thomas Brown,50,19299909.95681713,13,4.989715022926477,Male,East,Bachelor,Classic Card,Other,2020-01-05
+Robert Lopez,44,16818672.393853046,1,4.731803234092611,Male,East,High School,Classic Card,Freelancer,2024-12-11
+Michael Hernandez,44,12268813.582411837,22,4.9019185854844185,Male,East,Diploma,Gold Card,Private Employee,2018-09-28
+Linda Jones,53,12494803.003363851,13,3.633705460651024,Male,Central,High School,Silver Card,Government Employee,2021-06-11
+Elizabeth Taylor,59,10188670.568628872,2,4.863592549858212,Male,Central,Bachelor,Silver Card,Student,2015-06-08
+Joseph Wilson,46,19249359.66467428,17,2.1130436364589107,Male,Central,High School,Platinum Card,Government Employee,2018-10-21
+Joseph Williams,22,18529388.08532625,6,3.137133055366428,Female,Central,High School,Classic Card,Government Employee,2024-06-12
+John Miller,37,18548709.550396703,7,4.984095611062272,Female,East,Bachelor,Platinum Card,Entrepreneur,2017-07-17
+Sarah Garcia,18,15082129.84033014,25,2.918262480465207,Male,Central,Master,Silver Card,Freelancer,2021-04-16
+Joseph Rodriguez,43,6024841.866190705,7,4.695202997774208,Female,East,Doctorate,Classic Card,Student,2022-06-06
+John Anderson,20,6471950.234644351,20,4.938305855351296,Male,Central,High School,Gold Card,Government Employee,2016-04-23
+Jennifer Anderson,45,12805405.165341232,2,3.712757692559256,Female,East,High School,Classic Card,Student,2019-06-19
+Daniel Smith,59,15395241.427337624,5,4.620733994521389,Male,East,High School,Platinum Card,Private Employee,2016-09-01
+David Jones,32,5575160.899985828,15,4.532232667836065,Female,Central,Master,Gold Card,Entrepreneur,2022-08-03
+Mary Moore,39,12281251.740510046,1,4.728419134458857,Male,West,Master,Silver Card,Private Employee,2024-02-25
+John Martinez,47,5258134.8354449645,9,1.0,Male,Central,High School,Silver Card,Student,2023-10-20
+Karen Miller,50,3688843.488040683,20,2.163962922097684,Female,Central,Master,Silver Card,Student,2020-09-27
+Elizabeth Martinez,59,8510188.01452394,25,4.431940186186573,Male,East,Bachelor,Silver Card,Freelancer,2016-03-09
+John Gonzalez,33,4478692.935463382,1,4.625597526911287,Male,East,Doctorate,Silver Card,Government Employee,2023-09-02
+Nancy Jackson,60,13250486.855186528,5,4.726529565003464,Male,West,High School,Gold Card,Government Employee,2022-06-01
+Elizabeth Moore,40,10934402.030995976,9,4.60121790366184,Female,East,High School,Classic Card,Private Employee,2016-12-08
+Charles Smith,53,8059045.92099053,4,2.9943605065329684,Female,East,High School,Classic Card,Entrepreneur,2020-03-16
+Linda Lopez,53,19234817.39829497,25,3.906157597140932,Male,Central,Master,Platinum Card,Other,2019-07-08
+Susan Gonzalez,54,15890246.012491267,19,4.655253844730481,Female,East,Bachelor,Silver Card,Government Employee,2015-05-03
+Patricia Thomas,28,4094111.028485552,17,4.657837657514024,Male,East,Bachelor,Classic Card,Freelancer,2020-03-27
+David Johnson,66,17639803.271211673,18,2.9360496684536392,Female,West,Master,Classic Card,Private Employee,2016-01-24
+Karen Johnson,54,9283285.075447002,22,4.721141164310739,Male,West,Bachelor,Classic Card,Private Employee,2016-08-19
+Daniel Martin,35,15758069.090673614,19,4.79689523045261,Female,West,Bachelor,Classic Card,Other,2019-05-23
+Karen Garcia,46,9463397.211366955,0,4.889915746272424,Female,Central,Diploma,Classic Card,Freelancer,2024-11-29
+Joseph Taylor,18,9205818.496641252,6,4.612442529128095,Female,East,Bachelor,Platinum Card,Entrepreneur,2023-10-18
+Jennifer Miller,44,12539288.016499322,10,3.7288776634107306,Male,Central,Bachelor,Classic Card,Freelancer,2015-11-21
+James Davis,29,3340248.5379941543,22,2.537147918187858,Female,West,Master,Classic Card,Entrepreneur,2021-02-06
+Sarah Jackson,39,17810421.424586195,11,1.8710033550573648,Male,West,Bachelor,Gold Card,Freelancer,2020-01-01
+David Hernandez,47,12235026.07940036,14,4.870414802029536,Female,Central,Diploma,Classic Card,Freelancer,2022-04-24
+Charles Garcia,59,5490818.92142519,9,4.500769808918801,Female,Central,High School,Classic Card,Student,2022-04-28
+Thomas Martinez,23,16552489.184236163,23,4.678479126196429,Female,West,Diploma,Silver Card,Private Employee,2024-04-04
+Charles Taylor,39,4671885.81670849,12,4.625233963350847,Male,East,Bachelor,Classic Card,Freelancer,2021-09-11
+Daniel Jackson,44,15280734.11223813,26,3.964952667388233,Female,West,High School,Gold Card,Other,2020-06-23
+Susan Williams,32,17818689.27899843,1,4.591867892364365,Male,Central,Master,Silver Card,Freelancer,2016-05-31
+John Moore,54,4052590.400704746,5,4.927237629827935,Male,East,Diploma,Silver Card,Government Employee,2017-09-23
+Patricia Thomas,26,4379416.531384089,14,4.901033035401698,Male,East,Bachelor,Classic Card,Private Employee,2016-08-28
+Thomas Thomas,33,5712416.667635506,5,3.2255222982511653,Male,East,Diploma,Silver Card,Government Employee,2018-07-09
+Susan Martin,31,6120395.135555571,2,5.0,Male,East,Bachelor,Silver Card,Private Employee,2023-04-07
+Patricia Smith,39,17061527.925235737,10,2.5366058378531813,Male,East,Master,Classic Card,Government Employee,2023-04-22
+Elizabeth Thomas,58,15330511.34968521,20,3.913335472210764,Female,East,High School,Gold Card,Freelancer,2015-05-16
+John Lopez,56,11231649.891276425,21,1.582057529932241,Female,Central,Bachelor,Platinum Card,Freelancer,2016-10-16
+William Martin,45,6365736.901483185,8,4.953500269986432,Female,West,Diploma,Classic Card,Student,2016-04-27
+Nancy Anderson,41,18075801.49649809,6,3.960561176679772,Female,East,Bachelor,Platinum Card,Other,2024-11-16
+Mary Thomas,46,19746405.120585803,5,4.709666456249006,Female,East,High School,Silver Card,Government Employee,2020-11-06
+Jennifer Martin,42,3585653.3672082885,8,4.889811227076034,Male,Central,High School,Gold Card,Entrepreneur,2019-05-18
+Sarah Brown,55,14991670.628614256,0,4.814564760730794,Female,West,Bachelor,Silver Card,Student,2022-09-05
+Susan Miller,32,8666128.20289085,6,4.9392640328031,Male,East,Bachelor,Platinum Card,Government Employee,2016-05-20
+Linda Rodriguez,36,13096583.772541156,13,3.717669327858239,Male,East,Master,Classic Card,Government Employee,2016-09-23
+John Hernandez,41,13852222.787484912,8,1.912270077409692,Male,Central,Diploma,Silver Card,Student,2016-08-25
+Patricia Brown,30,14807949.085788876,4,3.349185379587332,Male,West,Master,Silver Card,Freelancer,2019-02-04
+David Rodriguez,41,8564824.312855018,23,4.63948104055534,Female,Central,Master,Gold Card,Government Employee,2016-11-13
+Robert Miller,30,4725299.076045511,12,2.58014983305992,Male,East,Diploma,Classic Card,Freelancer,2016-05-08
+Susan Thomas,40,17778310.97178926,11,4.705303383432764,Female,East,High School,Classic Card,Student,2023-12-16
+Patricia Smith,37,17371094.775118697,14,4.824938668739955,Male,East,Master,Classic Card,Freelancer,2023-01-03
+Mary Smith,60,14870779.26407151,14,1.8074450298679896,Female,Central,High School,Silver Card,Private Employee,2017-09-27
+Susan Smith,18,13536295.605125664,20,1.266054015734796,Male,Central,Diploma,Silver Card,Entrepreneur,2023-02-02
+James Miller,30,4227771.001479121,16,3.075492282424276,Female,Central,Diploma,Silver Card,Government Employee,2022-11-06
+Elizabeth Taylor,56,10555097.569904746,2,4.973893571067642,Male,Central,Bachelor,Silver Card,Other,2016-01-17
+Jessica Lopez,18,16550556.345077248,16,1.7933310711897226,Female,Central,Diploma,Platinum Card,Entrepreneur,2020-12-08
+Sarah Hernandez,43,11250131.12763057,18,2.4597291413411417,Female,West,Master,Gold Card,Freelancer,2023-08-02
+Nancy Johnson,64,15394151.30321665,7,1.1864878169805193,Female,West,Diploma,Silver Card,Government Employee,2020-08-22
+Susan Martin,48,16118619.536643688,12,4.971277633511301,Male,West,Master,Classic Card,Freelancer,2021-03-12
+William Garcia,65,19880621.864665747,22,4.622162973368091,Male,West,High School,Gold Card,Private Employee,2017-08-25
+Daniel Jackson,34,13717927.438229833,16,4.991427842220981,Male,West,Bachelor,Classic Card,Student,2015-04-25
+Michael Martinez,50,17748527.623237,18,4.6060501475796025,Male,East,High School,Classic Card,Government Employee,2016-07-18
