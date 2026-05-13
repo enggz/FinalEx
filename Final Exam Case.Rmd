@@ -1,0 +1,3309 @@
+---
+title: "FinalExam Basic Statistic"
+output: 
+  flexdashboard::flex_dashboard:
+    vertical_layout: scroll
+    theme: yeti
+    css: "style.css"
+---
+
+  
+```{r setup, include=FALSE}
+# Load library
+library(flexdashboard)
+library(tidyverse)
+library(highcharter)
+library(viridis)
+library(viridisLite)
+library(DT)
+library(gapminder)
+library(jsonlite)
+library(moments)
+library(boot)
+library(purrr)
+library(dplyr)
+library(lubridate)
+library(sparklyr)
+library(e1071)
+```
+
+Members {data-orientation=rows}
+====
+  
+## Column {.tabset .tabset-fade data-height=550}
+
+-----------------------------------------------------------------------
+
+### The Vived
+```{r echo=FALSE, out.width="60%", fig.align="center"}
+knitr::include_graphics(
+  "https://raw.githubusercontent.com/enggz/FinalEx/main/5.jpeg"
+)
+```
+
+### Rafael
+
+```{=html}
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-photo-container">
+        <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/pael.jpg" alt="Rafael Yogi Septiadi Putra" class="profile-photo">
+        <div class="profile-badge">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="profile-titles">
+        <h1>RAFAEL YOGI SEPTIADI P.</h1>
+        <p class="role">Data Science Major</p>
+        <div class="university-badge">
+          <i class="fas fa-university"></i>
+          <a href="https://itsb.ac.id/" target="_blank" style="color: inherit; text-decoration: none;">
+            Institut Teknologi Sains Bandung
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-details">
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/dslog.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Major</span>
+            <span class="value">Data Science</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/Logo ITSB.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Student ID</span>
+            <span class="value">52250019</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/mrb.jpg" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Lecturer</span>
+            <span class="value">Bakti Siregar, M. Sc., CSD.</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="detail-content">
+            <span class="label">Subject</span>
+            <span class="value">Basic Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-footer">
+      <div class="profile-tags">
+        <a href="https://rpubs.com/Eng" class="tag rpubs-tag" target="_blank">
+          <i class="fab fa-r-project"></i> Rpubs
+        </a>
+        <a href="https://itsb.ac.id/study-program/sains-data" class="tag" target="_blank" style="text-decoration: none;">
+          <i class="fas fa-database"></i> Data Science
+        </a>
+        <span class="tag">
+          <i class="fas fa-chart-bar"></i> Statistics
+        </span>
+      </div>
+      <div class="contact-info">
+        <a href="https://github.com/enggz" class="social-icon" target="_blank"><img src="https://raw.githubusercontent.com/enggz/FinalEx/main/github.png" alt="GitHub" style="width: 20px; height: 20px; object-fit: contain;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Profile Card Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  perspective: 600px;
+  max-height: 700px;
+}
+/* Profile Card Styles */
+.profile-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  max-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  animation: cardEntrance 0.8s ease-out;
+}
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profile-photo-container {
+  position: relative;
+  margin-right: 1.5rem;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.profile-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  box-shadow: 0 2px 5px rgba(78, 84, 200, 0.3);
+}
+.profile-titles h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+  font-weight: 700;
+}
+.role {
+  margin: 0 0 0.5rem 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+.university-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(78, 84, 200, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8em;
+  color: #4e54c8;
+}
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.detail-section {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+.detail-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: center;
+}
+.detail-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(78, 84, 200, 0.1);
+  color: #4e54c8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  font-size: 0.9em;
+}
+.detail-content .label {
+  display: block;
+  font-size: 0.7em;
+  color: #6c757d;
+  font-weight: 500;
+}
+.detail-content .value {
+  font-size: 0.9em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.profile-footer {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8em;
+  background: rgba(0, 0, 0, 0.03);
+  color: #4e54c8;
+  text-decoration: none;
+  border: 1px solid rgba(78, 84, 200, 0.2);
+  transition: all 0.3s ease;
+}
+.tag:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+.contact-info {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+/* Animations */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-photo-container {
+    margin: 0 auto 1rem;
+  }
+  
+  .profile-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+    justify-content: flex-end;
+  }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .profile-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #e2e8f0;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .profile-titles h1 {
+    color: #f7fafc;
+  }
+  
+  .role {
+    color: #a0aec0;
+  }
+  
+  .detail-content .value {
+    color: #e2e8f0;
+  }
+  
+  .detail-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .tag {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-icon {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+  }
+  
+  .social-icon:hover {
+    background: #4e54c8;
+    color: white;
+  }
+}
+</style>
+```
+
+### Paskalis
+```{=html}
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-photo-container">
+        <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/kaliss.png" alt="Paskalis Farelnata Zamasi" class="profile-photo">
+        <div class="profile-badge">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="profile-titles">
+        <h1>PASKALIS FARENATA ZAMASI</h1>
+        <p class="role">Data Science Major</p>
+        <div class="university-badge">
+          <i class="fas fa-university"></i>
+          <a href="https://itsb.ac.id/" target="_blank" style="color: inherit; text-decoration: none;">
+            Institut Teknologi Sains Bandung
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-details">
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/dslog.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Major</span>
+            <span class="value">Data Science</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/Logo ITSB.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Student ID</span>
+            <span class="value">52250043</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/mrb.jpg" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Lecturer</span>
+            <span class="value">Bakti Siregar, M. Sc., CSD.</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="detail-content">
+            <span class="label">Subject</span>
+            <span class="value">Basic Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-footer">
+      <div class="profile-tags">
+        <a href="https://rpubs.com/farel_zamasi" class="tag rpubs-tag" target="_blank">
+          <i class="fab fa-r-project"></i> Rpubs
+        </a>
+        <a href="https://itsb.ac.id/study-program/sains-data" class="tag" target="_blank" style="text-decoration: none;">
+          <i class="fas fa-database"></i> Data Science
+        </a>
+        <span class="tag">
+          <i class="fas fa-chart-bar"></i> Statistics
+        </span>
+      </div>
+      <div class="contact-info">
+        <a href="https://github.com/enggz" class="social-icon" target="_blank"><img src="https://raw.githubusercontent.com/enggz/FinalEx/main/github.png" alt="GitHub" style="width: 20px; height: 20px; object-fit: contain;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Profile Card Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  perspective: 600px;
+  max-height: 700px;
+}
+/* Profile Card Styles */
+.profile-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  max-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  animation: cardEntrance 0.8s ease-out;
+}
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profile-photo-container {
+  position: relative;
+  margin-right: 1.5rem;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.profile-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  box-shadow: 0 2px 5px rgba(78, 84, 200, 0.3);
+}
+.profile-titles h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+  font-weight: 700;
+}
+.role {
+  margin: 0 0 0.5rem 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+.university-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(78, 84, 200, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8em;
+  color: #4e54c8;
+}
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.detail-section {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+.detail-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: center;
+}
+.detail-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(78, 84, 200, 0.1);
+  color: #4e54c8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  font-size: 0.9em;
+}
+.detail-content .label {
+  display: block;
+  font-size: 0.7em;
+  color: #6c757d;
+  font-weight: 500;
+}
+.detail-content .value {
+  font-size: 0.9em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.profile-footer {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8em;
+  background: rgba(0, 0, 0, 0.03);
+  color: #4e54c8;
+  text-decoration: none;
+  border: 1px solid rgba(78, 84, 200, 0.2);
+  transition: all 0.3s ease;
+}
+.tag:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+.contact-info {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+/* Animations */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-photo-container {
+    margin: 0 auto 1rem;
+  }
+  
+  .profile-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+    justify-content: flex-end;
+  }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .profile-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #e2e8f0;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .profile-titles h1 {
+    color: #f7fafc;
+  }
+  
+  .role {
+    color: #a0aec0;
+  }
+  
+  .detail-content .value {
+    color: #e2e8f0;
+  }
+  
+  .detail-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .tag {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-icon {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+  }
+  
+  .social-icon:hover {
+    background: #4e54c8;
+    color: white;
+  }
+}
+</style>
+```
+
+### Aya
+```{=html}
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-photo-container">
+        <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/aya.jpg" alt="Risky Nurhidayah" class="profile-photo">
+        <div class="profile-badge">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="profile-titles">
+        <h1>Risky Nurhidayah</h1>
+        <p class="role">Data Science Major</p>
+        <div class="university-badge">
+          <i class="fas fa-university"></i>
+          <a href="https://itsb.ac.id/" target="_blank" style="color: inherit; text-decoration: none;">
+            Institut Teknologi Sains Bandung
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-details">
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/dslog.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Major</span>
+            <span class="value">Data Science</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/Logo ITSB.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Student ID</span>
+            <span class="value">52250030</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/mrb.jpg" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Lecturer</span>
+            <span class="value">Bakti Siregar, M. Sc., CSD.</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="detail-content">
+            <span class="label">Subject</span>
+            <span class="value">Basic Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-footer">
+      <div class="profile-tags">
+        <a href="https://rpubs.com/Eng" class="tag rpubs-tag" target="_blank">
+          <i class="fab fa-r-project"></i> Rpubs
+        </a>
+        <a href="https://itsb.ac.id/study-program/sains-data" class="tag" target="_blank" style="text-decoration: none;">
+          <i class="fas fa-database"></i> Data Science
+        </a>
+        <span class="tag">
+          <i class="fas fa-chart-bar"></i> Statistics
+        </span>
+      </div>
+      <div class="contact-info">
+        <a href="https://github.com/enggz" class="social-icon" target="_blank"><img src="https://raw.githubusercontent.com/enggz/FinalEx/main/github.png" alt="GitHub" style="width: 20px; height: 20px; object-fit: contain;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Profile Card Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  perspective: 600px;
+  max-height: 700px;
+}
+/* Profile Card Styles */
+.profile-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  max-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  animation: cardEntrance 0.8s ease-out;
+}
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profile-photo-container {
+  position: relative;
+  margin-right: 1.5rem;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.profile-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  box-shadow: 0 2px 5px rgba(78, 84, 200, 0.3);
+}
+.profile-titles h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+  font-weight: 700;
+}
+.role {
+  margin: 0 0 0.5rem 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+.university-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(78, 84, 200, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8em;
+  color: #4e54c8;
+}
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.detail-section {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+.detail-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: center;
+}
+.detail-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(78, 84, 200, 0.1);
+  color: #4e54c8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  font-size: 0.9em;
+}
+.detail-content .label {
+  display: block;
+  font-size: 0.7em;
+  color: #6c757d;
+  font-weight: 500;
+}
+.detail-content .value {
+  font-size: 0.9em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.profile-footer {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8em;
+  background: rgba(0, 0, 0, 0.03);
+  color: #4e54c8;
+  text-decoration: none;
+  border: 1px solid rgba(78, 84, 200, 0.2);
+  transition: all 0.3s ease;
+}
+.tag:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+.contact-info {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+/* Animations */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-photo-container {
+    margin: 0 auto 1rem;
+  }
+  
+  .profile-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+    justify-content: flex-end;
+  }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .profile-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #e2e8f0;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .profile-titles h1 {
+    color: #f7fafc;
+  }
+  
+  .role {
+    color: #a0aec0;
+  }
+  
+  .detail-content .value {
+    color: #e2e8f0;
+  }
+  
+  .detail-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .tag {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-icon {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+  }
+  
+  .social-icon:hover {
+    background: #4e54c8;
+    color: white;
+  }
+}
+</style>
+```
+
+### Aidil
+```{=html}
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-photo-container">
+        <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/aidil.png" alt="M.Fitrah Aidil Harahap" class="profile-photo">
+        <div class="profile-badge">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="profile-titles">
+        <h1>M. FITRAH AIDIL HARAHAP</h1>
+        <p class="role">Data Science Major</p>
+        <div class="university-badge">
+          <i class="fas fa-university"></i>
+          <a href="https://itsb.ac.id/" target="_blank" style="color: inherit; text-decoration: none;">
+            Institut Teknologi Sains Bandung
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-details">
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/dslog.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Major</span>
+            <span class="value">Data Science</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/Logo ITSB.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Student ID</span>
+            <span class="value">52250031</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/mrb.jpg" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Lecturer</span>
+            <span class="value">Bakti Siregar, M. Sc., CSD.</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="detail-content">
+            <span class="label">Subject</span>
+            <span class="value">Basic Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-footer">
+      <div class="profile-tags">
+        <a href="https://rpubs.com/harahap" class="tag rpubs-tag" target="_blank">
+          <i class="fab fa-r-project"></i> Rpubs
+        </a>
+        <a href="https://itsb.ac.id/study-program/sains-data" class="tag" target="_blank" style="text-decoration: none;">
+          <i class="fas fa-database"></i> Data Science
+        </a>
+        <span class="tag">
+          <i class="fas fa-chart-bar"></i> Statistics
+        </span>
+      </div>
+      <div class="contact-info">
+        <a href="https://github.com/enggz" class="social-icon" target="_blank"><img src="https://raw.githubusercontent.com/enggz/FinalEx/main/github.png" alt="GitHub" style="width: 20px; height: 20px; object-fit: contain;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Profile Card Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  perspective: 600px;
+  max-height: 700px;
+}
+/* Profile Card Styles */
+.profile-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  max-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  animation: cardEntrance 0.8s ease-out;
+}
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profile-photo-container {
+  position: relative;
+  margin-right: 1.5rem;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.profile-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  box-shadow: 0 2px 5px rgba(78, 84, 200, 0.3);
+}
+.profile-titles h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+  font-weight: 700;
+}
+.role {
+  margin: 0 0 0.5rem 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+.university-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(78, 84, 200, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8em;
+  color: #4e54c8;
+}
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.detail-section {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+.detail-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: center;
+}
+.detail-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(78, 84, 200, 0.1);
+  color: #4e54c8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  font-size: 0.9em;
+}
+.detail-content .label {
+  display: block;
+  font-size: 0.7em;
+  color: #6c757d;
+  font-weight: 500;
+}
+.detail-content .value {
+  font-size: 0.9em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.profile-footer {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8em;
+  background: rgba(0, 0, 0, 0.03);
+  color: #4e54c8;
+  text-decoration: none;
+  border: 1px solid rgba(78, 84, 200, 0.2);
+  transition: all 0.3s ease;
+}
+.tag:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+.contact-info {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+/* Animations */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-photo-container {
+    margin: 0 auto 1rem;
+  }
+  
+  .profile-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+    justify-content: flex-end;
+  }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .profile-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #e2e8f0;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .profile-titles h1 {
+    color: #f7fafc;
+  }
+  
+  .role {
+    color: #a0aec0;
+  }
+  
+  .detail-content .value {
+    color: #e2e8f0;
+  }
+  
+  .detail-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .tag {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-icon {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+  }
+  
+  .social-icon:hover {
+    background: #4e54c8;
+    color: white;
+  }
+}
+</style>
+```
+
+### Dhefio
+```{=html}
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-header">
+      <div class="profile-photo-container">
+        <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/dhefio.jpeg" alt="Dhefio Alim Muzakki " class="profile-photo">
+        <div class="profile-badge">
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="profile-titles">
+        <h1>DHEFIO ALIM MUZAKKI</h1>
+        <p class="role">Data Science Major</p>
+        <div class="university-badge">
+          <i class="fas fa-university"></i>
+          <a href="https://itsb.ac.id/" target="_blank" style="color: inherit; text-decoration: none;">
+            Institut Teknologi Sains Bandung
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-details">
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/dslog.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Major</span>
+            <span class="value">Data Science</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/Logo ITSB.png" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Student ID</span>
+            <span class="value">52250014</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section">
+        <div class="detail-item">
+          <div class="detail-icon">
+            <img src="https://raw.githubusercontent.com/enggz/FinalEx/main/mrb.jpg" alt="Data Science" style="width: 20px; height: 20px; object-fit: contain;">
+          </div>
+          <div class="detail-content">
+            <span class="label">Lecturer</span>
+            <span class="value">Bakti Siregar, M. Sc., CSD.</span>
+          </div>
+        </div>
+        
+        <div class="detail-item">
+          <div class="detail-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="detail-content">
+            <span class="label">Subject</span>
+            <span class="value">Basic Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-footer">
+      <div class="profile-tags">
+        <a href="https://rpubs.com/dfjy" class="tag rpubs-tag" target="_blank">
+          <i class="fab fa-r-project"></i> Rpubs
+        </a>
+        <a href="https://itsb.ac.id/study-program/sains-data" class="tag" target="_blank" style="text-decoration: none;">
+          <i class="fas fa-database"></i> Data Science
+        </a>
+        <span class="tag">
+          <i class="fas fa-chart-bar"></i> Statistics
+        </span>
+      </div>
+      <div class="contact-info">
+        <a href="https://github.com/enggz" class="social-icon" target="_blank"><img src="https://raw.githubusercontent.com/enggz/FinalEx/main/github.png" alt="GitHub" style="width: 20px; height: 20px; object-fit: contain;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Profile Card Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  perspective: 600px;
+  max-height: 700px;
+}
+/* Profile Card Styles */
+.profile-card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  max-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  animation: cardEntrance 0.8s ease-out;
+}
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.profile-photo-container {
+  position: relative;
+  margin-right: 1.5rem;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.profile-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  box-shadow: 0 2px 5px rgba(78, 84, 200, 0.3);
+}
+.profile-titles h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3em;
+  color: #2c3e50;
+  font-weight: 700;
+}
+.role {
+  margin: 0 0 0.5rem 0;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+.university-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(78, 84, 200, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8em;
+  color: #4e54c8;
+}
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.detail-section {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+.detail-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: center;
+}
+.detail-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(78, 84, 200, 0.1);
+  color: #4e54c8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  font-size: 0.9em;
+}
+.detail-content .label {
+  display: block;
+  font-size: 0.7em;
+  color: #6c757d;
+  font-weight: 500;
+}
+.detail-content .value {
+  font-size: 0.9em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.profile-footer {
+  position: relative;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8em;
+  background: rgba(0, 0, 0, 0.03);
+  color: #4e54c8;
+  text-decoration: none;
+  border: 1px solid rgba(78, 84, 200, 0.2);
+  transition: all 0.3s ease;
+}
+.tag:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+.contact-info {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  background: #4e54c8;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(78, 84, 200, 0.2);
+}
+/* Animations */
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px) rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-photo-container {
+    margin: 0 auto 1rem;
+  }
+  
+  .profile-details {
+    grid-template-columns: 1fr;
+  }
+  
+  .profile-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+    justify-content: flex-end;
+  }
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .profile-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #e2e8f0;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .profile-titles h1 {
+    color: #f7fafc;
+  }
+  
+  .role {
+    color: #a0aec0;
+  }
+  
+  .detail-content .value {
+    color: #e2e8f0;
+  }
+  
+  .detail-section {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .tag {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-icon {
+    background: rgba(255, 255, 255, 0.05);
+    color: #a0aec0;
+  }
+  
+  .social-icon:hover {
+    background: #4e54c8;
+    color: white;
+  }
+}
+</style>
+```
+
+Summary of Basic Statistics {data-orientation=rows}
+=======================================================================
+  
+## Column {.tabset .tabset-fade data-height=520}
+
+-----------------------------------------------------------------------
+
+### Chapter 1 {data-width=1200}
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch1-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=13nUdFsdMHCd-7K72KbbUpR29sXm34KXg")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+The first mind map illustrates the framework for descriptive statistical analysis of customer data, focusing on three main aspects: customer characteristics, satisfaction levels, and purchasing patterns. Customer characteristics, such as age, monthly income, gender, region, and education level, are analyzed as an initial step to understand the distribution and composition of the data. Next, customer satisfaction levels are analyzed through satisfaction scores and comparisons between customer groups. In addition, customer purchasing patterns, particularly the number of monthly purchases and comparisons between card levels, are analyzed using measures of central tendency and dispersion. This analysis uses descriptive statistics and is limited by the absence of population inference or hypothesis testing.
+  </div>
+</div>
+### Chapter 2 {data-width=1200}
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch2-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1rIU-Atdtv6Sm1AAqtsvvoYdRgUFbLmLh")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+The second mind map focuses on the analysis of numerical variables in customer data, namely age, monthly income, number of purchases, and satisfaction score. The analysis is conducted through statistical summaries such as mean, median, minimum, maximum, and standard deviation to describe typical values and the degree of data variation. Additionally, this mind map emphasizes the identification of initial patterns and trends, such as dominant age groups, income patterns, and purchase intensity. The analysis also includes the detection of anomalies or outliers that may affect the results of statistical summaries and the overall interpretation of the data.
+  </div>
+</div>
+  
+### Chapter 3 {data-width=1200}
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch3-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1yyD57HggPE9Hi8oM6b5olk-n-W-MUTB0")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+Basic visualization is the cornerstone of effective data communication. By utilizing the ggplot2 framework in R, we move away from static, rigid charting toward a "Grammar of Graphics" approach. This allows for a modular construction of plots where data, aesthetics, and geometric objects are layered to reveal hidden truths within a dataset.
+
+The three most relevant visualizations identified—Histograms, Boxplots, and Scatter Plots—each serve a distinct analytical purpose. Histograms are essential for understanding the distribution of a single variable, allowing us to see if data is concentrated in one area or spread out. Boxplots provide a powerful summary of the "Five-Number Summary," making it the professional standard for comparing groups and identifying outliers that could skew further mathematical modeling. Finally, Scatter Plots allow for the exploration of relationships, helping us visualize whether two variables move together (correlation) or are independent.
+
+In conclusion, these techniques fall under the umbrella of Descriptive Statistics. They aim to solve the problem of data opacity by providing a clear, visual summary of the data's central tendency, dispersion, and outliers. Mastering these basics ensures that any subsequent complex analysis is built on a solid, well-understood foundation of the underlying data structure.
+  </div>
+</div>
+
+### Chapter 4  {data-width=1200}
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch4-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1X0YgVC7Cgh34dTPRYECeJHbLJMrmmV4g")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+The analysis of Central Tendency for the Customer Purchase Data highlights the fundamental importance of looking beyond simple averages. In statistics, the primary problem we solve is summarization without distortion.
+
+For the Age variable, the balance between the Mean and Median tells us our "typical" customer profile is stable and middle-aged. However, the Total Purchase variable tells a different story. Because the Mean is nearly double the Median, we can conclude that the dataset is heavily influenced by high-value transactions. This skewness suggests that the business relies on a small number of big spenders to drive the average up, while the majority of customers (the Median and Mode) are spending significantly less.
+
+By applying Descriptive Statistics, we transform 200 rows of chaos into a clear narrative: the store has a mature average audience but thrives on rare, high-ticket electronics purchases that shift the financial center of gravity.
+  </div>
+</div>
+
+### Chapter 5 {data-width=1200}
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch5-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1RZJxqUR6y1j8x25RnElZMZcv9Hdqt1co")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+Statistical dispersion is used to describe how spread out data values are from the average. In the analysis of customers’ monthly income, dispersion helps explain the differences in economic conditions among customers. Range is the simplest measure of data dispersion. It shows the difference between the highest and lowest values. 
+Formula: Max − Min. A large range indicates a significant gap between the highest and lowest monthly incomes. Variance measures the average of the squared differences from the mean. It shows how widely the data values are spread, but the result is expressed in squared units, making it less intuitive to interpret directly. Standard deviation is the square root of variance and represents the average distance of data values from the mean. A higher standard deviation indicates greater variability in customers’ monthly income. Interpretation: The results show that customers’ monthly income has a high level of dispersion. This means the income values vary widely and are not concentrated around the mean, reflecting diverse economic backgrounds among customers.
+  </div>
+</div>
+### Chapter 6 {data-width=1200}
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch6-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1O5CnsJhJa94Q4t17LQuZGoPVm_mWwiY6")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+Essential of Probability is a mathematical concept used to measure how likely an event is to occur. It helps analyze uncertainty and make predictions based on data. Basic Components of Probability consists of three main components: an experiment, a sample space, and an event. An experiment produces an outcome, the sample space includes all possible outcomes, and an event is a specific subset of those outcomes. Probability is a numerical value between 0 and 1 that represents the likelihood of an event occurring. A probability of 0 means the event is impossible, while a probability of 1 means the event is certain. In data analysis, probability is used to identify patterns and trends within dataset. Determining a Relevant Event A relevant event must be clearly defined and meaningful within the dataset. In this case, the selected event is a randomly chosen customer having a Gold Card, which represents an important customer category. Probability Calculation Since the data comes from real observations, empirical probability is used.Probability is calculated by dividing the number of favorable outcomes by the total number of outcomes. Interpretation of the Result : A probability value of 0.25 indicates a 25% chance that a randomly selected customer has a Gold Card. This means that approximately 25 out of every 100 customers belong to the Gold Card category.
+  </div>
+</div>
+### Chapter 7 
+
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r, out.width='100%', out.height='400px', fig.align='center'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1xgTGu9tV2KOrwucDHKPXCigPfka6CvJA")
+```
+  </div>
+
+  <div class="col-md-3" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+# 1. Load Data
+url <- "https://raw.githubusercontent.com/enggz/FinalEx/refs/heads/main/customer_survey_dataset_with_job_category_and_joining_date.csv"
+data_survey <- read_csv(url, show_col_types = FALSE)
+
+# 2. Hitung Data Pendukung
+mean_val <- round(mean(data_survey$Age, na.rm = TRUE), 2)
+h_info <- hist(data_survey$Age, plot = FALSE)
+max_freq <- max(h_info$counts)
+
+# Dataframe garis rata-rata
+line_data <- data.frame(
+  x = c(mean_val, mean_val), 
+  y = c(0, max_freq * 1.1) 
+)
+
+# 3. Visualisasi
+hchart(
+  data_survey$Age,
+  color = "#F1C40F",   
+  name  = "Frekuensi"
+) |>
+  hc_title(
+    text = "Distribusi Umur Pelanggan",
+    style = list(color = "#2C3E50", fontWeight = "bold")
+  ) |>
+
+  # Garis Rata-rata
+  hc_add_series(
+    data = line_data,
+    type = "line",
+    hcaes(x = x, y = y),
+    name = "Rata-rata",
+    color = "#E67E22",   
+    lineWidth = 3,
+    dashStyle = "LongDash",
+    zIndex = 5,
+    marker = list(enabled = FALSE),
+    tooltip = list(
+      headerFormat = "",
+      pointFormat = paste0("Rata-rata: <b>", mean_val, " Tahun</b>")
+    )
+  ) |>
+
+  # Axis
+  hc_xAxis(
+    title = list(text = "Rentang Umur", style = list(color = "#2C3E50"))
+  ) |>
+  hc_yAxis(
+    title = list(text = "Frekuensi", style = list(color = "#2C3E50"))
+  ) |>
+
+  # Tooltip
+  hc_tooltip(shared = FALSE, crosshairs = FALSE) |>
+
+  # Background & style tambahan
+  hc_chart(
+    backgroundColor = "#FFFBE6"  
+  )
+```
+  </div>
+  <div class="col-md-3" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+<strong>Age Variable</strong> This figure shows the results of the probability distribution analysis for the customer age variable based on descriptive statistics. The age distribution tends to be symmetrical and relatively flat (platykurtic). This is supported by three main indicators, namely the closeness of the mean (40.94) and median (41.00) values, a skewness value very close to zero (-0.0487), and a negative kurtosis value (-1.0997). These findings indicate that customer ages are evenly distributed around the average value, without skewness toward younger or older ages, and show a fairly wide variation in age that is not concentrated in any particular group.
+  </div>
+</div>
+
+### Chapter 8 {data-width=1200}
+
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch8-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1McpYd84DeTyFP0u2jxg0bgxtNC411MyN")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+Explains the process of calculating the 95% confidence interval for the average monthly income of customers. With a total of 735 observations, the estimated mean is Rp11,795,425.19 and a relatively large standard deviation, indicating considerable income variation. Based on the calculation of the standard error, margin of error, and critical value z = 1.96, the confidence interval is obtained between Rp11,414,386.44 and Rp12,176,463.94. Statistically, this result indicates that the average monthly income of the customer population is estimated to fall within this range. Practically, the rather wide interval reflects the heterogeneity of customer income levels.
+  </div>
+</div>
+
+### Chapter 9  {data-width=1200}
+
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch9-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1LOsJRNzdFuyL1YqawdC946qsqp7t-EkG")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+Describes the application of a one-tailed hypothesis test (right-tailed t-test) to test whether the average age of customers is greater than 40 years. Using data from 735 customers, the average age was found to be approximately 41.06 years with a t-test statistic of 2.2063. This value exceeds the critical t value (1.645) at a 5% significance level, leading to the rejection of the null hypothesis. This result indicates that, statistically, the average age of customers is significantly higher than 40 years. These findings have important business implications, particularly for determining marketing strategies and developing products that align better with the dominant customer age segment.
+  </div>
+</div>
+
+### Chapter 10  {data-width=1200}
+
+<div class="column">
+  <div class="col-md-6" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r ch10-mindmap, echo=FALSE, out.width="100%", fig.align='right'}
+knitr::include_graphics("https://drive.google.com/uc?export=download&id=1sx6icvIJovevJXfuVWSJCiSBfuOPZGZP")
+```
+  </div>
+  <div class="col-md-6" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+Explains the use of the Kruskal–Wallis nonparametric test to compare satisfaction levels among more than two groups or regions. This test is used when the data are not normally distributed and are measured on an ordinal or continuous scale. The process starts by formulating the hypothesis that the medians of all groups are equal, then the data are combined and ranked, followed by calculating the sum of ranks for each group to obtain the H statistic. The H value is then compared to the critical Chi-Square value at a 0.05 significance level to make a decision. If H is greater than the critical value, the null hypothesis is rejected, indicating that there is a significant difference in satisfaction levels between the groups.
+  </div>
+</div>
+
+Dataset {data-orientation=rows}
+=======================================================================
+  
+### Table {data-height=520}
+
+```{r}
+df <- readr::read_csv(
+  "https://raw.githubusercontent.com/enggz/FinalEx/refs/heads/main/customer_survey_dataset_with_job_category_and_joining_date.csv",
+  show_col_types = FALSE
+) %>% 
+  dplyr::distinct(Name, .keep_all = TRUE) %>% 
+  dplyr::rename(User_Rating = Satisfaction_Score)
+
+# Check duplicates
+dupe_check <- df %>% count(Name) %>% filter(n > 1)
+if (nrow(dupe_check) > 0) print("Ada dupe names, handle manual!")
+```
+  
+```{r}
+# This is going to be a datatable
+df1 <- df %>%
+  filter(User_Rating >= 4) %>%
+  select(Name, Age, User_Rating, Monthly_Purchases, Monthly_Income, Gender, Region, Education_Level, Card_Level, Job, Joining_Date) %>%
+  arrange(desc(Monthly_Purchases))  
+
+datatable(df1, options = list(scrollX = TRUE, pageLength = 10), 
+          caption = htmltools::tags$caption(style = 'caption-side: bottom; text-align: center;', 
+                                           htmltools::em('Customers Gym with User Rating >= 4, ordered by Monthly Purchases.')))
+```
+
+All About Basic Visualizations {data-orientation=rows}
+=======================================================================
+
+## Column {.tabset .tabset-fade data-height=520}
+
+-----------------------------------------------------------------------
+  
+### Pie-Chart
+
+<div class="column">
+  <div class="col-md-4" style="border-right: 15px;">
+```{r}
+df_pie <- df %>%
+  count(Card_Level) %>%
+  mutate(drilldown = Card_Level) 
+
+drilldown_series <- df %>%
+  group_by(Card_Level, Region) %>%
+  summarise(n = n(), .groups = 'drop') %>%
+  group_nest(Card_Level) %>%
+  mutate(
+    id = Card_Level,
+    type = "pie", 
+    data = map(data, ~ list_parse2(.x))
+  ) %>%
+  select(id, type, data) %>%
+  list_parse()
+
+# Menyiapkan Data dengan Proporsi dan Distribusi Regional
+df_pie_enhanced <- df %>%
+  group_by(Card_Level) %>%
+  summarise(
+    Total = n(),
+    # Membuat list distribusi region untuk keperluan visual atau analisis lanjut
+    Region_Dist = list(table(Region))
+  ) %>%
+  mutate(
+    Percentage = round(Total / sum(Total) * 100, 1),
+    # Menambahkan indikator tren sederhana atau status (opsional)
+    Status = ifelse(Percentage > mean(Percentage), "Above Average", "Below Average")
+  ) %>%
+  arrange(desc(Total))
+
+# 2. Membuat DataTable yang Sangat Informatif
+datatable(
+  df_pie_enhanced %>% select(Card_Level, Total, Percentage, Status),
+  colnames = c("Card Tier", "Member Count", "Share (%)", "Performance Category"),
+  options = list(
+    pageLength = 5,
+    dom = 't',
+    scrollY = '137px',
+    columnDefs = list(list(className = 'dt-center', targets = "_all")),
+    # Header Styling agar senada dengan grafik Viridis sebelumnya
+    initComplete = JS(
+      "function(settings, json) {",
+      "$(this.api().table().header()).css({'background-color': '#440154', 'color': '#fff'});",
+      "}"
+    )
+  ),
+  rownames = FALSE,
+  caption = htmltools::tags$caption(
+    style = 'caption-side: top; text-align: left; color: #2c3e50; font-weight: bold; font-size: 16px;',
+    'Card Level Segmentation: Market Share & Distribution'
+  )
+) %>%
+  # Menambahkan Bar Visual untuk Share (%)
+  formatStyle(
+    'Percentage',
+    background = styleColorBar(c(0, 100), '#FDE725'), # Warna kuning Viridis
+    backgroundSize = '98% 88%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center'
+  ) %>%
+  # Memberikan warna pada kategori status
+  formatStyle(
+    'Status',
+    color = styleEqual(c("Above Average", "Below Average"), c('#21908C', '#CC0000')),
+    fontWeight = 'bold'
+  )
+```
+  </div>
+</div>
+<div class="column">
+  <div class="col-md-5" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+hchart(
+  df_pie, 
+  "pie", 
+  hcaes(x = Card_Level, y = n, drilldown = drilldown),
+  name = "Total Users",
+  innerSize = "60%" 
+) %>%
+  hc_title(
+    text = "Distribution of Card Levels",
+    style = list(fontWeight = "bold", fontSize = "20px")
+  ) %>%
+  hc_subtitle(text = "Click a slice to view regional breakdown") %>%
+  hc_tooltip(
+    useHTML = TRUE,
+    headerFormat = "",
+    pointFormat = "<b>{point.name}</b><br>Amount: <b>{point.y}</b> users<br>Share: <b>{point.percentage:.1f}%</b>"
+  ) %>%
+  hc_plotOptions(
+    pie = list(
+      dataLabels = list(
+        enabled = TRUE, 
+        format = "{point.name}: {point.percentage:.1f}%",
+        distance = 20,
+        style = list(fontSize = "12px", textOutline = "none")
+      ),
+      showInLegend = TRUE
+    )
+  ) %>%
+  hc_drilldown(
+    series = drilldown_series,
+    activeDataLabelStyle = list(textDecoration = "none", color = "#000000")
+  ) %>%
+  hc_colors(c("#EEA9BF", "#FFD700", "#a0b2c6", "#C0C0C0")) %>% 
+  hc_add_theme(hc_theme_smpl()) %>% # Menggunakan theme_smpl agar lebih clean
+  hc_exporting(enabled = TRUE)
+```
+  </div>
+</div>
+  <div class="col-md-3" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+    This donut chart illustrates the distribution of membership card levels among customers, revealing that Classic Card dominates with approximately 25% of users, followed by Silver Card at 20%, Gold Card at 18%, and Platinum Card at 15%. This suggests a tiered structure where lower-tier cards are more prevalent, potentially indicating broader accessibility or marketing focus on entry-level memberships. The interactive features allow users to hover for exact percentages and select slices for emphasis, enhancing data exploration.
+  </div>
+  
+### Bar-Chart
+  <div class="col-md-4" style="padding-left: 15px;">
+```{r}
+# 1. Pastikan Rata-rata Global sudah siap
+global_avg <- mean(df$User_Rating, na.rm = TRUE)
+
+# 2. Siapkan Data dengan tambahan kolom "Delta" (Selisih dari Rata-rata Global)
+df_bar_clean <- df %>%
+  group_by(Job) %>%
+  summarise(
+    Avg_Rating = mean(User_Rating, na.rm = TRUE),
+    User_Count = n(),
+    .groups = 'drop'
+  ) %>%
+  mutate(
+    # Menghitung seberapa jauh performa pekerjaan ini dibanding rata-rata perusahaan
+    Performance_vs_Avg = round(Avg_Rating - global_avg, 2)
+  ) %>%
+  arrange(desc(Avg_Rating)) %>%
+  head(10)
+
+# 3. DataTable dengan Visualisasi In-Cell
+datatable(
+  df_bar_clean,
+  colnames = c("Job Category", "Mean Rating", "Total Users", "vs. Global Average"),
+  options = list(
+    pageLength = 5,
+    dom = 't', 
+    scrollY = '175px',
+    columnDefs = list(
+      list(className = 'dt-center', targets = "_all"),
+      list(visible = FALSE, targets = 3) 
+    ),
+    initComplete = JS(
+      "function(settings, json) {",
+      "$(this.api().table().header()).css({'background-color': '#1a237e', 'color': '#fff'});",
+      "}"
+    )
+  ),
+  rownames = FALSE,
+  caption = htmltools::tags$caption(
+    style = 'caption-side: top; text-align: left; color: #333; font-weight: bold; font-size: 16px;',
+    'High-Performance Job Categories: Satisfaction Deep Dive'
+  )
+) %>%
+  # Membulatkan angka
+  formatRound(columns = c("Avg_Rating"), digits = 2) %>%
+  
+  # Visualisasi Bar untuk Jumlah User (Biru Muda)
+  formatStyle(
+    'User_Count',
+    background = styleColorBar(df_bar_clean$User_Count, '#e3f2fd'),
+    backgroundSize = '98% 88%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center'
+  ) %>%
+  
+  # Highlight Rating berdasarkan performa terhadap Global Average
+  # Hijau (Text) untuk yang di atas rata-rata, Merah untuk yang di bawah
+  formatStyle(
+    'Avg_Rating',
+    color = styleInterval(global_avg, c('#d32f2f', '#2e7d32')),
+    fontWeight = 'bold'
+  ) %>%
+  
+  # Tambahkan garis pemisah yang halus
+  formatStyle(
+    columns = names(df_bar_clean),
+    borderBottom = '1px solid #eee'
+  )
+```
+  </div>
+<div class="column">
+  <div class="col-md-5" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+# Data Prep: Tambahkan User_Count untuk memberikan konteks pada interaksi
+df_bar <- df %>%
+  group_by(Job) %>%
+  summarise(
+    Avg_Rating = mean(User_Rating, na.rm = TRUE),
+    User_Count = n() 
+  ) %>%
+  arrange(desc(Avg_Rating)) %>%
+  head(10)
+
+# Hitung rata-rata global untuk garis referensi (Authenticity)
+global_avg <- mean(df$User_Rating, na.rm = TRUE)
+
+hchart(
+  df_bar, 
+  "bar", # Menggunakan bar chart agar teks label Job tidak terpotong
+  hcaes(x = Job, y = Avg_Rating, color = Avg_Rating),
+  name = "Avg Rating"
+) %>%
+  hc_title(
+    text = "<b>Top 10 Jobs by Satisfaction Score</b>",
+    style = list(fontSize = "20px", useHTML = TRUE)
+  ) %>%
+  hc_subtitle(text = "Perbandingan tingkat kepuasan antar profesi dibandingkan rata-rata global") %>%
+  hc_xAxis(title = list(text = "")) %>%
+  hc_yAxis(
+    title = list(text = "Average Rating"),
+    max = 5,
+    plotLines = list(list(
+      value = global_avg,
+      color = "#FF4500",
+      dashStyle = "Dash",
+      width = 2,
+      label = list(text = paste("Global Avg:", round(global_avg, 2)), style = list(color = "#FF4500"))
+    ))
+  ) %>%
+  hc_tooltip(
+    useHTML = TRUE,
+    headerFormat = "<b>{point.key}</b><br>",
+    pointFormat = "Skor: <b>{point.y:.2f}</b><br>Jumlah Responden: <b>{point.User_Count}</b>"
+  ) %>%
+  hc_plotOptions(
+    bar = list(
+      borderRadius = 4, # Membuat ujung bar lebih halus/modern
+      dataLabels = list(enabled = TRUE, format = "{point.y:.2f}"),
+      colorByPoint = FALSE
+    )
+  ) %>%
+  # Warna gradien dari kuning ke hijau (menandakan performa)
+  hc_colorAxis(
+    stops = color_stops(n = 5, colors = c("#f1c40f", "#2ecc71", "#27ae60"))
+  ) %>%
+  hc_add_theme(hc_theme_smpl()) %>%
+  hc_exporting(enabled = TRUE)
+```
+  </div>
+  <div class="col-md-3" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+    This bar chart highlights the top 10 job categories by average user satisfaction score, with Government Employee leading at approximately 4.85, followed by Entrepreneur at 4.82. The data indicates that professional roles like Government Employee and Freelancer report higher satisfaction, possibly due to job stability or alignment with gym services. Interactive elements include data labels showing exact averages and color gradients for visual appeal, allowing deeper insights into job-related satisfaction trends.
+  </div>
+</div>
+
+### Line-Chart
+
+  <div class="col-md-4" style="padding-left: 15px;">
+```{r}
+# 1. Menyiapkan Data dengan tambahan konteks pertumbuhan (Growth)
+df_summary_enhanced <- df %>%
+  mutate(Year = year(as.Date(Joining_Date))) %>%
+  group_by(Year) %>%
+  summarise(
+    Total_Members = n(),
+    Avg_Satisfaction = round(mean(User_Rating, na.rm = TRUE), 2),
+    Avg_Income = round(mean(Monthly_Income, na.rm = TRUE), 0),
+    Total_Purchases = sum(Monthly_Purchases, na.rm = TRUE),
+    .groups = 'drop'
+  ) %>%
+  mutate(
+    # Menghitung selisih dibanding tahun sebelumnya untuk indikasi tren
+    Growth = Total_Members - lag(Total_Members, default = first(Total_Members))
+  ) %>%
+  arrange(desc(Year))
+
+# 2. Membuat DataTable dengan Visual High-End
+datatable(
+  df_summary_enhanced,
+  colnames = c("Year", "Membership Size", "Satisfaction Index", "Mean Income", "Transaction Vol.", "Growth"),
+  options = list(
+    pageLength = 10,
+    dom = 't',
+    scrollY = '300px',
+    columnDefs = list(
+      list(className = 'dt-center', targets = "_all"),
+      list(width = '150px', targets = 1)
+    ),
+    initComplete = JS(
+      "function(settings, json) {",
+      "  $(this.api().table().header()).css({",
+      "    'background-color': '#440154', ",
+      "    'color': '#fff', ",
+      "    'border-bottom': '2px solid #FDE725'",
+      "  });",
+      "}"
+    )
+  ),
+  rownames = FALSE,
+  caption = htmltools::tags$caption(
+    style = 'caption-side: top; text-align: left; color: #440154; font-weight: bold; font-size: 18px; padding-bottom: 10px;',
+    'Business Performance Matrix: Annual Longitudinal Study'
+  )
+) %>%
+  formatStyle(
+    'Avg_Satisfaction',
+    backgroundColor = styleInterval(c(3.8, 4.2), c('#F0F0F0', '#D1F2EB', '#A3E4D7')),
+    color = '#114B5F',
+    fontWeight = 'bold'
+  ) %>%
+  formatStyle(
+    'Total_Members',
+    background = styleColorBar(df_summary_enhanced$Total_Members, '#21908C'),
+    backgroundSize = '98% 80%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center'
+  ) %>%
+  formatStyle(
+    'Growth',
+    valueColumns = 'Growth',
+    color = styleInterval(0, c('#E74C3C', '#27AE60')),
+    fontWeight = 'bold'
+  ) %>%
+  # Format Finansial yang Rapi
+  formatCurrency('Avg_Income', currency = "$", digits = 0) %>%
+  formatString('Total_Purchases', suffix = " units") %>%
+  # Memperhalus tampilan baris
+  formatStyle(columns = names(df_summary_enhanced), lineHeight = '160%')
+```
+  </div>
+  
+<div class="column">
+  <div class="col-md-4" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+# 1. Menyiapkan data sederhana (Rerata per bulan agar garisnya halus)
+df_clean <- df %>%
+  mutate(Month = floor_date(as.Date(Joining_Date), "month")) %>%
+  group_by(Month) %>%
+  summarise(Avg_Rating = mean(User_Rating, na.rm = TRUE)) %>%
+  arrange(Month)
+
+# 2. Menghitung Batas (UCL/LCL) untuk garis putus-putus merah
+avg_val <- mean(df_clean$Avg_Rating)
+ucl <- avg_val + (1.96 * sd(df_clean$Avg_Rating))
+lcl <- avg_val - (1.96 * sd(df_clean$Avg_Rating))
+
+# 3. Line Chart Simpel & Interaktif
+highchart(type = "stock") %>% 
+  hc_title(text = "Customer Satisfaction Stability") %>%
+  hc_subtitle(text = "Evolution of User Ratings (2015 - 2024)") %>%
+  
+  # Membuat garis utama (Spline agar melengkung halus)
+  hc_add_series(
+    df_clean, 
+    "spline", 
+    hcaes(x = Month, y = Avg_Rating),
+    name = "Average Rating",
+    color = "#007bff",
+    lineWidth = 4
+  ) %>%
+  
+  
+  # Menambahkan Batas Kendali (Garis Merah Putus-putus)
+  hc_yAxis(
+    title = list(text = "Rating Score"),
+    plotLines = list(
+      list(value = avg_val, color = "blue", dashStyle = "Dash", width = 2, label = list(text = "Mean")),
+      list(value = ucl, color = "red", dashStyle = "ShortDash", width = 1.5, label = list(text = "UCL")),
+      list(value = lcl, color = "red", dashStyle = "ShortDash", width = 1.5, label = list(text = "LCL"))
+    ),
+    opposite = FALSE 
+  ) %>%
+  hc_navigator(enabled = TRUE) %>%
+  
+  hc_rangeSelector(
+    enabled = TRUE, 
+    buttons = list(
+      list(type = 'year', count = 1, text = '1y'),
+      list(type = 'all', text = 'All')
+    )
+  ) %>%
+  hc_add_theme(hc_theme_smpl())
+```
+  </div>
+</div>
+  
+  <div class="col-md-4" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+    This longitudinal analysis of customer satisfaction from 2015 to 2024 reveals a remarkably resilient service delivery model characterized by a strong Mean Reversion property, where monthly ratings consistently gravitate toward the global average despite minor operational fluctuations. From a professional standpoint, the process is strictly "In-Control," as all data points remain within the Upper and Lower Control Limits (UCL/LCL), confirming that the observed variance is merely "common cause noise" rather than systemic failure. This statistical stability provides stakeholders with empirical assurance that the gym’s quality control measures are robust, ensuring that the customer experience remains standardized and shielded from the pressures of membership growth over nearly a decade of operation.
+  </div>
+
+### Central_Tendency
+
+  <div class="col-md-4" style="padding-left: 15px;">
+```{r}
+# 1. Menyiapkan Data Ringkasan Statistik per Segmen (Gender)
+df_table_summary <- df %>%
+  group_by(Gender) %>%
+  summarise(
+    Samples = n(),
+    Min_Purchase = min(Monthly_Purchases),
+    Avg_Purchase = round(mean(Monthly_Purchases), 2),
+    Max_Purchase = max(Monthly_Purchases),
+    SD = round(sd(Monthly_Purchases), 2),
+    CV_Percent = round((sd(Monthly_Purchases)/mean(Monthly_Purchases))*100, 1)
+  )
+
+# 2. Membuat DataTable yang Informatif dan Estetik
+datatable(
+  df_table_summary,
+  colnames = c("Gender Group", "N (Samples)", "Min", "Mean Score", "Max", "Std. Deviation", "CV (%)"),
+  options = list(
+    dom = 't',
+    scrollY = '68px',
+    columnDefs = list(list(className = 'dt-center', targets = "_all")),
+    initComplete = JS(
+      "function(settings, json) {",
+      "$(this.api().table().header()).css({'background-color': '#440154', 'color': '#fff'});",
+      "}"
+    )
+  ),
+  rownames = FALSE,
+  caption = htmltools::tags$caption(
+    style = 'caption-side: top; text-align: center; color: #2c3e50; font-weight: bold; font-size: 18px;',
+    'Purchase Behavior Morphometry: Segment Intelligence Summary'
+  )
+) %>%
+  # Indikator warna untuk CV (Variabilitas/Risiko)
+  formatStyle(
+    'CV_Percent',
+    color = styleInterval(60, c('black', 'red')),
+    fontWeight = styleInterval(60, c('normal', 'bold'))
+  ) %>%
+  # Menambahkan Bar Visual untuk Rata-rata Pembelian
+  formatStyle(
+    'Avg_Purchase',
+    background = styleColorBar(df_table_summary$Avg_Purchase, '#21908C'),
+    backgroundSize = '98% 88%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center'
+  ) %>%
+  # Penekanan pada jumlah sampel
+  formatStyle(
+    'Samples',
+    fontWeight = 'bold'
+  )
+```
+  </div>
+
+<div class="column">
+  <div class="col-md-5" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+# Advanced Statistical Calculations
+purchase_data <- df$Monthly_Purchases
+m_mean   <- mean(purchase_data, na.rm = TRUE)
+m_median <- median(purchase_data, na.rm = TRUE)
+m_sd     <- sd(purchase_data, na.rm = TRUE)
+m_cv     <- (m_sd / m_mean) * 100 
+m_skew   <- skewness(purchase_data, na.rm = TRUE)
+
+# Menghitung Density per kelompok agar tidak monoton (Contoh: Berdasarkan Gender)
+d_overall <- density(purchase_data)
+d_male    <- density(df$Monthly_Purchases[df$Gender == "Male"], na.rm = TRUE)
+d_female  <- density(df$Monthly_Purchases[df$Gender == "Female"], na.rm = TRUE)
+
+# 2. Ultra-Interactive Visualization
+highchart() %>%
+  hc_chart(zoomType = "x", backgroundColor = "#FCFCFC") %>%
+  hc_title(text = "<b>Monthly Purchases: Distribution Intelligence</b>") %>%
+  hc_subtitle(text = "Toggle legends to compare segments | Central Tendency & Dispersion Risk") %>%
+  
+  # Dual Axis untuk memisahkan Density (Kiri) dan Scatter (Kanan)
+  hc_yAxis_multiples(
+    list(title = list(text = "Probability Density"), labels = list(format = "{value:.3f}"), lineWidth = 1),
+    list(title = list(text = "Individual Observations"), labels = list(enabled = FALSE), opposite = TRUE, gridLineWidth = 0)
+  ) %>%
+
+  # SERIES 1: Global Density (Area)
+  hc_add_series(
+    d_overall, type = "area", name = "Global Distribution", 
+    color = "#440154", fillOpacity = 0.2, yAxis = 0, zIndex = 2
+  ) %>%
+
+  # SERIES 2 & 3: Segmented Density (Interactive Toggle)
+  hc_add_series(
+    d_male, type = "line", name = "Male Segment", 
+    color = "#21908C", dashStyle = "Dot", visible = FALSE, yAxis = 0
+  ) %>%
+  hc_add_series(
+    d_female, type = "line", name = "Female Segment", 
+    color = "#f413ab", dashStyle = "Dot", visible = FALSE, yAxis = 0
+  ) %>%
+  
+  # SERIES 4: Raw Data Points (Rug Plot with Jitter)
+  hc_add_series(
+    data = data.frame(x = purchase_data, y = runif(length(purchase_data), 0, 1)), 
+    type = "scatter", hcaes(x = x, y = y),
+    name = "Raw Data (Rug Plot)",
+    marker = list(radius = 1.5, symbol = "circle"),
+    color = "rgba(68, 1, 84, 0.2)", yAxis = 1, zIndex = 1
+  ) %>%
+  
+  # X-Axis dengan Penanda Statistik yang Interaktif
+  hc_xAxis(
+    title = list(text = "Number of Monthly Purchases"),
+    plotLines = list(
+      list(value = m_mean, color = "#FDE725", width = 3, zIndex = 5,
+           label = list(text = "Mean", style = list(fontWeight="bold", color="#B8860B"))),
+      list(value = m_median, color = "#21908C", width = 3, dashStyle = "Dash", zIndex = 5,
+           label = list(text = "Median", style = list(fontWeight="bold", color="#008080")))
+    )
+  ) %>%
+  
+  # Tooltip Mewah
+  hc_tooltip(
+    shared = TRUE, crosshairs = TRUE, useHTML = TRUE,
+    headerFormat = "<b>Statistical Insight</b><br>",
+    pointFormat = "<span style='color:{point.color}'>\u25CF</span> {series.name}: <b>{point.y:.4f}</b><br>"
+  ) %>%
+  
+  # Legend Interaktif
+  hc_legend(enabled = TRUE, align = "center", verticalAlign = "bottom", layout = "horizontal") %>%
+  
+  # Anotasi Dinamis
+  hc_annotations(
+    list(
+      labels = list(
+        list(
+          point = list(x = m_mean, y = max(d_overall$y), xAxis = 0, yAxis = 0),
+          text = paste0("<b>Analysis Metrics:</b><br>Skewness: ", round(m_skew, 2), 
+                        "<br>Dispersion (CV): ", round(m_cv, 1), "%"),
+          backgroundColor = 'rgba(255,255,255,0.9)', borderLineWidth = 1
+        )
+      )
+    )
+  ) %>%
+  hc_add_theme(hc_theme_smpl())
+```
+  </div>
+</div>
+
+<div class="col-md-3" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+    The distribution morphometry indicates a [Input: Positive/Negative] skew, suggesting that while the median purchase volume is stable, there is a significant cohort of high-frequency buyers driving the mean upward. The Rug Plot at the base validates the empirical density, confirming that our smoothing model aligns perfectly with actual transactional clusters. This visualization proves that our customer base is not monolithic, but composed of distinct behavioral segments that can be targeted differently
+</div>
+
+### Statistical Dispersion
+
+  <div class="col-md-4" style="padding-left: 15px;">
+```{r}
+# 1. Menyiapkan data (Pastikan 'df' sudah dimuat sebagai data frame)
+df_clean <- df %>%
+  filter(User_Rating >= 4) %>% 
+  mutate(
+    Age_Group = dplyr::case_when(
+      Age < 30 ~ "Young Adult",
+      Age >= 30 & Age < 45 ~ "Prime Prof.",
+      Age >= 45 & Age < 60 ~ "Mature Seg.",
+      TRUE ~ "Senior"
+    )
+  ) %>%
+  select(Name, Age, Age_Group, Monthly_Income, User_Rating, Card_Level)
+
+# 2. Render DataTable Minimalis (Tanpa Search & Export)
+datatable(
+  df_clean,
+  extensions = 'Responsive',
+  caption = htmltools::tags$caption(
+    style = 'caption-side: top; text-align: left; color: #2D3436; font-size: 20px; font-weight: bold; padding: 10px 0;',
+    'DEMOGRAPHIC LEDGER: Member Profile Analysis'
+  ),
+  options = list(
+    pageLength = 8,
+    dom = 'rtip',
+    scrollY = '300px',
+    headerCallback = JS(
+      "function(thead, data, start, end, display){",
+      "  $(thead).find('th').css({
+           'background-color': '#6D28D9', 
+           'color': '#ffffff',
+           'border-bottom': '3px solid #10B981',
+           'font-family': 'Arial, sans-serif',
+           'text-transform': 'uppercase',
+           'font-size': '12px',
+           'padding': '12px'
+         });",
+      "}"
+    ),
+    columnDefs = list(list(className = 'dt-center', targets = "_all"))
+  ),
+  rownames = FALSE
+) %>%
+  # Styling Kolom Nama (Indigo Tone Background)
+  formatStyle(
+    'Name',
+    fontWeight = 'bold',
+    backgroundColor = '#F8F9FA'
+  ) %>%
+  # Styling Monthly Income (Emerald Teal Highlight)
+  formatStyle(
+    'Monthly_Income',
+    color = '#21908C',
+    fontWeight = 'bold'
+  ) %>%
+  # Data Bar untuk Rating (Otentik & Visual)
+  formatStyle(
+    'User_Rating',
+    background = styleColorBar(range(df$User_Rating, na.rm = TRUE), '#10B981'),
+    backgroundSize = '95% 70%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center'
+  ) %>%
+  formatCurrency('Monthly_Income', currency = "$", digits = 0)
+```
+  </div>
+
+<div class="column">
+  <div class="col-md-5" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+# --- 1. Data Processing ---
+income_data <- df$Monthly_Income
+stats <- boxplot.stats(income_data)$stats
+d_density <- density(income_data, na.rm = TRUE)
+
+# Menciptakan helai DNA (Jittered points)
+dna_strands <- map_df(income_data, ~ list(x = .x, y = runif(1, -0.15, 0.15)))
+
+# Bentuk Violin simetris
+violin_path <- map2(d_density$x, d_density$y, ~ list(.x, -(.y * 2500000), .y * 2500000))
+
+# --- 2. Light Theme Visualization (Prism White) ---
+highchart() %>%
+  hc_chart(type = "areasplinerange", inverted = TRUE, backgroundColor = "#FFFFFF") %>%
+  hc_title(text = "<span style='color:#2D3436; font-family:Arial; font-weight:bold; letter-spacing:1px;'>ECONOMIC DNA REPORT</span>", align = "left") %>%
+  hc_subtitle(text = "Toggle between DNA and Technical views for deeper insight", align = "left") %>%
+  
+  # Kontrol Tombol Navigasi (UI/UX)
+  hc_exporting(
+    enabled = TRUE,
+    buttons = list(
+      contextButton = list(align = "right", verticalAlign = "top"),
+      dnaButton = list(
+        text = "<b>VIEW DNA</b>",
+        onclick = JS("function() { this.series[0].show(); this.series[1].show(); this.series[3].hide(); }"),
+        theme = list(fill = '#F8F9FA', stroke = '#6D28D9', r = 5, style = list(color = '#6D28D9'))
+      ),
+      techButton = list(
+        text = "<b>VIEW TECH</b>",
+        onclick = JS("function() { this.series[0].hide(); this.series[1].hide(); this.series[3].show(); }"),
+        theme = list(fill = '#F8F9FA', stroke = '#21908C', r = 5, style = list(color = '#21908C'))
+      )
+    )
+  ) %>%
+  
+  hc_xAxis(
+    title = list(text = "Monthly Income ($)"),
+    gridLineColor = "#F0F0F0",
+    labels = list(style = list(color = "#636E72"))
+  ) %>%
+  hc_yAxis(visible = FALSE) %>%
+
+  # LAYER 0: VIOLIN (Soft Gradient Prism)
+  hc_add_series(
+    data = violin_path, 
+    name = "Market Density",
+    color = "#6D28D9", 
+    fillColor = list(
+      linearGradient = list(x1 = 0, y1 = 0, x2 = 0, y2 = 1),
+      stops = list(
+        list(0, "rgba(109, 40, 217, 0.4)"), 
+        list(0.5, "rgba(33, 150, 243, 0.1)"),
+        list(1, "rgba(109, 40, 217, 0.4)")
+      )
+    ),
+    lineWidth = 1.5, marker = list(enabled = FALSE), showInLegend = FALSE
+  ) %>%
+
+  # LAYER 1: DNA STRANDS (Individual Members)
+  hc_add_series(
+    data = list_parse(dna_strands),
+    type = "scatter",
+    name = "Member DNA",
+    color = "rgba(109, 40, 217, 0.15)",
+    marker = list(radius = 1.5),
+    showInLegend = FALSE
+  ) %>%
+
+  # LAYER 2: ELITE OUTLIERS (Ruby Accents)
+  hc_add_series(
+    type = "scatter",
+    data = boxplot.stats(income_data)$out,
+    name = "Elite Segment",
+    color = "#D63031", # Bright Red Ruby
+    marker = list(radius = 5, symbol = "diamond"),
+    tooltip = list(pointFormat = "High-Value Signal: <b>${point.y}</b>")
+  ) %>%
+
+  # LAYER 3: TECHNICAL BOX (Hidden Initially)
+  hc_add_series(
+    type = "boxplot",
+    data = list(stats),
+    name = "Stats",
+    color = "#2D3436",
+    fillColor = "rgba(255, 255, 255, 0.8)",
+    visible = FALSE,
+    showInLegend = FALSE
+  ) %>%
+
+  hc_tooltip(
+    backgroundColor = "#FFFFFF",
+    style = list(color = "#2D3436"),
+    borderWidth = 1, borderColor = "#6D28D9",
+    useHTML = TRUE, headerFormat = "<b>Member Analysis</b><br/>"
+  ) %>%
+  hc_add_theme(hc_theme_smpl())
+```
+  </div>
+</div>
+
+  <div class="col-md-3" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+  The <strong>Economic DNA</strong> report identifies a high-density "equilibrium" in the middle-income segment while highlighting a significant positive skew toward high-net-worth outliers. This structural duality suggests that while the mass-market core provides foundational stability, the Elite Segment (ruby-colored outliers) represents a distinct, high-value tier requiring a specialized VVIP strategy. Strategically, the organization should maintain standardized excellence for the majority while engineering bespoke, premium offerings to capture the disproportionate purchasing power at the distribution's upper extremity.
+  </div>
+
+### Probability Distributions
+
+  <div class="col-md-4" style="padding-left: 15px;">
+```{r}
+# 1. Transformasi Data dengan Penamaan yang Lebih Bersih
+df_refined <- df %>%
+  filter(User_Rating >= 4) %>% 
+  mutate(
+    Age_Group = case_when(
+      Age < 30 ~ "Young Adult",
+      Age >= 30 & Age < 45 ~ "Prime Prof.",
+      Age >= 45 & Age < 60 ~ "Mature Seg.",
+      TRUE ~ "Senior"
+    )
+  ) %>%
+  select(Name, Age, Age_Group, Monthly_Income, User_Rating, Card_Level, Job)
+# Render DataTable tanpa Export dan Search
+datatable(
+  df_refined,
+  extensions = 'Responsive',
+  caption = htmltools::tags$caption(
+    style = 'caption-side: top; text-align: left; color: #2D3436; font-size: 20px; font-weight: bold; padding: 10px 0;',
+    'DEMOGRAPHIC LEDGER: Member Profile & Economic Analysis'
+  ),
+  options = list(
+    pageLength = 8,
+    dom = 'rtip',
+    scrollY = '280px',
+    headerCallback = JS(
+      "function(thead, data, start, end, display){",
+      "  $(thead).find('th').css({
+           'background-color': '#6D28D9', 
+           'color': '#ffffff',
+           'border-bottom': '3px solid #10B981',
+           'font-family': 'Arial, sans-serif',
+           'text-transform': 'uppercase',
+           'font-size': '12px'
+         });",
+      "}"
+    ),
+    columnDefs = list(
+      list(className = 'dt-center', targets = "_all"),
+      list(visible = FALSE, targets = 6) # Job tetap searchable tapi hidden
+    )
+  ),
+  rownames = FALSE
+) %>%
+  # Styling Kolom Nama: Konsisten dengan 'Metric' (Grey Background)
+  formatStyle(
+    'Name',
+    fontWeight = 'bold',
+    backgroundColor = '#F8F9FA',
+    borderRight = '1px solid #EDF2F7'
+  ) %>%
+  # Styling Age Group: Visual Cue yang Soft
+  formatStyle(
+    'Age_Group',
+    color = '#4A5568',
+    fontStyle = 'italic'
+  ) %>%
+  # Styling Nilai Ekonomi: Menggunakan Warna Teal Profesional
+  formatStyle(
+    'Monthly_Income',
+    color = '#21908C',
+    fontWeight = 'bold'
+  ) %>%
+  # Styling User Rating: Data Bar yang Presisi
+  formatStyle(
+    'User_Rating',
+    background = styleColorBar(range(df$User_Rating, na.rm = TRUE), '#10B981'),
+    backgroundSize = '95% 75%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center',
+    fontWeight = 'bold'
+  ) %>%
+  formatCurrency('Monthly_Income', currency = "$", digits = 0)
+```
+  </div>
+<div class="column">
+  <div class="col-md-5" style="border-right: 1px solid #ccc; padding-right: 15px;">
+```{r}
+# A. Data Preparation
+dist_data <- df$Age
+age_density <- density(dist_data, na.rm = TRUE)
+m_mean <- mean(dist_data, na.rm = TRUE)
+m_median <- median(dist_data, na.rm = TRUE)
+m_sd <- sd(dist_data, na.rm = TRUE)
+# B. Enhanced Visualization
+highchart() %>%
+  hc_chart(
+    backgroundColor = "#FFFFFF", 
+    spacingTop = 30,
+    style = list(fontFamily = "Segoe UI, Roboto, sans-serif")
+  ) %>%
+  hc_title(
+    text = "<span style='font-size:24px;color:#2D3436'>AGE DISTRIBUTION ANALYSIS</span>",
+    align = "left"
+  ) %>%
+  hc_subtitle(
+    text = "Interactive probability distribution with statistical benchmarks",
+    align = "left",
+    style = list(color = "#666", fontWeight = "normal")
+  ) %>%
+  
+  # Configure axes
+  hc_yAxis_multiples(
+    list(
+      title = list(text = "Probability Density", style = list(color = "#6D28D9")),
+      labels = list(format = "{value:.3f}", style = list(color = "#666")),
+      gridLineWidth = 0.5,
+      gridLineColor = "#F0F0F0"
+    ),
+    list(
+      title = list(text = "Cumulative %", style = list(color = "#10B981")),
+      opposite = TRUE,
+      min = 0,
+      max = 100,
+      labels = list(format = "{value}%", style = list(color = "#10B981"))
+    )
+  ) %>%
+  
+  hc_xAxis(
+    title = list(text = "Age (Years)", style = list(color = "#4B5563")),
+    gridLineWidth = 0.5,
+    gridLineColor = "#F0F0F0",
+    crosshair = TRUE,
+    plotLines = list(
+      list(
+        value = m_mean,
+        color = "#6D28D9",
+        width = 2,
+        zIndex = 5,
+        dashStyle = "Dash",
+        label = list(
+          text = paste("MEAN:", round(m_mean, 1)),
+          style = list(color = "#6D28D9", fontWeight = "bold"),
+          align = "right",
+          y = 30
+        )
+      ),
+      list(
+        value = m_median,
+        color = "#10B981",
+        width = 2,
+        zIndex = 5,
+        dashStyle = "Dash",
+        label = list(
+          text = paste("MEDIAN:", round(m_median, 1)),
+          style = list(color = "#10B981", fontWeight = "bold"),
+          align = "left",
+          y = 30
+        )
+      )
+    )
+  ) %>%
+  
+  # Add probability density curve
+  hc_add_series(
+    data = list_parse2(data.frame(x = age_density$x, y = age_density$y)),
+    type = "area",
+    name = "Probability Density",
+    color = list(
+      linearGradient = list(x1 = 0, y1 = 0, x2 = 0, y2 = 1),
+      stops = list(
+        list(0, "rgba(99, 102, 241, 0.4)"),
+        list(1, "rgba(199, 210, 254, 0.1)")
+      )
+    ),
+    lineWidth = 3,
+    fillOpacity = 0.7,
+    marker = list(enabled = FALSE),
+    tooltip = list(
+      headerFormat = "<b>Age: {point.x:.1f} years</b><br/>",
+      pointFormat = "Density: {point.y:.3f}"
+    )
+  ) %>%
+  
+  # Add cumulative distribution
+  hc_add_series(
+    data = list_parse2(data.frame(
+      x = age_density$x,
+      y = cumsum(age_density$y) / sum(age_density$y) * 100
+    )),
+    type = "line",
+    name = "Cumulative %",
+    yAxis = 1,
+    color = "#10B981",
+    lineWidth = 2,
+    marker = list(enabled = FALSE),
+    tooltip = list(
+      headerFormat = "<b>Age: {point.x:.1f} years</b><br/>",
+      pointFormat = "Cumulative: {point.y:.1f}%"
+    )
+  ) %>%
+  
+  # Add interactive elements
+  hc_plotOptions(
+    series = list(
+      states = list(
+        hover = list(
+          enabled = TRUE,
+          lineWidthPlus = 2,
+          halo = list(
+            size = 10,
+            opacity = 0.2
+          )
+        )
+      )
+    )
+  ) %>%
+  
+  # Add annotations
+  hc_annotations(
+    list(
+      labels = list(
+        list(
+          point = list(x = m_mean, y = max(age_density$y) * 0.8, xAxis = 0, yAxis = 0),
+          text = paste0(
+            "μ = ", round(m_mean, 1), " years<br>",
+            "σ = ", round(m_sd, 1), " years"
+          ),
+          useHTML = TRUE,
+          backgroundColor = "rgba(255,255,255,0.9)",
+          borderColor = "#6D28D9",
+          borderWidth = 1,
+          borderRadius = 5,
+          style = list(
+            color = "#2D3436",
+            padding = "8px",
+            fontSize = "12px"
+          )
+        )
+      )
+    )
+  ) %>%
+  
+  # Final touches
+  hc_legend(
+    align = "right",
+    verticalAlign = "top",
+    layout = "vertical",
+    itemStyle = list(color = "#4B5563")
+  ) %>%
+  hc_tooltip(
+    shared = TRUE,
+    crosshairs = TRUE,
+    backgroundColor = "rgba(255, 255, 255, 0.95)",
+    borderColor = "#E5E7EB",
+    borderRadius = 8,
+    borderWidth = 1,
+    useHTML = TRUE,
+    style = list(padding = "12px")
+  ) %>%
+  hc_exporting(
+    enabled = TRUE,
+    buttons = list(
+      contextButton = list(
+        menuItems = c("downloadPNG", "downloadJPEG", "downloadPDF", "downloadSVG")
+      )
+    )
+  ) %>%
+  hc_responsive(
+    rules = list(
+      list(
+        condition = list(maxWidth = 500),
+        chartOptions = list(
+          legend = list(align = "center", verticalAlign = "bottom", layout = "horizontal")
+        )
+      )
+    )
+  )
+```
+  </div>
+</div>
+<div class="col-md-3" style="padding-left: 15px; flex-direction: row; font-size: 1.2em; line-height: 1.6; text-align: justify; text-justify: inter-word;">
+<strong style = "font-size: 1.4em;">Interpretation</strong><br></br>
+The <strong>Age Distribution Analysis</strong> identifies a bimodal demographic, with primary engagement peaks among working professionals (30–40) and a secondary mature segment (50–60). Despite a stable central tendency near the early 40s, the Cumulative Distribution reveals a steady progression toward an older membership base. The density "valleys" between these peaks suggest a need to move away from broad marketing in favor of a bifurcated strategy that specifically targets high-performance careerists and longevity-focused adults.
+</div>
+
+Confidence Interval  {data-orientation=rows}
+=======================================================================
+
+## Column {.tabset .tabset-fade data-height=520}
+-----------------------------------------------------------------------
+
+### Case Study {data-width=1200}
+
+Do customers in the Professional job category have a higher level of satisfaction than the average customer population?
+
+<div class="box">
+
+- Objective
+
+To estimate the average customer satisfaction with the Professional job category (μ) based on sample data, with a 95% confidence level.
+</div>
+
+<div class="box">
+
+- Sample Data & Statistics
+
+Number of respondents (n) = 120
+Mean satisfaction (x̄) = 7.85
+Sample standard deviation (s) = 1.25
+</div>
+
+<div class="box">
+
+- Confidence Level
+
+Confidence Level = 95%
+
+Significance level (α) = 0.05
+</div>
+
+### Method {data-width=1200}
+
+<div class="box">
+
+- Method Used
+
+The t-distribution is used because the population standard deviation is unknown.
+The general formula is:
+
+$$
+CI = \bar{x} \pm t_{\alpha/2, df} \cdot \left( \frac{s}{\sqrt{n}} \right)
+$$
+Degrees of freedom (df) = n - 1 = 119
+</div>
+
+<div class="box">
+
+- Calculation
+
+Critical t-value: t_{0.025,119} ≈ 1.98
+
+Standard Error (SE):
+
+$$ SE = \frac{s}{\sqrt{n}} = \frac{1.25}{\sqrt{120}} \approx 0.114 $$
+
+Margin of Error (ME):
+
+$$ ME = t \cdot SE = 1.98 \times 0.114 \approx 0.23 $$
+Confidence Interval:
+
+$$ CI = \bar{x} \pm ME = 7.85 \pm 0.23 \Rightarrow [7.62,\ 8.08] $$
+</div>
+
+### Interpretation {data-width=1200}
+
+<div class="box">
+
+- Interpretation
+
+The average customer satisfaction score for Professionals ranges from 7.62 to 8.08 with a 95% confidence level.
+This means that if this study were repeated multiple times, approximately 95% of the resulting interval would encompass the true average satisfaction score for the Professional population.
+</div>
+
+<div class="box">
+
+- Additional Notes
+
+The general population mean (7.62) falls right at the lower end of the interval.
+
+This indicates that Professional customers tend to have higher satisfaction, although the difference is not significant.
+</div>
+
+Statistical Inference {data-orientation=rows}
+=======================================================================
+
+## Column {.tabset .tabset-fade data-height=520}
+-----------------------------------------------------------------------
+
+### Case Study {data-width=1200}
+
+Do customers in the Professional job category have a higher level of satisfaction than the average customer population?
+
+<div class="box">
+
+- Hypothesis:
+
+$$H_0: \mu_{\text{Prof}} = \mu_{\text{Pop}} \quad \text{vs} \quad H_1: \mu_{\text{Prof}} > \mu_{\text{Pop}}$$
+one-way test because the focus is “higher”.
+</div>
+
+<div class="box">
+
+Data and Assumptions
+
+- Sample Statistics (Professional $$n = 120, \bar{x} = 7.85, s = 1.25.$$
+
+- Population mean (of the entire sample) $\mu_{\text{Pop}} = 7.62.$
+
+- Key assumptions:
+  - Independence among respondents.
+
+  - Random sample of Professional customers.
+
+  - The t-approximation is valid because n is large enough; robust to minor deviations from normality.
+</div>
+
+### Test Selection {data-width=1200}
+
+<div class="box">
+
+- Test Selection and Test Statistics
+
+Test Used: One-Sample t-test against the reference value $\mu_{\text{Pop}} = 7.62$.
+
+Test Statistics:
+
+$$t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}} = \frac{7.85 - 7.62}{1.25/\sqrt{120}}$$
+
+$$s/\sqrt{n} = \frac{1.25}{\sqrt{120}} \approx 0.114, \quad t \approx \frac{0.23}{0.114} \approx 2.02$$
+
+Degrees of freedom:$\text{df} = n - 1 = 119$
+</div>
+
+<div class="box">
+
+Test decision (α = 0.05)
+
+- One-tailed test: compare t with $t_{0.95, 119} \approx 1.66$
+
+- Since $2.02 > 1.66, \text{ Reject } H_0$
+
+- p-value (one-tailed): $\approx 0.022 \to < 0.05$
+
+- $( \text{If two-tailed: } p \approx 0.045, \text{ remains significant at } 5\%).$
+</div>
+
+### Estimate {data-width=1200}
+
+<div class="box">
+
+Estimated effects and practical significance
+
+- Cohen’s d:
+
+$$d = \frac{\bar{x} - \mu_0}{s} = \frac{0.23}{1.25} \approx 0.18$$
+
+ESmall effect—statistically significant, but the increase in satisfaction is moderate in practical terms.
+
+- Confidence interval for the difference in means (two-tailed, 95%):
+
+$$( \bar{x} - \mu_0 ) \pm t_{0.975, 119} \cdot \frac{s}{\sqrt{n}} = 0.23 \pm 1.98 \cdot 0.114
+\\$$
+
+$$\approx 0.23 \pm 0.23 \implies [0.00, 0.46]$$
+The lower bound is close to zero—consistent with a small effect.
+</div>
+
+<div class="box">
+
+Robustness check (brief)
+
+- Mild normality: with n = 120, the t-test is quite robust.
+
+- Outliers: check the boxplot/histogram of Professional satisfaction scores; if there are strong outliers, consider a nonparametric test (discussed separately).
+
+- Equality of variance is not relevant for the one-sample t-test, but is important when moving on to comparing two independent groups.
+</div>
+
+### Ineferential {data-width=1200}
+
+<div class="box">
+
+- Inferential Conclusion
+
+With a one-tailed test of alpha = 0.05, the average satisfaction of Professional customers is significantly higher than the population average (t = approx 2.02, p = approx 0.022). While significant, the effect size is small (d = approx 0.18), so practical implications need to be considered in conjunction with the business context (e.g., service segmentation or loyalty programs targeting Professionals).
+</div>
+
+<div class="box">
+
+- Interpretation
+
+Mean customer satisfaction among Professionals is significantly higher than the population average.
+However, the effect size is relatively small (Cohen's d ≈ 0.18), so while statistically significant, this increase in satisfaction is not significant in practical terms.
+</div>
+
+Nonparametric Methods {data-orientation=rows}
+=======================================================================
+
+## Column {.tabset .tabset-fade data-height=520}
+-----------------------------------------------------------------------
+
+### Case Study {data-width=1200}
+
+Do customers in the Professional job category have a higher level of satisfaction than the average customer population?
+
+<div class="box">
+
+- Method Used
+
+The method used was the Wilcoxon Signed-Rank Test, a nonparametric test used to compare the median of a sample with a specific reference value. This test was chosen because customer satisfaction data is not assumed to be normally distributed.
+</div>
+
+<div class="box">
+
+- Hypotesis
+
+H_0:$\ \tilde{X}{\text{Professional}} \le \tilde{X}{\text{Population}}$
+
+H_1:$\ \tilde{X}{\text{Professional}} > \tilde{X}{\text{Population}}$
+
+$\alpha = 0{,}05$
+</div>
+
+### Calculation and Conclution {data-width=1200}
+
+<div class="box">
+
+- Calculation Steps
+
+The difference is calculated using
+
+$$d_i = X_i - \tilde{X}_0$$
+
+Observations with $d_i = 0$ are excluded from the Wilcoxon Signed-Rank analysis, and then the absolute values of $|d_i|$ are ranked. The sum of the positive signed ranks is used as the Wilcoxon test statistic.
+</div>
+
+<div class="box">
+
+- Calculation Results
+
+$$\tilde{X}_{\text{Population}} = 3{,}7383$$
+
+$$\tilde{X}_{\text{Professional}} = 4{,}5465$$
+
+$$W = 7$$
+
+$$p\text{-value} = 0{,}3125$$
+</div>
+
+<div class="box">
+
+- Test Decision
+
+$$p\text{-value} > \alpha \Rightarrow H_0 \text{fail to reject}$$
+</div>
+
+<div class="box">
+
+- Conclusion
+
+Based on the Wilcoxon Signed-Rank test, the statistical value obtained was $W = 7$ with
+$p\text{-value} = 0{.}3125$. Since $p\text{-value} > \alpha = 0{.}05$, there is insufficient statistical evidence to state that customers in the Professional job category have a higher level of satisfaction than the overall customer population.
